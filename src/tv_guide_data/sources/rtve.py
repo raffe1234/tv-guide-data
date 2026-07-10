@@ -1,239 +1,507 @@
 from __future__ import annotations
 
 import html
-import json
 import re
-from collections.abc import Iterable
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta
 from typing import Any
 from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from ..config import SourceConfig
 from ..models import Channel, Programme
 
-USER_AGENT = "tv-guide-data/0.1 (+https://github.com/)"
+USER_AGENT = "tv-guide-data/0.1 (+https://github.com/raffe1234/tv-guide-data)"
+
+SPANISH_MONTHS = {
+    "enero": 1,
+    "febrero": 2,
+    "marzo": 3,
+    "abril": 4,
+    "mayo": 5,
+    "junio": 6,
+    "julio": 7,
+    "agosto": 8,
+    "septiembre": 9,
+    "octubre": 10,
+    "noviembre": 11,
+    "diciembre": 12,
+}
 
 
 def _normalise(value: Any) -> str:
+    """Normalise text for reliable channel-name comparisons."""
     text = html.unescape(str(value or ""))
-    return re.sub(r"\s+", " ", text).strip().casefold()
+    text = re.sub(r"\s+", " ", text).strip().casefold()
+
+    replacements = {
+        "á": "a",
+        "é": "e",
+        "í": "i",
+        "ó": "o",
+        "ú": "u",
+        "ü": "u",
+    }
+
+    for source, replacement in replacements.items():
+        text = text.replace(source, replacement)
+
+    return text
 
 
 def _fetch(url: str, timeout: int = 45) -> str:
+    """Download the RTVE programme-guide page."""
     response = requests.get(
         url,
-        headers={"User-Agent": USER_AGENT, "Accept-Language": "es-ES,es;q=0.9"},
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": (
+                "text/html,application/xhtml+xml,application/xml;q=0.9,"
+                "image/avif,image/webp,*/*;q=0.8"
+            ),
+            "Accept-Language": "es-ES,es;q=0.9,en;q=0.5",
+        },
         timeout=timeout,
     )
     response.raise_for_status()
-    response.encoding = response.apparent_encoding or "utf-8"
+
+    if response.apparent_encoding:
+        response.encoding = response.apparent_encoding
+
     return response.text
 
 
-def _json_blobs(page: str) -> Iterable[Any]:
-    soup = BeautifulSoup(page, "html.parser")
-    for script in soup.find_all("script"):
-        text = script.string or script.get_text("", strip=True)
-        if not text:
-            continue
-        script_type = (script.get("type") or "").lower()
-        candidates: list[str] = []
-        if "json" in script_type or text[:1] in "[{":
-            candidates.append(text)
-        for pattern in (
-            r"__NEXT_DATA__\s*=\s*({.*?})\s*;?\s*$",
-            r"window\.__INITIAL_STATE__\s*=\s*({.*?})\s*;?",
-        ):
-            match = re.search(pattern, text, re.S)
-            if match:
-                candidates.append(match.group(1))
-        for candidate in candidates:
-            try:
-                yield json.loads(candidate)
-            except json.JSONDecodeError:
-                continue
+def _parse_schedule_date(
+    label: str,
+    timezone_name: str,
+) -> datetime | None:
+    """
+    Parse dates such as:
 
+    'Programación del 10 de julio de 2026'
+    'Viernes 10 de julio de 2026'
+    """
+    normalised = _normalise(label)
 
-def _walk(value: Any) -> Iterable[dict[str, Any]]:
-    if isinstance(value, dict):
-        yield value
-        for child in value.values():
-            yield from _walk(child)
-    elif isinstance(value, list):
-        for child in value:
-            yield from _walk(child)
+    match = re.search(
+        r"(\d{1,2})\s+de\s+"
+        r"(enero|febrero|marzo|abril|mayo|junio|julio|agosto|"
+        r"septiembre|octubre|noviembre|diciembre)"
+        r"\s+de\s+(\d{4})",
+        normalised,
+    )
 
-
-def _first(obj: dict[str, Any], names: tuple[str, ...]) -> Any:
-    lowered = {str(key).casefold(): value for key, value in obj.items()}
-    for name in names:
-        value = lowered.get(name.casefold())
-        if value not in (None, "", []):
-            return value
-    return None
-
-
-def _parse_datetime(value: Any, timezone_name: str, date_hint: Any = None) -> datetime | None:
-    tz = ZoneInfo(timezone_name)
-    if value is None:
+    if match is None:
         return None
-    if isinstance(value, (int, float)):
-        stamp = float(value) / (1000 if value > 10_000_000_000 else 1)
-        try:
-            return datetime.fromtimestamp(stamp, tz=UTC).astimezone(tz)
-        except (ValueError, OSError):
-            return None
 
-    text = str(value).strip()
-    if re.fullmatch(r"\d{1,2}:\d{2}(?::\d{2})?", text):
-        if not date_hint:
-            return None
-        try:
-            day = datetime.fromisoformat(str(date_hint)[:10]).date()
-            parsed_time = datetime.strptime(
-                text, "%H:%M:%S" if text.count(":") == 2 else "%H:%M"
-            ).time()
-            return datetime.combine(day, parsed_time, tz)
-        except ValueError:
-            return None
+    day = int(match.group(1))
+    month = SPANISH_MONTHS[match.group(2)]
+    year = int(match.group(3))
 
     try:
-        parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=tz)
-        return parsed.astimezone(tz)
+        return datetime(
+            year,
+            month,
+            day,
+            tzinfo=ZoneInfo(timezone_name),
+        )
     except ValueError:
-        pass
-
-    for pattern in ("%d/%m/%Y %H:%M", "%Y-%m-%d %H:%M:%S", "%Y%m%d%H%M%S"):
-        try:
-            return datetime.strptime(text, pattern).replace(tzinfo=tz)
-        except ValueError:
-            continue
-    return None
+        return None
 
 
-def _match_channel(obj: dict[str, Any], channels: tuple[Channel, ...]) -> Channel | None:
-    possible_values: list[str] = []
-    for key in (
-        "channel",
-        "canal",
-        "channelName",
-        "channel_name",
-        "cadena",
-        "service",
-        "station",
-        "slug",
-    ):
-        value = _first(obj, (key,))
-        if isinstance(value, dict):
-            possible_values.extend(
-                str(item) for item in value.values() if isinstance(item, (str, int))
-            )
-        elif value is not None:
-            possible_values.append(str(value))
+def _channel_candidates(channel: Channel) -> tuple[str, ...]:
+    """Return all known names and identifiers for one channel."""
+    return (
+        channel.source_id,
+        channel.xmltv_id,
+        *channel.aliases,
+    )
 
-    joined = " | ".join(_normalise(item) for item in possible_values)
+
+def _match_channel_name(
+    channel_name: str,
+    channels: tuple[Channel, ...],
+) -> Channel | None:
+    """Match an RTVE channel label against the configured XMLTV channels."""
+    normalised_name = _normalise(channel_name)
+
+    if not normalised_name:
+        return None
+
     for channel in channels:
-        candidates = (*channel.aliases, channel.source_id)
-        if any(_normalise(candidate) in joined for candidate in candidates if candidate):
+        for candidate in _channel_candidates(channel):
+            normalised_candidate = _normalise(candidate)
+
+            if not normalised_candidate:
+                continue
+
+            if normalised_name == normalised_candidate:
+                return channel
+
+    # Handle common differences between RTVE labels and XMLTV IDs.
+    known_names = {
+        "la 1": ("la 1", "la.1.es"),
+        "la 2": ("la 2", "la.2.es"),
+        "24 horas": (
+            "24 horas",
+            "canal 24 horas",
+            "canal 24 h",
+            "canal.24.h.es",
+        ),
+        "canal 24 horas": (
+            "24 horas",
+            "canal 24 horas",
+            "canal 24 h",
+            "canal.24.h.es",
+        ),
+        "teledeporte": (
+            "teledeporte",
+            "teledeporte.es",
+        ),
+        "clan": (
+            "clan",
+            "clan tve",
+            "clan.es",
+        ),
+    }
+
+    aliases = known_names.get(normalised_name, (normalised_name,))
+
+    for channel in channels:
+        candidates = {
+            _normalise(candidate) for candidate in _channel_candidates(channel) if candidate
+        }
+
+        if any(_normalise(alias) in candidates for alias in aliases):
             return channel
+
     return None
 
 
-def _programme_from_object(obj: dict[str, Any], config: SourceConfig) -> Programme | None:
-    channel = _match_channel(obj, config.channels)
-    if not channel:
+def _text(
+    parent: Tag,
+    selector: str,
+) -> str:
+    """Return cleaned text from the first matching element."""
+    node = parent.select_one(selector)
+
+    if node is None:
+        return ""
+
+    return node.get_text(" ", strip=True)
+
+
+def _attribute_url(
+    parent: Tag,
+    selector: str,
+    attribute: str,
+    base_url: str,
+) -> str:
+    """Return an absolute URL from a selected HTML attribute."""
+    node = parent.select_one(selector)
+
+    if not isinstance(node, Tag):
+        return ""
+
+    value = node.get(attribute)
+
+    if not isinstance(value, str) or not value.strip():
+        return ""
+
+    return urljoin(base_url, value.strip())
+
+
+def _parse_time_range(
+    value: str,
+    schedule_date: datetime,
+    timezone_name: str,
+) -> tuple[datetime, datetime] | None:
+    """Parse an RTVE time range such as '06:00-07:15'."""
+    match = re.search(
+        r"(\d{1,2}:\d{2})\s*[-–—]\s*(\d{1,2}:\d{2})",
+        value,
+    )
+
+    if match is None:
         return None
 
-    title = _first(obj, ("title", "titulo", "name", "nombre", "programTitle", "program_name"))
-    if isinstance(title, dict):
-        title = _first(title, ("text", "value", "name", "title"))
-    if not title or len(str(title).strip()) < 2:
+    try:
+        start_time = datetime.strptime(
+            match.group(1),
+            "%H:%M",
+        ).time()
+
+        stop_time = datetime.strptime(
+            match.group(2),
+            "%H:%M",
+        ).time()
+    except ValueError:
         return None
 
-    date_hint = _first(obj, ("date", "fecha", "broadcastDate", "day"))
-    start = _parse_datetime(
-        _first(
-            obj,
-            ("start", "startDate", "startTime", "inicio", "horaInicio", "begin", "emissionStart"),
-        ),
+    timezone = ZoneInfo(timezone_name)
+
+    start = datetime.combine(
+        schedule_date.date(),
+        start_time,
+        timezone,
+    )
+
+    stop = datetime.combine(
+        schedule_date.date(),
+        stop_time,
+        timezone,
+    )
+
+    # A programme ending after midnight belongs to the next calendar day.
+    if stop <= start:
+        stop += timedelta(days=1)
+
+    return start, stop
+
+
+def _find_schedule_date(
+    node: Tag,
+    timezone_name: str,
+) -> datetime | None:
+    """
+    Find the date associated with a programme node.
+
+    RTVE may place the date on the containing schedule section rather than
+    directly on each programme.
+    """
+    current: Tag | None = node
+
+    while current is not None:
+        for selector in (
+            "h2[aria-label]",
+            "h3[aria-label]",
+            "[data-date]",
+            ".datemi",
+        ):
+            candidate = current.select_one(selector)
+
+            if not isinstance(candidate, Tag):
+                continue
+
+            label = (
+                candidate.get("aria-label")
+                or candidate.get("data-date")
+                or candidate.get_text(" ", strip=True)
+            )
+
+            parsed = _parse_schedule_date(
+                str(label),
+                timezone_name,
+            )
+
+            if parsed is not None:
+                return parsed
+
+        parent = current.parent
+        current = parent if isinstance(parent, Tag) else None
+
+    return None
+
+
+def _programme_from_node(
+    node: Tag,
+    config: SourceConfig,
+) -> Programme | None:
+    """Convert one RTVE schedule element into a Programme object."""
+    channel_name = _text(node, ".cademi")
+
+    if not channel_name:
+        channel_name = str(node.get("data-channel") or node.get("data-canal") or "")
+
+    channel = _match_channel_name(
+        channel_name,
+        config.channels,
+    )
+
+    if channel is None:
+        return None
+
+    title = _text(node, ".maintitle")
+
+    if not title:
+        title = str(node.get("data-title") or "").strip()
+
+    if not title:
+        return None
+
+    time_range = _text(node, ".horemi")
+
+    if not time_range:
+        start_value = str(node.get("data-start") or node.get("data-inicio") or "")
+        stop_value = str(node.get("data-end") or node.get("data-fin") or "")
+
+        if start_value and stop_value:
+            time_range = f"{start_value}-{stop_value}"
+
+    schedule_date = _find_schedule_date(
+        node,
         config.timezone,
-        date_hint,
     )
-    stop = _parse_datetime(
-        _first(obj, ("end", "endDate", "endTime", "fin", "horaFin", "stop", "emissionEnd")),
-        config.timezone,
-        date_hint,
-    )
-    duration = _first(obj, ("duration", "duracion", "length"))
-    if start and not stop and duration is not None:
-        try:
-            seconds = float(duration)
-            if seconds < 600:
-                seconds *= 60
-            stop = start + timedelta(seconds=seconds)
-        except (TypeError, ValueError):
-            pass
-    if not start or not stop or stop <= start:
+
+    if schedule_date is None:
         return None
 
-    description = (
-        _first(obj, ("description", "descripcion", "summary", "sinopsis", "shortDescription")) or ""
+    parsed_times = _parse_time_range(
+        time_range,
+        schedule_date,
+        config.timezone,
     )
-    category = _first(obj, ("category", "categoria", "genre", "genero")) or ""
-    link = _first(obj, ("url", "htmlUrl", "link", "web")) or ""
-    icon = _first(obj, ("image", "icon", "thumbnail", "photo", "imagen")) or ""
-    if isinstance(icon, dict):
-        icon = _first(icon, ("url", "src", "image")) or ""
+
+    if parsed_times is None:
+        return None
+
+    start, stop = parsed_times
+
+    description = _text(node, ".txtBox > p")
+
+    if not description:
+        description = _text(node, ".description")
+
+    category = _text(node, ".genre")
+
+    if not category:
+        category = _text(node, ".category")
+
+    programme_url = _attribute_url(
+        node,
+        "a.goto_media[href]",
+        "href",
+        config.homepage,
+    )
+
+    if not programme_url:
+        programme_url = _attribute_url(
+            node,
+            "a[href]",
+            "href",
+            config.homepage,
+        )
+
+    icon = _attribute_url(
+        node,
+        "img[src]",
+        "src",
+        config.homepage,
+    )
+
+    if not icon:
+        icon = _attribute_url(
+            node,
+            "img[data-src]",
+            "data-src",
+            config.homepage,
+        )
 
     return Programme(
         channel_id=channel.xmltv_id,
         start=start,
         stop=stop,
-        title=str(title).strip(),
-        description=str(description).strip(),
-        category=str(category).strip(),
-        url=urljoin(config.homepage, str(link)),
-        icon=urljoin(config.homepage, str(icon)),
+        title=title,
+        description=description,
+        category=category,
+        url=programme_url,
+        icon=icon,
     )
 
 
-def parse_page(page: str, config: SourceConfig) -> list[Programme]:
-    found: dict[tuple[str, datetime, str], Programme] = {}
-    for blob in _json_blobs(page):
-        for obj in _walk(blob):
-            programme = _programme_from_object(obj, config)
-            if programme:
-                found[(programme.channel_id, programme.start, programme.title)] = programme
+def parse_page(
+    page: str,
+    config: SourceConfig,
+) -> list[Programme]:
+    """Parse RTVE's public programme-guide HTML."""
+    soup = BeautifulSoup(page, "html.parser")
 
-    if not found:
-        soup = BeautifulSoup(page, "html.parser")
-        for node in soup.select("[data-channel], [data-canal]"):
-            obj = dict(node.attrs)
-            obj["title"] = node.get("data-title") or node.get_text(" ", strip=True)
-            programme = _programme_from_object(obj, config)
-            if programme:
-                found[(programme.channel_id, programme.start, programme.title)] = programme
+    found: dict[
+        tuple[str, datetime, str],
+        Programme,
+    ] = {}
 
-    return sorted(found.values(), key=lambda item: (item.start, item.channel_id, item.title))
+    selectors = (
+        ".mod.video_mod.sched",
+        ".video_mod.sched",
+        ".sched",
+        "[data-channel][data-start]",
+        "[data-canal][data-inicio]",
+    )
+
+    seen_nodes: set[int] = set()
+
+    for selector in selectors:
+        for node in soup.select(selector):
+            if not isinstance(node, Tag):
+                continue
+
+            node_identity = id(node)
+
+            if node_identity in seen_nodes:
+                continue
+
+            seen_nodes.add(node_identity)
+
+            programme = _programme_from_node(
+                node,
+                config,
+            )
+
+            if programme is None:
+                continue
+
+            key = (
+                programme.channel_id,
+                programme.start,
+                programme.title,
+            )
+
+            found[key] = programme
+
+    return sorted(
+        found.values(),
+        key=lambda programme: (
+            programme.start,
+            programme.channel_id,
+            programme.title,
+        ),
+    )
 
 
 class Adapter:
-    def fetch_and_parse(self, config: SourceConfig) -> list[Programme]:
-        guide_url = str(config.options.get("guide_url", config.homepage))
+    """RTVE source adapter used by the common guide builder."""
+
+    def fetch_and_parse(
+        self,
+        config: SourceConfig,
+    ) -> list[Programme]:
+        guide_url = str(
+            config.options.get(
+                "guide_url",
+                config.homepage,
+            )
+        )
+
         page = _fetch(guide_url)
 
-        # Temporary diagnostic output for GitHub Actions.
-        diagnostic_path = "rtve-response.html"
-        with open(diagnostic_path, "w", encoding="utf-8") as file:
-            file.write(page)
+        print(
+            f"Downloaded {len(page)} characters from {guide_url}",
+            flush=True,
+        )
 
-        print(f"Downloaded {len(page)} characters from {guide_url}")
-        print(f"Saved diagnostic response to {diagnostic_path}")
+        programmes = parse_page(
+            page,
+            config,
+        )
 
-        return parse_page(page, config)
+        channel_count = len({programme.channel_id for programme in programmes})
+
+        print(
+            f"Parsed {len(programmes)} programmes across {channel_count} channels",
+            flush=True,
+        )
+
+        return programmes
