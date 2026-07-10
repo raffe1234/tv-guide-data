@@ -15,18 +15,6 @@
   <channel id="Clan.es">
     <display-name>Clan</display-name>
   </channel>
-  <programme start="20260710060000 +0200" stop="20260710071500 +0200" channel="La.1.es">
-    <title>Telediario Matinal</title>
-    <desc>ESPACIO DE INFORMACIÓN DIARIA EN DIRECTO</desc>
-    <url>https://www.rtve.es/v/17151087</url>
-    <icon src="https://img.rtve.es/v/17151087?w=400" />
-  </programme>
-  <programme start="20260710071500 +0200" stop="20260710083000 +0200" channel="Canal.24.h.es">
-    <title>Vive San Fermin 2026</title>
-    <desc>Retransmisión desde el 6 al 14 de julio, del "Chupinazo" y de los encierros de Pamplona</desc>
-    <url>https://www.rtve.es/v/17151148</url>
-    <icon src="https://img.rtve.es/v/17151148?w=400" />
-  </programme>
   <programme start="20260710071500 +0200" stop="20260710083000 +0200" channel="La.1.es">
     <title>Vive San Fermin 2026</title>
     <desc>Retransmisión desde el 6 al 14 de julio, del "Chupinazo" y de los encierros de Pamplona</desc>
@@ -45,29 +33,23 @@
     <url>https://www.rtve.es/v/17151347</url>
     <icon src="https://img.rtve.es/v/17151347?w=400" />
   </programme>
-  <programme start="20260710101500 +0200" stop="20260710111500 +0200" channel="La.2.es">
-    <title>Universo Uned</title>
-    <desc>Mujeres en el flamenco, ¿quién marca el compás?. PoeMAS: Hospitalidad.</desc>
-    <url>https://www.rtve.es/v/17151495</url>
-    <icon src="https://img.rtve.es/v/17151495?w=400" />
-  </programme>
   <programme start="20260710103500 +0200" stop="20260710110000 +0200" channel="Canal.24.h.es">
     <title>Diario 24</title>
     <desc>ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/120150</url>
-    <icon src="https://img.rtve.es/p/120150/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17151740</url>
+    <icon src="https://img.rtve.es/v/17151740?w=400" />
   </programme>
   <programme start="20260710103500 +0200" stop="20260710135500 +0200" channel="La.1.es">
     <title>Mañaneros 360</title>
     <desc>Mañaneros es el magacine matinal de entretenimiento de TVE,  que recoge la actualidad con rigor y en tiempo real.</desc>
-    <url>http://www.rtve.es/directo/la-1/</url>
+    <url>https://www.rtve.es/pr/175650</url>
     <icon src="https://img.rtve.es/p/175650/imgportada?w=400" />
   </programme>
   <programme start="20260710110000 +0200" stop="20260710140000 +0200" channel="Canal.24.h.es">
     <title>Diario 24</title>
     <desc>ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
-    <url>http://www.rtve.es/directo/canal-24h/</url>
-    <icon src="https://img.rtve.es/p/120150/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17151740</url>
+    <icon src="https://img.rtve.es/v/17151740?w=400" />
   </programme>
   <programme start="20260710111500 +0200" stop="20260710114000 +0200" channel="La.2.es">
     <title>El Escarabajo Verde</title>
@@ -80,12 +62,6 @@
     <desc>Gonzalo D'Ambrosio  hace un viaje gastronómico por diferentes lugares de España</desc>
     <url>https://www.rtve.es/v/4944855</url>
     <icon src="https://img.rtve.es/v/4944855?w=400" />
-  </programme>
-  <programme start="20260710114500 +0200" stop="20260710115500 +0200" channel="Teledeporte.es">
-    <title>Estadio 2 Mundial</title>
-    <desc>Programa "Estadio 2 Mundial"</desc>
-    <url>https://www.rtve.es/pr/1030532</url>
-    <icon src="https://img.rtve.es/p/1030532/imgportada?w=400" />
   </programme>
   <programme start="20260710115500 +0200" stop="20260710123000 +0200" channel="Teledeporte.es">
     <title>Programa Estudio Estadio Mundial Tdp 2026</title>
@@ -102,35 +78,36 @@
   <programme start="20260710123500 +0200" stop="20260710133000 +0200" channel="La.2.es">
     <title>Curro Jimenez</title>
     <desc>El usurero Anselmo Garc¿a ha echado de su cortijo a la Condesa di Alloro, y se niega a darle dinero por sus joyas, por lo que la Condesa le ...</desc>
-    <url>http://www.rtve.es/directo/la-2/</url>
+    <url>https://www.rtve.es/v/6644675</url>
     <icon src="https://img.rtve.es/v/6644675?w=400" />
   </programme>
   <programme start="20260710130000 +0200" stop="20260710140000 +0200" channel="Teledeporte.es">
     <title>Futbol Copa Mundial 1/4 Francia-Marruecos Resumen</title>
     <desc>RESÚMENES FUTBOL MUNDIAL 2026</desc>
-    <url>http://www.rtve.es/directo/teledeporte/</url>
+    <url>https://www.rtve.es/pr/168830</url>
     <icon src="https://img.rtve.es/p/168830/imgportada?w=400" />
   </programme>
   <programme start="20260710133000 +0200" stop="20260710143000 +0200" channel="La.2.es">
     <title>El Cazador</title>
     <desc>El Cazador, un formato en el que cuatro concursantes anónimos unen sus conocimientos para ganar al cazador, un auténtico profesional de los ...</desc>
-    <url>https://www.rtve.es/v/16465938</url>
+    <url>http://www.rtve.es/directo/la-2/</url>
     <icon src="https://img.rtve.es/v/16465938?w=400" />
   </programme>
   <programme start="20260710135500 +0200" stop="20260710142000 +0200" channel="La.1.es">
     <title>Informativo Territorial 1</title>
+    <url>http://www.rtve.es/directo/la-1/</url>
     <icon src="https://css.rtve.es/css/rtve.guiatv/tv1/tv1.jpg" />
   </programme>
   <programme start="20260710140000 +0200" stop="20260710145500 +0200" channel="Canal.24.h.es">
     <title>Noticias 24 H</title>
     <desc>INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
+    <url>http://www.rtve.es/directo/canal-24h/</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
   <programme start="20260710140000 +0200" stop="20260710144000 +0200" channel="Teledeporte.es">
     <title>Estadio 2 Mundial</title>
     <desc>Programa "Estadio 2 Mundial"</desc>
-    <url>https://www.rtve.es/pr/1030532</url>
+    <url>http://www.rtve.es/directo/teledeporte/</url>
     <icon src="https://img.rtve.es/p/1030532/imgportada?w=400" />
   </programme>
   <programme start="20260710142000 +0200" stop="20260710145500 +0200" channel="La.1.es">
@@ -199,6 +176,12 @@
     <url>https://www.rtve.es/pr/1001478</url>
     <icon src="https://img.rtve.es/p/1001478/imgportada?w=400" />
   </programme>
+  <programme start="20260710160000 +0200" stop="20260710163000 +0200" channel="Canal.24.h.es">
+    <title>Noticias 24 H</title>
+    <desc>INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
+    <url>https://www.rtve.es/pr/46052</url>
+    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
+  </programme>
   <programme start="20260710161500 +0200" stop="20260710174000 +0200" channel="La.2.es">
     <title>Ciclismo Tour De Francia 2026</title>
     <desc>Incluye:Nº 7- 7ª ETAPA: HAGETMAU - BORDEAUX</desc>
@@ -228,5 +211,22 @@
     <desc>Magacine de actualidad social y política y verificación de noticias falsas.</desc>
     <url>https://www.rtve.es/pr/1001094</url>
     <icon src="https://img.rtve.es/p/1001094/imgportada?w=400" />
+  </programme>
+  <programme start="20260710175500 +0200" stop="20260710200500 +0200" channel="Teledeporte.es">
+    <title>Futbol Uefa Cto Europa Sub19 Fem Final</title>
+    <desc>FUTBOL UEFA CTO EUROPA SUB19 FEMENINO 2026</desc>
+    <icon src="https://css.rtve.es/css/rtve.guiatv/dep/dep.jpg" />
+  </programme>
+  <programme start="20260710183000 +0200" stop="20260710204500 +0200" channel="La.1.es">
+    <title>Camino A Ny</title>
+    <desc>FUTBOL COPA DEL MUNDO FIFA 2026</desc>
+    <url>https://www.rtve.es/pr/1030542</url>
+    <icon src="https://img.rtve.es/p/1030542/imgportada?w=400" />
+  </programme>
+  <programme start="20260710194000 +0200" stop="20260710200500 +0200" channel="La.2.es">
+    <title>Diario De Un Nómada. La Ruta Del Ambar Por Europa</title>
+    <desc>MIQUEL SILVESTRE VIAJA EN MOTO POR EUROPA ORIENTAL</desc>
+    <url>https://www.rtve.es/v/6228112</url>
+    <icon src="https://img.rtve.es/v/6228112?w=400" />
   </programme>
 </tv>
