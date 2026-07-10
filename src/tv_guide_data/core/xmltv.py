@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import gzip
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
 from typing import cast
@@ -18,6 +19,7 @@ def validate(config: GuideConfig, programmes: list[Programme]) -> None:
         raise RuntimeError(
             f"Only {len(programmes)} programmes were found; minimum is {config.minimum_programmes}."
         )
+
     valid_ids = {channel.xmltv_id for channel in config.channels}
     for programme in programmes:
         if programme.channel_id not in valid_ids:
@@ -29,6 +31,15 @@ def validate(config: GuideConfig, programmes: list[Programme]) -> None:
         if programme.start.tzinfo is None or programme.stop.tzinfo is None:
             raise RuntimeError(f"Naive programme time: {programme.title}")
 
+    counts = Counter(programme.channel_id for programme in programmes)
+    for channel_id in config.required_channels:
+        count = counts[channel_id]
+        if count < config.minimum_programmes_per_channel:
+            raise RuntimeError(
+                f"Channel {channel_id} has {count} programmes; minimum is "
+                f"{config.minimum_programmes_per_channel}."
+            )
+
 
 def render(config: GuideConfig, programmes: list[Programme]) -> bytes:
     root = ET.Element(
@@ -38,6 +49,7 @@ def render(config: GuideConfig, programmes: list[Programme]) -> bytes:
             "generator-info-url": config.homepage,
         },
     )
+
     for channel in config.channels:
         node = ET.SubElement(root, "channel", {"id": channel.xmltv_id})
         ET.SubElement(node, "display-name", {"lang": config.language}).text = channel.display_name
@@ -70,7 +82,9 @@ def write_files(output_dir: Path, output_name: str, xml_data: bytes) -> tuple[Pa
     output_dir.mkdir(parents=True, exist_ok=True)
     xml_path = output_dir / f"{output_name}.xml"
     gzip_path = output_dir / f"{output_name}.xml.gz"
+
     xml_path.write_bytes(xml_data)
     with gzip.GzipFile(filename=str(gzip_path), mode="wb", compresslevel=9, mtime=0) as handle:
         handle.write(xml_data)
+
     return xml_path, gzip_path

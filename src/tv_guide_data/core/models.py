@@ -40,3 +40,5 @@ class GuideConfig:
     minimum_programmes: int
     channels: tuple[Channel, ...]
     providers: tuple[ProviderConfig, ...]
+    required_channels: tuple[str, ...] = ()
+    minimum_programmes_per_channel: int = 1
