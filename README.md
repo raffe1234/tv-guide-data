@@ -1,108 +1,64 @@
 # tv-guide-data
 
-A modular, community-friendly project that builds XMLTV programme guides from official or clearly permitted public TV schedule sources and publishes them automatically with GitHub Actions.
+`tv-guide-data` builds small XMLTV guides from official broadcaster pages.
+The first supported guide is RTVE Spain.
 
-The first supported provider is **RTVE** in Spain. The architecture is deliberately source-based, so providers such as **SVT**, NRK, DR, or Yle can be added without rewriting the shared XMLTV, validation, compression, or publishing code.
-
-## Published guides
-
-After the first successful workflow run, replace `YOUR-GITHUB-USERNAME`:
+## Published guide
 
 ```text
-https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/tv-guide-data/main/output/rtve.xml.gz
+https://raw.githubusercontent.com/raffe1234/tv-guide-data/main/output/rtve.xml.gz
 ```
 
-Uncompressed version:
+## Current RTVE coverage
 
-```text
-https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/tv-guide-data/main/output/rtve.xml
-```
+| XMLTV id | Channel | Source |
+|---|---|---|
+| `La.1.es` | La 1 | RTVE TV guide |
+| `La.2.es` | La 2 | RTVE TV guide |
+| `Canal.24.h.es` | Canal 24 Horas | RTVE TV guide |
+| `Teledeporte.es` | Teledeporte | RTVE TV guide |
+| `Clan.es` | Clan | Dedicated Clan schedule |
 
-## Supported RTVE channels
+The international channels are configured as future targets, but are not
+published until a reliable full schedule source is available:
+`TVE.Internacional.es`, `Star.es`, and `Clan.Internacional.es`.
 
-| Channel | XMLTV ID |
-|---|---|
-| La 1 | `La.1.es` |
-| La 2 | `La.2.es` |
-| Canal 24 Horas | `Canal.24.h.es` |
-| Teledeporte | `Teledeporte.es` |
-| Clan | `Clan.es` |
+## Architecture
 
-The IDs are kept stable so they can match `tvg-id` values in IPTV playlists. The project does not invent schedules for channels that are absent from the official source.
+- `core/`: configuration, HTTP, validation, XMLTV output and plugin loading.
+- `sources/`: broadcaster-specific source plugins.
+- `config/guides/`: declarative guide definitions.
+- `scripts/build.py`: builds all configured guides.
 
-## Repository layout
+An RTVE guide is assembled from independent providers:
 
-```text
-config/sources/          Source and channel configuration
-src/tv_guide_data/       Shared models, XMLTV and validation code
-src/tv_guide_data/sources/
-                         One adapter per schedule provider
-scripts/build.py         Builds one source or every configured source
-tests/                   Offline parser fixtures and tests
-output/                  Published XML and compressed XMLTV files
-.github/workflows/       Tests and scheduled guide updates
-```
+- `rtve.national` parses the national RTVE guide.
+- `rtve.clan` parses the dedicated Clan schedule.
+- future providers can be added without changing the XMLTV writer.
 
-## First GitHub setup
-
-1. Create a **public** repository named `tv-guide-data`.
-2. Create it without a generated README, `.gitignore`, or licence because those files are included here.
-3. Upload every file and folder from this package to the repository root, including `.github`.
-4. Open **Actions**, select **Update TV guides**, and choose **Run workflow**.
-5. After the workflow succeeds, verify that `output/rtve.xml` and `output/rtve.xml.gz` appear in the repository.
-6. Use the raw `.xml.gz` URL in Kodi or another XMLTV-compatible application.
-
-The update workflow runs twice per day. It tests the code, downloads current schedule data, validates the result, and commits files only when they changed. A failed or suspiciously small guide is not published.
-
-## Kodi
-
-In **PVR IPTV Simple Client**, use:
-
-```text
-https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/tv-guide-data/main/output/rtve.xml.gz
-```
-
-Then clear existing guide data and restart Kodi.
-
-## Local development
-
-Python 3.11 or later is required.
+## Run locally
 
 ```bash
-python -m venv .venv
 python -m pip install -e ".[dev]"
-```
-
-Activate the environment and run:
-
-```bash
+python scripts/build.py
+pytest
 ruff check .
 ruff format --check .
 mypy
-pytest
-python scripts/build.py
 ```
 
-To install the optional local Git hooks:
+On systems where the package is not installed:
 
 ```bash
-pre-commit install
+PYTHONPATH=src python scripts/build.py
 ```
+
+## GitHub Actions
+
+- `Test` checks formatting, linting, typing and tests.
+- `Update TV guides` runs twice daily, validates the output and commits changed
+  XML/XML.GZ files.
 
 ## Adding a provider
 
-Each provider normally needs:
-
-1. `config/sources/<provider>.json`
-2. `src/tv_guide_data/sources/<provider>.py`
-3. An offline fixture and parser test in `tests/`
-
 See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Project status
-
-This project is at an early alpha stage. Source websites and APIs can change without notice, so failures should be expected and reported with a workflow link or a reproducible test fixture.
-
-## Licence
-
-The code is MIT licensed. Programme data remains subject to the terms and rights of its original provider.

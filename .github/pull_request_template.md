@@ -1,10 +1,9 @@
 ## Summary
 
+## Source and verification
+
 ## Checklist
 
-- [ ] I used an official or clearly permitted schedule source.
-- [ ] I added or updated offline tests.
-- [ ] `ruff check .` passes.
-- [ ] `ruff format --check .` passes.
-- [ ] `pytest` passes.
-- [ ] Published XMLTV channel IDs remain stable.
+- [ ] Official or legally reusable source
+- [ ] Tests added or updated
+- [ ] `ruff`, `mypy` and `pytest` pass

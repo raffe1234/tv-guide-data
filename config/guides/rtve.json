@@ -1,0 +1,54 @@
+{
+  "name": "RTVE",
+  "output_name": "rtve",
+  "homepage": "https://www.rtve.es/",
+  "timezone": "Europe/Madrid",
+  "language": "es",
+  "minimum_programmes": 20,
+  "channels": [
+    {
+      "xmltv_id": "La.1.es",
+      "display_name": "La 1",
+      "source_id": "La 1",
+      "aliases": ["La 1", "La.1.es"]
+    },
+    {
+      "xmltv_id": "La.2.es",
+      "display_name": "La 2",
+      "source_id": "La 2",
+      "aliases": ["La 2", "La.2.es"]
+    },
+    {
+      "xmltv_id": "Canal.24.h.es",
+      "display_name": "Canal 24 Horas",
+      "source_id": "Canal 24 Horas",
+      "aliases": ["24 Horas", "Canal 24 Horas", "Canal 24 h", "Canal.24.h.es"]
+    },
+    {
+      "xmltv_id": "Teledeporte.es",
+      "display_name": "Teledeporte",
+      "source_id": "Teledeporte",
+      "aliases": ["Teledeporte", "Teledeporte.es"]
+    },
+    {
+      "xmltv_id": "Clan.es",
+      "display_name": "Clan",
+      "source_id": "Clan",
+      "aliases": ["Clan", "Clan TVE", "Clan.es"]
+    }
+  ],
+  "providers": [
+    {
+      "adapter": "tv_guide_data.sources.rtve.national:NationalProvider",
+      "options": {
+        "url": "https://www.rtve.es/play/guia-tve/"
+      }
+    },
+    {
+      "adapter": "tv_guide_data.sources.rtve.clan:ClanProvider",
+      "options": {
+        "url": "https://www.rtve.es/play/clan/programacion/"
+      }
+    }
+  ]
+}

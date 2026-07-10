@@ -1,26 +1,16 @@
 name: Bug report
-description: Report missing or incorrect guide data
-title: "[Bug]: "
-labels: [bug]
+description: Report incorrect or missing guide data
+title: "[Bug] "
 body:
-  - type: dropdown
-    id: source
+  - type: input
+    id: guide
     attributes:
-      label: Source
-      options:
-        - RTVE
-        - Other
+      label: Guide or channel
     validations:
       required: true
-  - type: input
-    id: channel
-    attributes:
-      label: Channel
-      placeholder: La 1
   - type: textarea
-    id: problem
+    id: details
     attributes:
       label: What happened?
-      description: Include dates, examples, and workflow links when available.
     validations:
       required: true

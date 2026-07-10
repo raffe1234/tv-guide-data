@@ -1,24 +1,14 @@
-name: New source request
-description: Suggest an official TV schedule source
-title: "[Source]: "
-labels: [enhancement]
+name: Source request
+description: Suggest a broadcaster or channel source
+title: "[Source] "
 body:
   - type: input
-    id: provider
+    id: broadcaster
     attributes:
-      label: Provider or broadcaster
-      placeholder: SVT
+      label: Broadcaster or channel
     validations:
       required: true
   - type: input
-    id: url
+    id: official_url
     attributes:
       label: Official schedule URL
-    validations:
-      required: true
-  - type: textarea
-    id: channels
-    attributes:
-      label: Channels to include
-    validations:
-      required: true

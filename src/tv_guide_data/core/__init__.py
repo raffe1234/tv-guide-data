@@ -1,0 +1,1 @@
+"""Shared guide-building infrastructure."""

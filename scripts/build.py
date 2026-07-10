@@ -1,53 +1,38 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
 import logging
-from datetime import datetime
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
-from tv_guide_data.config import load_source_config
-from tv_guide_data.sources import load_adapter
-from tv_guide_data.xmltv import build_xml, validate, write_files
+from tv_guide_data.core.config import load_guide_config
+from tv_guide_data.core.guide import build_programmes
+from tv_guide_data.core.xmltv import render, validate, write_files
 
 
-def build(config_path: Path) -> None:
-    config = load_source_config(config_path)
+def build(config_path: Path, output_dir: Path) -> None:
+    config = load_guide_config(config_path)
     logging.info("Building %s from %s", config.name, config_path)
-    adapter = load_adapter(config.adapter)
-    programmes = adapter.fetch_and_parse(config)
-    logging.info(
-        "Found %d programmes across %d channels",
-        len(programmes),
-        len({item.channel_id for item in programmes}),
+    programmes = build_programmes(config)
+    validate(config, programmes)
+    xml_path, gzip_path = write_files(
+        output_dir,
+        config.output_name,
+        render(config, programmes),
     )
-    validate(
-        programmes,
-        config.minimum_programmes,
-        config.minimum_channels,
-        datetime.now(ZoneInfo(config.timezone)),
-    )
-    xml = build_xml(config.channels, programmes, "tv-guide-data", config.homepage)
-    plain, compressed = write_files(xml, config.output)
-    logging.info("Wrote %s and %s", plain, compressed)
+    logging.info("Wrote %s and %s", xml_path, gzip_path)
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build one or more XMLTV guides.")
-    parser.add_argument(
-        "configs",
-        nargs="*",
-        type=Path,
-        help="Source configuration files. Defaults to config/sources/*.json.",
-    )
-    args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config-dir", type=Path, default=Path("config/guides"))
+    parser.add_argument("--output-dir", type=Path, default=Path("output"))
+    arguments = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-    configs = args.configs or sorted(Path("config/sources").glob("*.json"))
-    if not configs:
-        raise RuntimeError("No source configuration files were found.")
-    for config_path in configs:
-        build(config_path)
+    paths = sorted(arguments.config_dir.glob("*.json"))
+    if not paths:
+        raise RuntimeError(f"No guide configurations found in {arguments.config_dir}")
+    for path in paths:
+        build(path, arguments.output_dir)
     return 0
 
 
