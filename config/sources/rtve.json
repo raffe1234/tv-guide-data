@@ -10,7 +10,8 @@
     "minimum_channels": 3
   },
   "options": {
-    "guide_url": "https://www.rtve.es/play/guia-tve/"
+    "guide_url": "https://www.rtve.es/play/guia-tve/",
+	"clan_guide_url": "https://www.rtve.es/play/clan/programacion/index.shtml"
   },
   "channels": [
     {

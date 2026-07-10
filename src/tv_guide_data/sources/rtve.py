@@ -471,6 +471,34 @@ def parse_page(
     )
 
 
+def _deduplicate_programmes(
+    programmes: list[Programme],
+) -> list[Programme]:
+    """Remove duplicate programmes collected from multiple RTVE pages."""
+    found: dict[
+        tuple[str, datetime, datetime, str],
+        Programme,
+    ] = {}
+
+    for programme in programmes:
+        key = (
+            programme.channel_id,
+            programme.start,
+            programme.stop,
+            programme.title,
+        )
+        found[key] = programme
+
+    return sorted(
+        found.values(),
+        key=lambda programme: (
+            programme.start,
+            programme.channel_id,
+            programme.title,
+        ),
+    )
+
+
 class Adapter:
     """RTVE source adapter used by the common guide builder."""
 
@@ -478,30 +506,75 @@ class Adapter:
         self,
         config: SourceConfig,
     ) -> list[Programme]:
-        guide_url = str(
+        national_guide_url = str(
             config.options.get(
                 "guide_url",
                 config.homepage,
             )
         )
 
-        page = _fetch(guide_url)
+        clan_guide_url = str(
+            config.options.get(
+                "clan_guide_url",
+                "https://www.rtve.es/play/clan/programacion/index.shtml",
+            )
+        )
+
+        guide_urls = (
+            national_guide_url,
+            clan_guide_url,
+        )
+
+        all_programmes: list[Programme] = []
+
+        for guide_url in guide_urls:
+            print(
+                f"Downloading RTVE guide from {guide_url}",
+                flush=True,
+            )
+
+            page = _fetch(guide_url)
+
+            print(
+                f"Downloaded {len(page)} characters from {guide_url}",
+                flush=True,
+            )
+
+            programmes = parse_page(
+                page,
+                config,
+            )
+
+            channel_count = len({programme.channel_id for programme in programmes})
+
+            print(
+                f"Parsed {len(programmes)} programmes "
+                f"across {channel_count} channels "
+                f"from {guide_url}",
+                flush=True,
+            )
+
+            all_programmes.extend(programmes)
+
+        programmes = _deduplicate_programmes(
+            all_programmes,
+        )
+
+        channel_counts: dict[str, int] = {}
+
+        for programme in programmes:
+            channel_counts[programme.channel_id] = channel_counts.get(programme.channel_id, 0) + 1
 
         print(
-            f"Downloaded {len(page)} characters from {guide_url}",
+            f"Combined RTVE result: {len(programmes)} programmes "
+            f"across {len(channel_counts)} channels",
             flush=True,
         )
 
-        programmes = parse_page(
-            page,
-            config,
-        )
-
-        channel_count = len({programme.channel_id for programme in programmes})
-
-        print(
-            f"Parsed {len(programmes)} programmes across {channel_count} channels",
-            flush=True,
-        )
+        for channel_id, count in sorted(channel_counts.items()):
+            print(
+                f"  {channel_id}: {count} programmes",
+                flush=True,
+            )
 
         return programmes
