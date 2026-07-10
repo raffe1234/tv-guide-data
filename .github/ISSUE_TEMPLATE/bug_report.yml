@@ -1,0 +1,26 @@
+name: Bug report
+description: Report missing or incorrect guide data
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source
+      options:
+        - RTVE
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: channel
+    attributes:
+      label: Channel
+      placeholder: La 1
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include dates, examples, and workflow links when available.
+    validations:
+      required: true
