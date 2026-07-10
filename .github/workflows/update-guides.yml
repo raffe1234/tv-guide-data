@@ -38,14 +38,6 @@ jobs:
       - name: Build and validate all guides
         run: python scripts/build.py
 
-      - name: Upload RTVE diagnostic response
-        if: always()
-        uses: actions/upload-artifact@v6
-        with:
-          name: rtve-response
-          path: rtve-response.html
-          if-no-files-found: ignore
-
       - name: Commit changed guide files
         run: |
           git config user.name "github-actions[bot]"
