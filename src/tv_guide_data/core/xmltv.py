@@ -3,6 +3,7 @@ from __future__ import annotations
 import gzip
 from datetime import datetime
 from pathlib import Path
+from typing import cast
 from xml.etree import ElementTree as ET
 
 from .models import GuideConfig, Programme
@@ -62,7 +63,7 @@ def render(config: GuideConfig, programmes: list[Programme]) -> bytes:
             ET.SubElement(node, "icon", {"src": programme.icon})
 
     ET.indent(root, space="  ")
-    return ET.tostring(root, encoding="utf-8", xml_declaration=True)
+    return cast(bytes, ET.tostring(root, encoding="utf-8", xml_declaration=True))
 
 
 def write_files(output_dir: Path, output_name: str, xml_data: bytes) -> tuple[Path, Path]:
