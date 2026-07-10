@@ -1,0 +1,47 @@
+{
+  "key": "rtve",
+  "adapter": "rtve",
+  "name": "RTVE",
+  "homepage": "https://www.rtve.es/play/guia-tve/",
+  "timezone": "Europe/Madrid",
+  "output": "output/rtve.xml",
+  "validation": {
+    "minimum_programmes": 20,
+    "minimum_channels": 3
+  },
+  "options": {
+    "guide_url": "https://www.rtve.es/play/guia-tve/"
+  },
+  "channels": [
+    {
+      "xmltv_id": "La.1.es",
+      "name": "La 1",
+      "aliases": ["la 1", "la1"],
+      "source_id": "la-1"
+    },
+    {
+      "xmltv_id": "La.2.es",
+      "name": "La 2",
+      "aliases": ["la 2", "la2"],
+      "source_id": "la-2"
+    },
+    {
+      "xmltv_id": "Canal.24.h.es",
+      "name": "Canal 24 Horas",
+      "aliases": ["24 horas", "canal 24 horas", "24h"],
+      "source_id": "24-horas"
+    },
+    {
+      "xmltv_id": "Teledeporte.es",
+      "name": "Teledeporte",
+      "aliases": ["teledeporte", "tdp"],
+      "source_id": "teledeporte"
+    },
+    {
+      "xmltv_id": "Clan.es",
+      "name": "Clan",
+      "aliases": ["clan", "clan tv"],
+      "source_id": "clan"
+    }
+  ]
+}
