@@ -2581,12 +2581,6 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/pr/31151</url>
     <icon src="https://img.rtve.es/p/31151/imgportada?w=400" />
   </programme>
-  <programme start="20260710110000 +0200" stop="20260710140000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Diario 24</title>
-    <desc lang="es">ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
-    <url>https://www.rtve.es/v/17151740</url>
-    <icon src="https://img.rtve.es/v/17151740?w=400" />
-  </programme>
   <programme start="20260710110700 +0200" stop="20260710113000 +0200" channel="Clan.es">
     <title lang="es">Una Casa De Locos</title>
     <desc lang="es">1.- "HASTA ARRIBA"
@@ -2643,18 +2637,6 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/5671198</url>
     <icon src="https://img2.rtve.es/v/5671198?w=100" />
   </programme>
-  <programme start="20260710123000 +0200" stop="20260710130000 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Reemisión Partidos Fifa</title>
-    <desc lang="es">REEMISIÓN DE PARTIDOS FIFA FUTBOL</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
-  </programme>
-  <programme start="20260710123500 +0200" stop="20260710133000 +0200" channel="La.2.es">
-    <title lang="es">Curro Jimenez</title>
-    <desc lang="es">El usurero Anselmo Garc¿a ha echado de su cortijo a la Condesa di Alloro, y se niega a darle dinero por sus joyas, por lo que la Condesa le ...</desc>
-    <url>https://www.rtve.es/v/6644675</url>
-    <icon src="https://img.rtve.es/v/6644675?w=400" />
-  </programme>
   <programme start="20260710124100 +0200" stop="20260710125200 +0200" channel="Clan.es">
     <title lang="es">Isadora Moon</title>
     <desc lang="es">Cuando Mignonette se muda de su casa en el bosque por culpa de unos vecinos ruidosos, Isadora la invita a vivir con ellos. Pronto se arrepie...</desc>
@@ -2666,12 +2648,6 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <desc lang="es">Isadora convence a papá para que se transforme en pez. Bajo el agua, descubren una corona brillante, pero una tortuga traviesa se la roba.</desc>
     <url>https://www.rtve.es/v/16891909</url>
     <icon src="https://img.rtve.es/v/16891909?w=400" />
-  </programme>
-  <programme start="20260710130000 +0200" stop="20260710140000 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Copa Mundial 1/4 Francia-Marruecos Resumen</title>
-    <desc lang="es">RESÚMENES FUTBOL MUNDIAL 2026</desc>
-    <url>https://www.rtve.es/pr/168830</url>
-    <icon src="https://img.rtve.es/p/168830/imgportada?w=400" />
   </programme>
   <programme start="20260710130300 +0200" stop="20260710131400 +0200" channel="Clan.es">
     <title lang="es">Isadora Moon</title>
@@ -2685,12 +2661,6 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/16699278</url>
     <icon src="https://img.rtve.es/v/16699278?w=400" />
   </programme>
-  <programme start="20260710133000 +0200" stop="20260710143000 +0200" channel="La.2.es">
-    <title lang="es">El Cazador</title>
-    <desc lang="es">El Cazador, un formato en el que cuatro concursantes anónimos unen sus conocimientos para ganar al cazador, un auténtico profesional de los ...</desc>
-    <url>https://www.rtve.es/v/16465938</url>
-    <icon src="https://img.rtve.es/v/16465938?w=400" />
-  </programme>
   <programme start="20260710133800 +0200" stop="20260710140100 +0200" channel="Clan.es">
     <title lang="es">Academia Unicornio</title>
     <desc lang="es">Los Zafiros intentan todo para conseguir que Sophia y Ava dejen de pelear, sobre todo Valentina, que ahora es su supera miga sustituta.</desc>
@@ -2702,22 +2672,6 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <desc lang="es">ZOOM TENDENCIAS  viaja cada semana por diferentes rincones de España, mostrándonos innovadoras propuestas gastronómicas y hoteleras.</desc>
     <url>https://www.rtve.es/v/16757359</url>
     <icon src="https://img2.rtve.es/v/16757359?w=100" />
-  </programme>
-  <programme start="20260710135500 +0200" stop="20260710142000 +0200" channel="La.1.es">
-    <title lang="es">Informativo Territorial 1</title>
-    <icon src="https://css.rtve.es/css/rtve.guiatv/tv1/tv1.jpg" />
-  </programme>
-  <programme start="20260710140000 +0200" stop="20260710145500 +0200" channel="Canal.24.h.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
-    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260710140000 +0200" stop="20260710144000 +0200" channel="Teledeporte.es">
-    <title lang="es">Estadio 2 Mundial</title>
-    <desc lang="es">Programa "Estadio 2 Mundial"</desc>
-    <url>https://www.rtve.es/pr/1030532</url>
-    <icon src="https://img.rtve.es/p/1030532/imgportada?w=400" />
   </programme>
   <programme start="20260710140100 +0200" stop="20260710142300 +0200" channel="Clan.es">
     <title lang="es">Danger Force</title>
@@ -2755,35 +2709,23 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/16467765</url>
     <icon src="https://img.rtve.es/v/16467765?w=400" />
   </programme>
-  <programme start="20260710144000 +0200" stop="20260710162000 +0200" channel="Teledeporte.es">
-    <title lang="es">Ciclismo Tour De Francia 2026 7ª Etapa: Hagetmau - Bordeaux</title>
-    <desc lang="es">Ciclismo.</desc>
-    <url>http://www.rtve.es/directo/teledeporte/</url>
-    <icon src="https://img.rtve.es/p/48070/imgportada?w=400" />
-  </programme>
   <programme start="20260710144400 +0200" stop="20260710145600 +0200" channel="Clan.es">
     <title lang="es">Los Amigos Del  Bloque Slip</title>
     <desc lang="es">Desde que Lucas ha conseguido trabajo, es el tío más guay de la ciudad. La solución perfecta para parecer guay debe ser ¡conseguir un trabaj...</desc>
     <url>https://www.rtve.es/v/15986936</url>
     <icon src="https://img.rtve.es/v/15986936?w=400" />
   </programme>
-  <programme start="20260710145500 +0200" stop="20260710152000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Telediario 1</title>
-    <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA, EN DIRECTO</desc>
-    <url>https://www.rtve.es/v/17152085</url>
-    <icon src="https://img.rtve.es/v/17152085?w=400" />
-  </programme>
   <programme start="20260710145500 +0200" stop="20260710152000 +0200" channel="La.1.es">
     <title lang="es">Telediario 1</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA, EN DIRECTO</desc>
-    <url>https://www.rtve.es/pr/45030</url>
-    <icon src="https://img.rtve.es/p/45030/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17152095</url>
+    <icon src="https://img.rtve.es/v/17152095?w=400" />
   </programme>
   <programme start="20260710145500 +0200" stop="20260710152000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Telediario 1</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA, EN DIRECTO</desc>
-    <url>https://www.rtve.es/pr/45030</url>
-    <icon src="https://img2.rtve.es/p/45030?w=100" />
+    <url>https://www.rtve.es/v/17152085</url>
+    <icon src="https://img2.rtve.es/v/17152085?w=100" />
   </programme>
   <programme start="20260710145600 +0200" stop="20260710150800 +0200" channel="Clan.es">
     <title lang="es">Los Amigos Del  Bloque Slip</title>
@@ -2809,23 +2751,17 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/15988492</url>
     <icon src="https://img.rtve.es/v/15988492?w=400" />
   </programme>
-  <programme start="20260710152000 +0200" stop="20260710154500 +0200" channel="Canal.24.h.es">
-    <title lang="es">Teledeporte 1</title>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <url>http://www.rtve.es/directo/canal-24h/</url>
-    <icon src="https://img.rtve.es/p/1030539/imgportada?w=400" />
-  </programme>
   <programme start="20260710152000 +0200" stop="20260710155000 +0200" channel="La.1.es">
     <title lang="es">Teledeporte Directo Al Mundial</title>
     <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <url>http://www.rtve.es/directo/la-1/</url>
-    <icon src="https://img.rtve.es/p/1030539/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17152164</url>
+    <icon src="https://img.rtve.es/v/17152164?w=400" />
   </programme>
   <programme start="20260710152000 +0200" stop="20260710154500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Teledeporte 1</title>
     <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <url>https://www.rtve.es/pr/1030539</url>
-    <icon src="https://img2.rtve.es/p/1030539?w=100" />
+    <url>https://www.rtve.es/v/17152164</url>
+    <icon src="https://img2.rtve.es/v/17152164?w=100" />
   </programme>
   <programme start="20260710153000 +0200" stop="20260710153700 +0200" channel="Clan.es">
     <title lang="es">Bluey</title>
@@ -2836,13 +2772,13 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
   <programme start="20260710153000 +0200" stop="20260710161500 +0200" channel="La.2.es">
     <title lang="es">Saber Y Ganar</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
-    <url>http://www.rtve.es/directo/la-2/</url>
-    <icon src="https://img.rtve.es/p/1710/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17152265</url>
+    <icon src="https://img.rtve.es/v/17152265?w=400" />
   </programme>
   <programme start="20260710153700 +0200" stop="20260710154400 +0200" channel="Clan.es">
     <title lang="es">Bluey</title>
     <desc lang="es">Bluey y Bingo están jugando al Juego del Silencio y no le dicen a Papá qué juguete comprarle a Muffin, va a necesitar un intérprete de gesto...</desc>
-    <url>http://www.rtve.es/play/clan/directo/</url>
+    <url>https://www.rtve.es/v/16967750</url>
     <icon src="https://img.rtve.es/v/16967750?w=400" />
   </programme>
   <programme start="20260710154400 +0200" stop="20260710155100 +0200" channel="Clan.es">
@@ -2850,12 +2786,6 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <desc lang="es">Papá cree que las niñas tienen demasiados juguetes y quiere que se deshagan de los que no sean especiales y donarlos.</desc>
     <url>https://www.rtve.es/pr/1028792</url>
     <icon src="https://img.rtve.es/p/1028792/imgportada?w=400" />
-  </programme>
-  <programme start="20260710154500 +0200" stop="20260710155000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Historias Inspiradoras</title>
-    <desc lang="es">Emisión de diferentes reportajes de Historias de superacion.</desc>
-    <url>https://www.rtve.es/pr/1029763</url>
-    <icon src="https://img.rtve.es/p/1029763/imgportada?w=400" />
   </programme>
   <programme start="20260710154500 +0200" stop="20260710183000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Directo Al Grano</title>
@@ -2872,7 +2802,7 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
   <programme start="20260710155000 +0200" stop="20260710183000 +0200" channel="La.1.es">
     <title lang="es">Directo Al Grano</title>
     <desc lang="es">Magacine de actualidad social y política con secciones de humor y de verificación de noticias falsas.</desc>
-    <url>https://www.rtve.es/pr/1001478</url>
+    <url>http://www.rtve.es/directo/la-1/</url>
     <icon src="https://img.rtve.es/p/1001478/imgportada?w=400" />
   </programme>
   <programme start="20260710155100 +0200" stop="20260710161600 +0200" channel="Clan.es">
@@ -2944,7 +2874,7 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
   <programme start="20260710170000 +0200" stop="20260710200000 +0200" channel="Canal.24.h.es">
     <title lang="es">La Tarde En 24h</title>
     <desc lang="es">INFORMATIVO EN DIRECTO DE NOTICIAS ENTREVISTAS Y REPORTAJES CON DEDICACIÓN ESPECIAL A LA ECONOMÍA, INTERNACIONAL, CULTURA Y DEPORTE</desc>
-    <url>https://www.rtve.es/pr/30870</url>
+    <url>http://www.rtve.es/directo/canal-24h/</url>
     <icon src="https://img.rtve.es/p/30870/imgportada?w=400" />
   </programme>
   <programme start="20260710170100 +0200" stop="20260710170800 +0200" channel="Clan.es">
@@ -2980,13 +2910,13 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
   <programme start="20260710172500 +0200" stop="20260710175500 +0200" channel="Teledeporte.es">
     <title lang="es">Teledeporte Directo Al Mundial</title>
     <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <url>https://www.rtve.es/pr/1030539</url>
-    <icon src="https://img.rtve.es/p/1030539/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17152164</url>
+    <icon src="https://img.rtve.es/v/17152164?w=400" />
   </programme>
   <programme start="20260710174000 +0200" stop="20260710194000 +0200" channel="La.2.es">
     <title lang="es">Malas Lenguas</title>
     <desc lang="es">Magacine de actualidad social y política y verificación de noticias falsas.</desc>
-    <url>https://www.rtve.es/pr/1001094</url>
+    <url>http://www.rtve.es/directo/la-2/</url>
     <icon src="https://img.rtve.es/p/1001094/imgportada?w=400" />
   </programme>
   <programme start="20260710174300 +0200" stop="20260710180400 +0200" channel="Clan.es">
@@ -2998,12 +2928,13 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
   <programme start="20260710175500 +0200" stop="20260710200500 +0200" channel="Teledeporte.es">
     <title lang="es">Futbol Uefa Cto Europa Sub19 Fem Final</title>
     <desc lang="es">FUTBOL UEFA CTO EUROPA SUB19 FEMENINO 2026</desc>
+    <url>http://www.rtve.es/directo/teledeporte/</url>
     <icon src="https://css.rtve.es/css/rtve.guiatv/dep/dep.jpg" />
   </programme>
   <programme start="20260710180400 +0200" stop="20260710202400 +0200" channel="Clan.es">
     <title lang="es">Grand Prix</title>
     <desc lang="es">El quinto programa del Grand Prix del Verano 2025 nos trae un emocionante enfrentamiento entre L'Alborç (Valencia) y Cubas de la Sagra (Madr...</desc>
-    <url>https://www.rtve.es/pr/174712</url>
+    <url>http://www.rtve.es/play/clan/directo/</url>
     <icon src="https://img.rtve.es/p/174712/imgportada?w=400" />
   </programme>
   <programme start="20260710181000 +0200" stop="20260710190000 +0200" channel="Star.es">
@@ -3036,6 +2967,12 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/6228112</url>
     <icon src="https://img.rtve.es/v/6228112?w=400" />
   </programme>
+  <programme start="20260710200000 +0200" stop="20260710203000 +0200" channel="Canal.24.h.es">
+    <title lang="es">Noticias 24 H</title>
+    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
+    <url>https://www.rtve.es/pr/46052</url>
+    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
+  </programme>
   <programme start="20260710200500 +0200" stop="20260710210000 +0200" channel="La.2.es">
     <title lang="es">Jeopardy</title>
     <desc lang="es">Concurso de conocimientos de cultura general único en el mundo: los concursantes son los que plantean las preguntas y el presentador, las re...</desc>
@@ -3054,11 +2991,23 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/pr/1029900</url>
     <icon src="https://img.rtve.es/p/1029900/imgportada?w=400" />
   </programme>
+  <programme start="20260710201500 +0200" stop="20260710204500 +0200" channel="Teledeporte.es">
+    <title lang="es">Camino A Ny</title>
+    <desc lang="es">FUTBOL COPA DEL MUNDO FIFA 2026</desc>
+    <url>https://www.rtve.es/pr/1030542</url>
+    <icon src="https://img.rtve.es/p/1030542/imgportada?w=400" />
+  </programme>
   <programme start="20260710202400 +0200" stop="20260710204600 +0200" channel="Clan.es">
     <title lang="es">Dragones, Los Nueve Reinos</title>
     <desc lang="es">Tom y los jinetes ayudan a Trueno, que está buscando vengarse de los dragones que ahuyentaron a su familia.</desc>
     <url>https://www.rtve.es/pr/1001087</url>
     <icon src="https://img.rtve.es/p/1001087/imgportada?w=400" />
+  </programme>
+  <programme start="20260710203000 +0200" stop="20260710210000 +0200" channel="Canal.24.h.es">
+    <title lang="es">Noticias 24 H</title>
+    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
+    <url>https://www.rtve.es/pr/46052</url>
+    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
   <programme start="20260710204000 +0200" stop="20260710210000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Zoom Tendencias</title>
@@ -3072,11 +3021,23 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/pr/1030562</url>
     <icon src="https://img.rtve.es/p/1030562/imgportada?w=400" />
   </programme>
+  <programme start="20260710204500 +0200" stop="20260710230000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Copa Mundo Fifa 1/4 España - Belgica</title>
+    <desc lang="es">FUTBOL COPA DEL MUNDO FIFA 2026</desc>
+    <url>https://www.rtve.es/pr/1030562</url>
+    <icon src="https://img.rtve.es/p/1030562/imgportada?w=400" />
+  </programme>
   <programme start="20260710204600 +0200" stop="20260710210800 +0200" channel="Clan.es">
     <title lang="es">Dragones, Los Nueve Reinos</title>
     <desc lang="es">Tom diseña un plan poco convencional para probar los nuevos trajes ignífugos de Alex.</desc>
     <url>https://www.rtve.es/pr/1001087</url>
     <icon src="https://img.rtve.es/p/1001087/imgportada?w=400" />
+  </programme>
+  <programme start="20260710210000 +0200" stop="20260710213000 +0200" channel="Canal.24.h.es">
+    <title lang="es">Noticias 24 H</title>
+    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
+    <url>https://www.rtve.es/pr/46052</url>
+    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
   <programme start="20260710210000 +0200" stop="20260710215000 +0200" channel="La.2.es">
     <title lang="es">Trivial Pursuit</title>
@@ -3108,6 +3069,12 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/16111400</url>
     <icon src="https://img.rtve.es/v/16111400?w=400" />
   </programme>
+  <programme start="20260710213000 +0200" stop="20260710220000 +0200" channel="Canal.24.h.es">
+    <title lang="es">Noticias 24 H</title>
+    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
+    <url>https://www.rtve.es/pr/46052</url>
+    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
+  </programme>
   <programme start="20260710213000 +0200" stop="20260710214500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Reportaje Informe Semanal 24h</title>
     <desc lang="es">INFORMACIÓN ACTUALIZADA EN LOS REPORTAJES DE INFORME SEMANAL</desc>
@@ -3119,11 +3086,23 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <url>https://www.rtve.es/v/17061039</url>
     <icon src="https://img2.rtve.es/v/17061039?w=100" />
   </programme>
+  <programme start="20260710215000 +0200" stop="20260710222000 +0200" channel="La.2.es">
+    <title lang="es">Cifras Y Letras</title>
+    <desc lang="es">Concurso cifras y letras.</desc>
+    <url>https://www.rtve.es/v/16737077</url>
+    <icon src="https://img.rtve.es/v/16737077?w=400" />
+  </programme>
   <programme start="20260710215100 +0200" stop="20260710221200 +0200" channel="Clan.es">
     <title lang="es">Danger Force</title>
     <desc lang="es">Mientras el Equipo Danger ha salido para una misión, Ray acude a su Equipo Danger de clones en busca de ayuda.</desc>
     <url>https://www.rtve.es/v/16113188</url>
     <icon src="https://img.rtve.es/v/16113188?w=400" />
+  </programme>
+  <programme start="20260710220000 +0200" stop="20260710223000 +0200" channel="Canal.24.h.es">
+    <title lang="es">Noticias 24 H</title>
+    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
+    <url>https://www.rtve.es/pr/46052</url>
+    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
   <programme start="20260710220000 +0200" stop="20260710230000 +0200" channel="Star.es">
     <title lang="es">Un Pais Para Reirlo</title>
@@ -3143,6 +3122,12 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <desc lang="es">Es un concurso de preguntas y respuestas en el que se enfrentan dos concursantes en 3 rondas de pruebas</desc>
     <url>https://www.rtve.es/v/16186369</url>
     <icon src="https://img2.rtve.es/v/16186369?w=100" />
+  </programme>
+  <programme start="20260710222000 +0200" stop="20260710225000 +0200" channel="La.2.es">
+    <title lang="es">Plano General</title>
+    <desc lang="es">"Debilita a una democracia que no haya separación de poderes y que se presione a los jueces y la prensa", afirma el periodista Luis del Val</desc>
+    <url>https://www.rtve.es/pr/148650</url>
+    <icon src="https://img.rtve.es/p/148650/imgportada?w=400" />
   </programme>
   <programme start="20260710223500 +0200" stop="20260710225700 +0200" channel="Clan.es">
     <title lang="es">Bob Esponja</title>
@@ -3173,6 +3158,12 @@ PRODUCTOR EJECUTIVO: PEDRO PALACIOS.</desc>
     <desc lang="es">Las hermanas Silva son el alma de las principales fiestas de la alta sociedad madrileña de la época, en el Madrid de 1920.</desc>
     <url>https://www.rtve.es/v/3450723</url>
     <icon src="https://img2.rtve.es/v/3450723?w=100" />
+  </programme>
+  <programme start="20260710230000 +0200" stop="20260711001000 +0200" channel="Teledeporte.es">
+    <title lang="es">Camino A Ny</title>
+    <desc lang="es">FUTBOL COPA DEL MUNDO FIFA 2026</desc>
+    <url>https://www.rtve.es/pr/1030542</url>
+    <icon src="https://img.rtve.es/p/1030542/imgportada?w=400" />
   </programme>
   <programme start="20260710233800 +0200" stop="20260711003000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Rutas Bizarras</title>
