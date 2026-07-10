@@ -226,4 +226,15 @@ def parse_page(page: str, config: SourceConfig) -> list[Programme]:
 class Adapter:
     def fetch_and_parse(self, config: SourceConfig) -> list[Programme]:
         guide_url = str(config.options.get("guide_url", config.homepage))
-        return parse_page(_fetch(guide_url), config)
+        page = _fetch(guide_url)
+
+        # Temporary diagnostic output for GitHub Actions.
+        diagnostic_path = "rtve-response.html"
+        with open(diagnostic_path, "w", encoding="utf-8") as file:
+            file.write(page)
+
+        print(f"Downloaded {len(page)} characters from {guide_url}")
+        print(f"Saved diagnostic response to {diagnostic_path}")
+
+        return parse_page(page, config)
+
