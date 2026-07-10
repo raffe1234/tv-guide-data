@@ -1,45 +1,96 @@
 <!doctype html>
 <html lang="es">
   <body>
-    <section class="international-channel" data-channel="TVE Internacional América">
-      <h2>CANAL: TVE Internacional América</h2>
-      <section class="tvSchedule" data-date="2026-07-10">
-        <article class="mod video_mod sched">
-          <span class="horemi">14:20 - 14:55</span>
-          <h3 class="maintitle">Mañaneros 360</h3>
-          <div class="txtBox"><p>Current affairs magazine.</p></div>
-          <a class="goto_media" href="/play/videos/mananeros-360/">More information</a>
-          <img src="https://img.rtve.es/example/tvei.jpg" alt="" />
-        </article>
-        <article class="mod video_mod sched">
-          <span class="horemi">23:30 - 00:25</span>
-          <h3 class="maintitle">La revuelta</h3>
-        </article>
-      </section>
-    </section>
+    <select id="filtro-canal">
+      <option value="canal-int-eur">TVE Internacional Europa</option>
+      <option value="canal-int-ame">TVE Internacional América</option>
+      <option value="canal-int-asi">TVE Internacional Asia</option>
+      <option value="canal-int-sta">StarHD</option>
+    </select>
 
-    <section class="international-channel" id="schedule-StarHD">
-      <h2>CANAL: StarHD</h2>
-      <section class="tvSchedule">
-        <h3 aria-label="10 de julio de 2026">Hoy</h3>
-        <article class="video_mod sched">
-          <span class="horemi">15:00 - 16:00</span>
-          <h4 class="maintitle">Seis Hermanas</h4>
-        </article>
-        <article class="video_mod sched">
-          <span class="horemi">16:00 - 17:00</span>
-          <h4 class="maintitle">Acacias, 38</h4>
-        </article>
-      </section>
-    </section>
+    <div class="row-canal canal-int-ame" id="row-guia-canal-int-ame">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="item-wrap swiper-slide 2026-07-10">
+            <div class="item-inner disponible">
+              <div
+                class="item trigger none"
+                data-asset="17151347"
+                data-programa="175650"
+                data-title="Mañaneros 360"
+                data-description="Current affairs magazine."
+                data-begindate="2026-07-10 14:20"
+                data-enddate="2026-07-10 14:55"
+              >
+                <img class="thumb" data-src="https://img2.rtve.es/v/17151347?w=100" alt="" />
+                <span class="maintitle">Mañaneros 360</span>
+                <span class="horario">14:20 - 14:55</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-wrap swiper-slide 2026-07-10">
+            <div class="item-inner disponible">
+              <div
+                class="item trigger none"
+                data-asset="17000001"
+                data-programa="170001"
+                data-title="La Revuelta"
+                data-description="Late-night entertainment."
+                data-begindate="2026-07-10 23:30"
+                data-enddate="2026-07-11 00:25"
+              >
+                <img class="thumb" data-src="https://img2.rtve.es/v/17000001?w=100" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <section class="international-channel" data-channel="TVE Internacional Europa">
-      <section class="tvSchedule" data-date="2026-07-10">
-        <article class="mod video_mod sched">
-          <span class="horemi">12:00 - 13:00</span>
-          <h3 class="maintitle">Ignored European programme</h3>
-        </article>
-      </section>
-    </section>
+    <div class="row-canal canal-int-sta" id="row-guia-canal-int-sta">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="item-wrap swiper-slide 2026-07-10">
+            <div class="item-inner disponible">
+              <div
+                class="item trigger none"
+                data-asset="3438781"
+                data-programa="85450"
+                data-title="Seis Hermanas"
+                data-description="Drama series."
+                data-begindate="2026-07-10 15:05"
+                data-enddate="2026-07-10 16:05"
+              >
+                <img class="thumb" data-src="https://img2.rtve.es/v/3438781?w=100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="item-wrap swiper-slide 2026-07-13">
+            <div class="item-inner disponible">
+              <div
+                class="item trigger none"
+                data-asset="5671198"
+                data-programa="94510"
+                data-title="El Caso. Cronica De Sucesos"
+                data-description="Crime drama series."
+                data-begindate="2026-07-13 05:00"
+                data-enddate=" 06:00"
+              >
+                <img class="thumb" data-src="https://img2.rtve.es/v/5671198?w=100" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-canal canal-int-eur" id="row-guia-canal-int-eur">
+      <div
+        class="item"
+        data-title="Ignored European programme"
+        data-begindate="2026-07-10 12:00"
+        data-enddate="2026-07-10 13:00"
+      ></div>
+    </div>
   </body>
 </html>

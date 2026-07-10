@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 import logging
-import re
-from datetime import UTC, date, datetime
+from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 
@@ -11,41 +10,12 @@ from bs4 import BeautifulSoup, Tag
 from ...core.http import fetch_text
 from ...core.models import Channel, GuideConfig, Programme, ProviderConfig
 from ...core.source import SourceProvider
-from .common import (
-    absolute_attribute,
-    normalise,
-    parse_absolute_date,
-    parse_relative_date,
-    parse_time_range,
-    programme_from_node,
-    text,
-)
+from .common import absolute_attribute, match_channel, text
 
 LOGGER = logging.getLogger(__name__)
 
-PROGRAMME_SELECTOR = ", ".join(
-    (
-        ".mod.video_mod.sched",
-        ".video_mod.sched",
-        ".sched",
-        "article.programme",
-        "li.programme",
-        "[data-start][data-stop]",
-        "[data-start][data-end]",
-    )
-)
-
-CHANNEL_ATTRIBUTES = (
-    "data-channel",
-    "data-channel-name",
-    "data-canal",
-    "data-cadena",
-    "data-signal",
-    "aria-label",
-    "id",
-)
-
-DATE_ATTRIBUTES = ("data-date", "data-day", "datetime", "aria-label", "id")
+CHANNEL_OPTION_SELECTOR = "#filtro-canal option[value]"
+PROGRAMME_SELECTOR = ".item[data-begindate][data-enddate]"
 
 
 def _target_channels(guide: GuideConfig, channel_ids: tuple[str, ...]) -> tuple[Channel, ...]:
@@ -57,186 +27,79 @@ def _target_channels(guide: GuideConfig, channel_ids: tuple[str, ...]) -> tuple[
     return channels
 
 
-def _attribute_values(node: Tag, names: tuple[str, ...]) -> list[str]:
-    values: list[str] = []
-    for name in names:
-        value = node.get(name)
-        if isinstance(value, str) and value.strip():
-            values.append(value.strip())
-        elif isinstance(value, list):
-            values.extend(str(item).strip() for item in value if str(item).strip())
-    return values
+def _attribute(node: Tag, name: str) -> str:
+    value = node.get(name)
+    return value.strip() if isinstance(value, str) else ""
 
 
-def _match_context_channel(value: str, channels: tuple[Channel, ...]) -> Channel | None:
-    wanted = normalise(value)
-    if not wanted:
+def _parse_datetime(
+    value: str,
+    timezone_name: str,
+    fallback_date: date | None = None,
+) -> datetime | None:
+    cleaned = " ".join(value.split())
+    timezone = ZoneInfo(timezone_name)
+
+    for format_string in ("%Y-%m-%d %H:%M", "%Y/%m/%d %H:%M"):
+        try:
+            return datetime.strptime(cleaned, format_string).replace(tzinfo=timezone)
+        except ValueError:
+            continue
+
+    if fallback_date is None:
         return None
 
-    matches: list[Channel] = []
-    for channel in channels:
-        candidates = (channel.source_id, *channel.aliases)
-        if any(
-            candidate
-            and (
-                wanted == normalise(candidate)
-                or normalise(candidate) in wanted
-                or wanted in normalise(candidate)
-            )
-            for candidate in candidates
-        ):
-            matches.append(channel)
+    try:
+        clock_time = datetime.strptime(cleaned, "%H:%M").time()
+    except ValueError:
+        return None
 
-    unique = {channel.xmltv_id: channel for channel in matches}
-    return next(iter(unique.values())) if len(unique) == 1 else None
+    return datetime.combine(fallback_date, clock_time, timezone)
 
 
-def _direct_context_values(node: Tag) -> list[str]:
-    values = _attribute_values(node, CHANNEL_ATTRIBUTES)
+def _programme_url(node: Tag, base_url: str) -> str:
+    asset_id = _attribute(node, "data-asset")
+    if asset_id and asset_id != "0":
+        return urljoin(base_url, f"/v/{asset_id}")
 
-    for child in node.find_all(("h1", "h2", "h3", "h4", "legend"), recursive=False):
-        if isinstance(child, Tag):
-            value = child.get_text(" ", strip=True)
-            if value:
-                values.append(value)
+    programme_id = _attribute(node, "data-programa")
+    if programme_id and programme_id != "0":
+        return urljoin(base_url, f"/pr/{programme_id}")
 
-    for item in node.find_all(string=True, recursive=False):
-        value = str(item).strip()
-        if value:
-            values.append(value)
-
-    return values
+    return ""
 
 
-def _channel_from_node(node: Tag, channels: tuple[Channel, ...]) -> Channel | None:
-    direct_label = text(
-        node,
-        ".cademi, .channel-name, .channelName, .canal-name, .canalName",
-    )
-    channel = _match_context_channel(direct_label, channels)
-    if channel is not None:
-        return channel
-
-    for value in _attribute_values(node, CHANNEL_ATTRIBUTES):
-        channel = _match_context_channel(value, channels)
-        if channel is not None:
-            return channel
-
-    current = node
-    for _ in range(10):
-        parent = current.parent
-        if not isinstance(parent, Tag) or parent.name in {"body", "html"}:
-            break
-
-        for value in _direct_context_values(parent):
-            channel = _match_context_channel(value, channels)
-            if channel is not None:
-                return channel
-
-        current = parent
-
-    return None
-
-
-def _date_from_label(label: str, local_now: datetime, timezone_name: str) -> date | None:
-    relative = parse_relative_date(label, local_now)
-    if relative is not None:
-        return relative
-
-    absolute = parse_absolute_date(label, timezone_name)
-    if absolute is not None:
-        return absolute.date()
-
-    normalised = normalise(label)
-    iso_match = re.search(r"\b(20\d{2})[-/]([01]?\d)[-/]([0-3]?\d)\b", normalised)
-    if iso_match:
-        try:
-            return date(
-                int(iso_match.group(1)),
-                int(iso_match.group(2)),
-                int(iso_match.group(3)),
-            )
-        except ValueError:
-            return None
-
-    european_match = re.search(r"\b([0-3]?\d)[-/]([01]?\d)[-/](20\d{2})\b", normalised)
-    if european_match:
-        try:
-            return date(
-                int(european_match.group(3)),
-                int(european_match.group(2)),
-                int(european_match.group(1)),
-            )
-        except ValueError:
-            return None
-
-    return None
-
-
-def _date_from_node(node: Tag, local_now: datetime, timezone_name: str) -> date | None:
-    direct_label = text(node, ".datemi, .date, .day, time[datetime]")
-    schedule_date = _date_from_label(direct_label, local_now, timezone_name)
-    if schedule_date is not None:
-        return schedule_date
-
-    for value in _attribute_values(node, DATE_ATTRIBUTES):
-        schedule_date = _date_from_label(value, local_now, timezone_name)
-        if schedule_date is not None:
-            return schedule_date
-
-    current = node
-    for _ in range(10):
-        parent = current.parent
-        if not isinstance(parent, Tag) or parent.name in {"body", "html"}:
-            break
-
-        for value in _attribute_values(parent, DATE_ATTRIBUTES):
-            schedule_date = _date_from_label(value, local_now, timezone_name)
-            if schedule_date is not None:
-                return schedule_date
-
-        for heading in parent.find_all(("h1", "h2", "h3", "h4", "time"), recursive=False):
-            if not isinstance(heading, Tag):
-                continue
-            values = [heading.get_text(" ", strip=True)]
-            values.extend(_attribute_values(heading, DATE_ATTRIBUTES))
-            for value in values:
-                schedule_date = _date_from_label(value, local_now, timezone_name)
-                if schedule_date is not None:
-                    return schedule_date
-
-        current = parent
-
-    return None
-
-
-def _fallback_programme_from_node(
+def _programme_from_item(
     node: Tag,
     *,
     channel: Channel,
-    day: date,
     timezone_name: str,
     base_url: str,
 ) -> Programme | None:
-    title = text(node, ".maintitle, .title, .program-title, .programme-title, h3, h4")
-    time_value = text(node, ".horemi, .time, .schedule-time, .programme-time")
-
-    if not time_value:
-        start_value = str(node.get("data-start") or "").strip()
-        stop_value = str(node.get("data-stop") or node.get("data-end") or "").strip()
-        if start_value and stop_value:
-            time_value = f"{start_value} - {stop_value}"
-
-    parsed = parse_time_range(time_value, day, timezone_name)
-    if not title or parsed is None:
+    start = _parse_datetime(_attribute(node, "data-begindate"), timezone_name)
+    if start is None:
         return None
 
-    start, stop = parsed
-    description = text(node, ".txtBox > p, .description, .summary, p")
-    url = absolute_attribute(node, "a[href]", "href", base_url)
-    icon = absolute_attribute(node, "img[src]", "src", base_url)
+    stop = _parse_datetime(
+        _attribute(node, "data-enddate"),
+        timezone_name,
+        fallback_date=start.date(),
+    )
+    if stop is None:
+        return None
+    if stop <= start:
+        stop += timedelta(days=1)
+
+    title = _attribute(node, "data-title") or text(node, ".maintitle")
+    if not title:
+        return None
+
+    description = _attribute(node, "data-description") or text(node, ".cat-detalle")
+    icon = absolute_attribute(node, "img.thumb[data-src]", "data-src", base_url)
     if not icon:
         icon = absolute_attribute(node, "img[data-src]", "data-src", base_url)
+    if not icon:
+        icon = absolute_attribute(node, "img[src]", "src", base_url)
 
     return Programme(
         channel_id=channel.xmltv_id,
@@ -244,9 +107,37 @@ def _fallback_programme_from_node(
         stop=stop,
         title=title,
         description=description,
-        url=urljoin(base_url, url) if url else "",
-        icon=urljoin(base_url, icon) if icon else "",
+        url=_programme_url(node, base_url),
+        icon=icon,
     )
+
+
+def _channel_rows(
+    soup: BeautifulSoup,
+    channels: tuple[Channel, ...],
+) -> list[tuple[Channel, Tag]]:
+    rows: list[tuple[Channel, Tag]] = []
+    seen: set[tuple[str, str]] = set()
+
+    for option in soup.select(CHANNEL_OPTION_SELECTOR):
+        if not isinstance(option, Tag):
+            continue
+
+        channel = match_channel(option.get_text(" ", strip=True), channels)
+        row_key = _attribute(option, "value")
+        if channel is None or not row_key:
+            continue
+
+        unique_key = (channel.xmltv_id, row_key)
+        if unique_key in seen:
+            continue
+        seen.add(unique_key)
+
+        row = soup.find(id=f"row-guia-{row_key}")
+        if isinstance(row, Tag):
+            rows.append((channel, row))
+
+    return rows
 
 
 def parse_page(
@@ -255,63 +146,47 @@ def parse_page(
     channel_ids: tuple[str, ...],
     now: datetime | None = None,
 ) -> list[Programme]:
-    local_now = (now or datetime.now(tz=UTC)).astimezone(ZoneInfo(guide.timezone))
+    del now  # The international page provides absolute dates for every programme.
+
     channels = _target_channels(guide, channel_ids)
     soup = BeautifulSoup(page, "html.parser")
+    rows = _channel_rows(soup, channels)
 
     found: dict[tuple[str, datetime, datetime, str], Programme] = {}
     candidate_count = 0
-    skipped_channel = 0
-    skipped_date = 0
-    skipped_programme = 0
-    seen_nodes: set[int] = set()
+    invalid_count = 0
 
-    for node in soup.select(PROGRAMME_SELECTOR):
-        if not isinstance(node, Tag) or id(node) in seen_nodes:
-            continue
-        seen_nodes.add(id(node))
-        candidate_count += 1
+    for channel, row in rows:
+        for node in row.select(PROGRAMME_SELECTOR):
+            if not isinstance(node, Tag):
+                continue
+            candidate_count += 1
 
-        channel = _channel_from_node(node, channels)
-        if channel is None:
-            skipped_channel += 1
-            continue
-
-        schedule_date = _date_from_node(node, local_now, guide.timezone)
-        if schedule_date is None:
-            skipped_date += 1
-            continue
-
-        programme = programme_from_node(
-            node,
-            channel=channel,
-            day=schedule_date,
-            timezone_name=guide.timezone,
-            base_url=guide.homepage,
-        )
-        if programme is None:
-            programme = _fallback_programme_from_node(
+            programme = _programme_from_item(
                 node,
                 channel=channel,
-                day=schedule_date,
                 timezone_name=guide.timezone,
                 base_url=guide.homepage,
             )
-        if programme is None:
-            skipped_programme += 1
-            continue
+            if programme is None:
+                invalid_count += 1
+                continue
 
-        key = (programme.channel_id, programme.start, programme.stop, programme.title)
-        found[key] = programme
+            key = (
+                programme.channel_id,
+                programme.start,
+                programme.stop,
+                programme.title,
+            )
+            found[key] = programme
 
     LOGGER.info(
-        "International parser inspected %d candidates: %d programmes, "
-        "%d without a target channel, %d without a date, %d without programme data",
+        "International parser inspected %d candidates across %d channel rows: "
+        "%d programmes, %d invalid",
         candidate_count,
+        len(rows),
         len(found),
-        skipped_channel,
-        skipped_date,
-        skipped_programme,
+        invalid_count,
     )
 
     return sorted(found.values(), key=lambda item: (item.start, item.channel_id, item.title))

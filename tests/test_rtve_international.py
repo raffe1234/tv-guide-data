@@ -23,5 +23,17 @@ def test_international_fixture() -> None:
         "TVE.Internacional.es",
         "Star.es",
     }
-    assert programmes[0].start.date().isoformat() == "2026-07-10"
-    assert any(programme.stop.date().isoformat() == "2026-07-11" for programme in programmes)
+
+    morning_show = next(programme for programme in programmes if programme.title == "Mañaneros 360")
+    assert morning_show.start.isoformat() == "2026-07-10T14:20:00+02:00"
+    assert morning_show.stop.isoformat() == "2026-07-10T14:55:00+02:00"
+    assert morning_show.url == "https://www.rtve.es/v/17151347"
+    assert morning_show.icon == "https://img2.rtve.es/v/17151347?w=100"
+
+    late_show = next(programme for programme in programmes if programme.title == "La Revuelta")
+    assert late_show.stop.isoformat() == "2026-07-11T00:25:00+02:00"
+
+    malformed_stop = next(
+        programme for programme in programmes if programme.title == "El Caso. Cronica De Sucesos"
+    )
+    assert malformed_stop.stop.isoformat() == "2026-07-13T06:00:00+02:00"
