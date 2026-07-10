@@ -237,4 +237,3 @@ class Adapter:
         print(f"Saved diagnostic response to {diagnostic_path}")
 
         return parse_page(page, config)
-
