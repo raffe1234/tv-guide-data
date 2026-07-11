@@ -42,3 +42,6 @@ class GuideConfig:
     providers: tuple[ProviderConfig, ...]
     required_channels: tuple[str, ...] = ()
     minimum_programmes_per_channel: int = 1
+    coverage_channels: tuple[str, ...] = ()
+    minimum_future_hours: float = 0.0
+    maximum_gap_hours: float = 24.0

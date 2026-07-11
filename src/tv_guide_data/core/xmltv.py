@@ -6,6 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import cast
 from xml.etree import ElementTree as ET
+from zoneinfo import ZoneInfo
 
 from .models import GuideConfig, Programme
 
@@ -14,7 +15,48 @@ def _timestamp(value: datetime) -> str:
     return value.strftime("%Y%m%d%H%M%S %z")
 
 
-def validate(config: GuideConfig, programmes: list[Programme]) -> None:
+def _validate_future_coverage(
+    config: GuideConfig,
+    programmes: list[Programme],
+    reference: datetime,
+) -> None:
+    for channel_id in config.coverage_channels:
+        channel_programmes = sorted(
+            (
+                programme
+                for programme in programmes
+                if programme.channel_id == channel_id and programme.stop > reference
+            ),
+            key=lambda item: (item.start, item.stop, item.title),
+        )
+
+        cursor = reference
+        for programme in channel_programmes:
+            if programme.start > cursor:
+                gap_hours = (programme.start - cursor).total_seconds() / 3600
+                if gap_hours > config.maximum_gap_hours:
+                    raise RuntimeError(
+                        f"Channel {channel_id} has a future schedule gap of "
+                        f"{gap_hours:.1f} hours; maximum is "
+                        f"{config.maximum_gap_hours:.1f}."
+                    )
+            if programme.stop > cursor:
+                cursor = programme.stop
+
+        future_hours = max(0.0, (cursor - reference).total_seconds() / 3600)
+        if future_hours < config.minimum_future_hours:
+            raise RuntimeError(
+                f"Channel {channel_id} has {future_hours:.1f} hours of future "
+                f"coverage; minimum is {config.minimum_future_hours:.1f}."
+            )
+
+
+def validate(
+    config: GuideConfig,
+    programmes: list[Programme],
+    *,
+    now: datetime | None = None,
+) -> None:
     if len(programmes) < config.minimum_programmes:
         raise RuntimeError(
             f"Only {len(programmes)} programmes were found; minimum is {config.minimum_programmes}."
@@ -39,6 +81,12 @@ def validate(config: GuideConfig, programmes: list[Programme]) -> None:
                 f"Channel {channel_id} has {count} programmes; minimum is "
                 f"{config.minimum_programmes_per_channel}."
             )
+
+    if config.coverage_channels:
+        reference = now or datetime.now(ZoneInfo(config.timezone))
+        if reference.tzinfo is None:
+            raise ValueError("Coverage validation reference time must be timezone-aware")
+        _validate_future_coverage(config, programmes, reference)
 
 
 def render(config: GuideConfig, programmes: list[Programme]) -> bytes:

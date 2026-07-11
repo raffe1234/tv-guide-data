@@ -14,6 +14,10 @@ def _required_string(data: dict[str, Any], key: str) -> str:
     return value.strip()
 
 
+def _configured_ids(channels: tuple[Channel, ...]) -> set[str]:
+    return {channel.xmltv_id for channel in channels}
+
+
 def _load_channel_validation(
     data: dict[str, Any], channels: tuple[Channel, ...], path: Path
 ) -> tuple[tuple[str, ...], int]:
@@ -32,12 +36,40 @@ def _load_channel_validation(
     if minimum_per_channel < 1:
         raise ValueError("channel_validation.minimum_per_channel must be at least 1")
 
-    configured_ids = {channel.xmltv_id for channel in channels}
-    unknown_ids = sorted(set(required_channels) - configured_ids)
+    unknown_ids = sorted(set(required_channels) - _configured_ids(channels))
     if unknown_ids:
         raise ValueError(f"Unknown required channel ids in {path}: {', '.join(unknown_ids)}")
 
     return required_channels, minimum_per_channel
+
+
+def _load_coverage_validation(
+    data: dict[str, Any], channels: tuple[Channel, ...], path: Path
+) -> tuple[tuple[str, ...], float, float]:
+    raw_validation = data.get("coverage_validation", {})
+    if not isinstance(raw_validation, dict):
+        raise ValueError(f"Invalid coverage_validation in {path}")
+
+    raw_channels = raw_validation.get("channels", [])
+    if not isinstance(raw_channels, list) or not all(
+        isinstance(value, str) and value.strip() for value in raw_channels
+    ):
+        raise ValueError(f"Invalid coverage_validation.channels in {path}")
+
+    coverage_channels = tuple(value.strip() for value in raw_channels)
+    minimum_future_hours = float(raw_validation.get("minimum_future_hours", 0))
+    maximum_gap_hours = float(raw_validation.get("maximum_gap_hours", 24))
+
+    if coverage_channels and minimum_future_hours <= 0:
+        raise ValueError("coverage_validation.minimum_future_hours must be greater than 0")
+    if maximum_gap_hours <= 0:
+        raise ValueError("coverage_validation.maximum_gap_hours must be greater than 0")
+
+    unknown_ids = sorted(set(coverage_channels) - _configured_ids(channels))
+    if unknown_ids:
+        raise ValueError(f"Unknown coverage channel ids in {path}: {', '.join(unknown_ids)}")
+
+    return coverage_channels, minimum_future_hours, maximum_gap_hours
 
 
 def load_guide_config(path: Path) -> GuideConfig:
@@ -66,6 +98,9 @@ def load_guide_config(path: Path) -> GuideConfig:
         raise ValueError(f"No providers configured in {path}")
 
     required_channels, minimum_per_channel = _load_channel_validation(data, channels, path)
+    coverage_channels, minimum_future_hours, maximum_gap_hours = _load_coverage_validation(
+        data, channels, path
+    )
 
     return GuideConfig(
         name=_required_string(data, "name"),
@@ -78,4 +113,7 @@ def load_guide_config(path: Path) -> GuideConfig:
         providers=providers,
         required_channels=required_channels,
         minimum_programmes_per_channel=minimum_per_channel,
+        coverage_channels=coverage_channels,
+        minimum_future_hours=minimum_future_hours,
+        maximum_gap_hours=maximum_gap_hours,
     )

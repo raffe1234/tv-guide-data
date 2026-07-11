@@ -23,31 +23,49 @@
       "xmltv_id": "La.1.es",
       "display_name": "La 1",
       "source_id": "La 1",
-      "aliases": ["La 1", "La.1.es"]
+      "aliases": [
+        "La 1",
+        "La.1.es"
+      ]
     },
     {
       "xmltv_id": "La.2.es",
       "display_name": "La 2",
       "source_id": "La 2",
-      "aliases": ["La 2", "La.2.es"]
+      "aliases": [
+        "La 2",
+        "La.2.es"
+      ]
     },
     {
       "xmltv_id": "Canal.24.h.es",
       "display_name": "Canal 24 Horas",
       "source_id": "Canal 24 Horas",
-      "aliases": ["24 Horas", "Canal 24 Horas", "Canal 24 h", "Canal.24.h.es"]
+      "aliases": [
+        "24 Horas",
+        "Canal 24 Horas",
+        "Canal 24 h",
+        "Canal.24.h.es"
+      ]
     },
     {
       "xmltv_id": "Teledeporte.es",
       "display_name": "Teledeporte",
       "source_id": "Teledeporte",
-      "aliases": ["Teledeporte", "Teledeporte.es"]
+      "aliases": [
+        "Teledeporte",
+        "Teledeporte.es"
+      ]
     },
     {
       "xmltv_id": "Clan.es",
       "display_name": "Clan",
       "source_id": "Clan",
-      "aliases": ["Clan", "Clan TVE", "Clan.es"]
+      "aliases": [
+        "Clan",
+        "Clan TVE",
+        "Clan.es"
+      ]
     },
     {
       "xmltv_id": "TVE.Internacional.es",
@@ -64,7 +82,12 @@
       "xmltv_id": "Star.es",
       "display_name": "Star TVE HD",
       "source_id": "StarHD",
-      "aliases": ["StarHD", "Star HD", "Star TVE HD", "Star.es"]
+      "aliases": [
+        "StarHD",
+        "Star HD",
+        "Star TVE HD",
+        "Star.es"
+      ]
     },
     {
       "xmltv_id": "Clan.Internacional.es",
@@ -83,7 +106,12 @@
     {
       "adapter": "tv_guide_data.sources.rtve.national:NationalProvider",
       "options": {
-        "url": "https://www.rtve.es/play/guia-tve/"
+        "urls": [
+          "https://www.rtve.es/play/guia-tve/",
+          "https://www.rtve.es/play/guia-tve/manana/",
+          "https://www.rtve.es/play/guia-tve/2-dias/",
+          "https://www.rtve.es/play/guia-tve/3-dias/"
+        ]
       }
     },
     {
@@ -96,7 +124,10 @@
       "adapter": "tv_guide_data.sources.rtve.international:InternationalProvider",
       "options": {
         "url": "https://www.rtve.es/play/tve-internacional/suecia/",
-        "channel_ids": ["TVE.Internacional.es", "Star.es"]
+        "channel_ids": [
+          "TVE.Internacional.es",
+          "Star.es"
+        ]
       }
     },
     {
@@ -109,5 +140,15 @@
         "future_hours": 48
       }
     }
-  ]
+  ],
+  "coverage_validation": {
+    "channels": [
+      "La.1.es",
+      "La.2.es",
+      "Canal.24.h.es",
+      "Teledeporte.es"
+    ],
+    "minimum_future_hours": 48,
+    "maximum_gap_hours": 6
+  }
 }
