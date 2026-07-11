@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import logging
 from collections.abc import Mapping
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import cast
 from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
@@ -98,7 +98,7 @@ def _schedule_url(
     if now.tzinfo is None:
         raise ValueError("Schedule reference time must be timezone-aware")
 
-    reference = now.astimezone(timezone.utc)
+    reference = now.astimezone(UTC)
     start_time = int((reference - timedelta(hours=past_hours)).timestamp())
     end_time = int((reference + timedelta(hours=future_hours)).timestamp())
 
@@ -243,7 +243,7 @@ class ClanInternationalProvider(SourceProvider):
         url = _schedule_url(
             base_url,
             source_channel_pid=source_channel_pid,
-            now=datetime.now(timezone.utc),
+            now=datetime.now(UTC),
             past_hours=past_hours,
             future_hours=future_hours,
         )

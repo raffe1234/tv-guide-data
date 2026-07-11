@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
@@ -30,7 +30,7 @@ def test_movistar_argentina_clan_fixture() -> None:
 
 
 def test_schedule_url_uses_unix_seconds() -> None:
-    now = datetime(2026, 7, 11, 7, 0, tzinfo=timezone.utc)
+    now = datetime(2026, 7, 11, 7, 0, tzinfo=UTC)
 
     url = _schedule_url(
         "https://example.test/schedules",
