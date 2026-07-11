@@ -1,0 +1,127 @@
+{
+  "Content": [
+    {
+      "Pid": "LSC633671875",
+      "AgeRatingPid": "AGE117",
+      "LiveChannelPid": "LCH5662",
+      "LiveProgramPid": "LPR286490804",
+      "Start": 1783710780,
+      "End": 1783711500,
+      "Title": "Yoko",
+      "Description": "Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.",
+      "EpgNetworkDvr": false,
+      "CallLetter": "Clan",
+      "ChannelName": "CLAN",
+      "ChannelNumber": 512,
+      "EpgSerieId": 2835400,
+      "SeriesId": 2835400,
+      "SeasonNumber": 0,
+      "SeriesPid": "LSR206655",
+      "SeasonPid": "LSE278532",
+      "LiveToVod": "MOV50515551",
+      "Images": {
+        "VideoFrame": [
+          {
+            "Pid": "IMA23753935",
+            "ImageOrder": 0,
+            "SourceImageWidth": 1920,
+            "SourceImageHeight": 1080,
+            "ImageClass": "0",
+            "Url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg",
+            "SourceImageFormat": "Jpeg"
+          }
+        ],
+        "Banner": []
+      },
+      "Relations": {
+        "GenrePids": [
+          "GEN3",
+          "GEN722",
+          "GEN2",
+          "GEN645",
+          "GEN641"
+        ]
+      },
+      "Attributes": {
+        "ca_cpvrDisable": [
+          "True"
+        ],
+        "ca_descriptors": [],
+        "ca_blackout_target": [],
+        "ca_blackout_areas": []
+      }
+    },
+    {
+      "Pid": "LSC633673297",
+      "AgeRatingPid": "AGE117",
+      "LiveChannelPid": "LCH5662",
+      "LiveProgramPid": "LPR287211928",
+      "Start": 1783712220,
+      "End": 1783712940,
+      "Title": "Monster Loving Maniacs : La abuela y el hombre loco",
+      "Description": "Un técnico llama al timbre de los Van Alten para instalar una red de área local inalámbrica. Tras mirar al técnico a los ojos, Arthur decide congelarlo con una sustancia de efecto retardado. Su diagnóstico confirma que es un hombre lobo.",
+      "EpgNetworkDvr": false,
+      "CallLetter": "Clan",
+      "ChannelName": "CLAN",
+      "ChannelNumber": 512,
+      "EpgSerieId": 4925581,
+      "SeriesId": 4925581,
+      "SeasonNumber": 1,
+      "SeriesPid": "LSR289295",
+      "SeasonPid": "LSE390488",
+      "LiveToVod": "MOV50515489",
+      "Images": {
+        "VideoFrame": [
+          {
+            "Pid": "IMA23735626",
+            "ImageOrder": 0,
+            "SourceImageWidth": 1920,
+            "SourceImageHeight": 1080,
+            "ImageClass": "0",
+            "Url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/73/23735626_179149104ffbd776024a3dcedb446bc5.jpg",
+            "SourceImageFormat": "Jpeg"
+          }
+        ],
+        "Banner": []
+      },
+      "Relations": {
+        "GenrePids": [
+          "GEN3",
+          "GEN722",
+          "GEN2",
+          "GEN641"
+        ]
+      },
+      "Attributes": {
+        "ca_cpvrDisable": [
+          "True"
+        ],
+        "ca_descriptors": [],
+        "ca_blackout_target": [],
+        "ca_blackout_areas": []
+      }
+    },
+    {
+      "Pid": "LSC-FOREIGN",
+      "LiveChannelPid": "LCH9999",
+      "Start": 1783712220,
+      "End": 1783712940,
+      "Title": "Ignored channel",
+      "Description": "This entry belongs to another channel.",
+      "Images": {}
+    },
+    {
+      "Pid": "LSC-BROKEN",
+      "LiveChannelPid": "LCH5662",
+      "Start": 1783712940,
+      "End": 1783712940,
+      "Title": "Invalid duration",
+      "Description": "",
+      "Images": {}
+    }
+  ],
+  "HttpStatusCode": 200,
+  "Severity": 1,
+  "StatusCode": 0,
+  "StatusMessage": "OK"
+}
