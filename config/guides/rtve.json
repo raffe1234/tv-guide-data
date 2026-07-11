@@ -106,12 +106,14 @@
     {
       "adapter": "tv_guide_data.sources.rtve.national:NationalProvider",
       "options": {
-        "urls": [
-          "https://www.rtve.es/play/guia-tve/",
-          "https://www.rtve.es/play/guia-tve/manana/",
-          "https://www.rtve.es/play/guia-tve/2-dias/",
-          "https://www.rtve.es/play/guia-tve/3-dias/"
-        ]
+        "url": "https://www.rtve.es/play/guia-tve/",
+        "channel_ids": [
+          "La.1.es",
+          "La.2.es",
+          "Canal.24.h.es",
+          "Teledeporte.es"
+        ],
+        "past_hours": 12
       }
     },
     {
@@ -140,5 +142,15 @@
         "future_hours": 48
       }
     }
-  ]
+  ],
+  "coverage_validation": {
+    "channels": [
+      "La.1.es",
+      "La.2.es",
+      "Canal.24.h.es",
+      "Teledeporte.es"
+    ],
+    "minimum_future_hours": 24,
+    "maximum_gap_hours": 6
+  }
 }
