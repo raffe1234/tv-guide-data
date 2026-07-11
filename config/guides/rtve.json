@@ -140,15 +140,5 @@
         "future_hours": 48
       }
     }
-  ],
-  "coverage_validation": {
-    "channels": [
-      "La.1.es",
-      "La.2.es",
-      "Canal.24.h.es",
-      "Teledeporte.es"
-    ],
-    "minimum_future_hours": 48,
-    "maximum_gap_hours": 6
-  }
+  ]
 }
