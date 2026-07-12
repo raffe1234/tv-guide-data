@@ -173,6 +173,12 @@ The publication workflow stays successful, while the relevant warning workflow i
 GitHub's normal failed-workflow notification has a warning-specific subject. Warning details and a
 link to the successful publication run are included in the failed workflow summary.
 
+The dispatch requests use the `WORKFLOW_DISPATCH_TOKEN` repository secret. Store a fine-grained
+personal access token owned by the notification recipient in this secret. Restrict the token to this
+repository and grant only `Actions: Read and write`. Using a user token makes GitHub attribute the
+warning workflow run to that user, which allows that user's normal Actions failure notifications to
+apply. The token is not used for guide publication or repository contents.
+
 ## Adding or changing a provider
 
 When a schedule source or parser changes:
