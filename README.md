@@ -161,27 +161,16 @@ The repository contains two main workflows:
 After a successful scheduled build, changed XML and XML.GZ files are committed to `main` by `github-actions[bot]`.
 
 
-### Coverage warning email
+### Coverage warning notifications
 
 When a configured channel has too little future coverage or a gap above the warning threshold, the
-workflow still publishes the guide and adds a warning annotation and job summary. It can also send an
-email without making publication depend on the mail service.
+workflow writes and publishes the guide before reporting the warning as a failed workflow run. This
+preserves the usable channel data while allowing GitHub's normal failed-workflow notifications to
+alert repository subscribers. The warning details are also shown as annotations and in the job
+summary.
 
-Configure these GitHub Actions repository secrets:
-
-```text
-SMTP_HOST
-SMTP_PORT
-SMTP_SECURITY
-SMTP_USERNAME
-SMTP_PASSWORD
-SMTP_FROM
-GUIDE_ALERT_TO
-```
-
-Use `starttls` or `ssl` for `SMTP_SECURITY`. Store the recipient address in `GUIDE_ALERT_TO` instead
-of committing it to the public repository. If the SMTP settings are missing or email delivery fails,
-the workflow records a warning and continues.
+A red workflow status can therefore mean either that publication failed or that publication completed
+with coverage warnings. Review the failed step and job summary to distinguish the two cases.
 
 ## Adding or changing a provider
 
