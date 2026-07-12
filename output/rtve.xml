@@ -2221,27 +2221,11 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <url>https://www.rtve.es/v/17122718</url>
     <icon src="https://img2.rtve.es/v/17122718?w=100" />
   </programme>
-  <programme start="20260711230000 +0200" stop="20260711233000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/v/17152945</url>
-    <icon src="https://img.rtve.es/v/17152945?w=400" />
-  </programme>
-  <programme start="20260711232300 +0200" stop="20260711233000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : Wawaland es una selva</title>
-    <desc lang="es">Se ve las húmedas selvas del Amazonas, y Wawaland comienza a llenarse de animales exóticos y plantas exuberantes.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
-  </programme>
   <programme start="20260711233000 +0200" stop="20260712000000 +0200" channel="Canal.24.h.es">
     <title lang="es">Secuencias En 24</title>
     <desc lang="es">PROGRAMA DEDICADO A ENTREVISTAS DE CINE</desc>
     <url>https://www.rtve.es/v/17153232</url>
     <icon src="https://img.rtve.es/v/17153232?w=400" />
-  </programme>
-  <programme start="20260711233000 +0200" stop="20260711233800 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : Inspira, expira</title>
-    <desc lang="es">Sha ve a un grupo de niños jugando al escondite y decide unirse al juego. Sin embargo, solo Opo presta atención a la explicación de las reglas.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
   </programme>
   <programme start="20260711233800 +0200" stop="20260711234400 +0200" channel="Clan.Internacional.es">
     <title lang="es">Llamada peluche : Miedo a la oscuridad</title>
@@ -3237,7 +3221,7 @@ aparición de Mario que lo ha cambiado todo.</desc>
   <programme start="20260712111000 +0200" stop="20260712112200 +0200" channel="Clan.es">
     <title lang="es">Vida La Veterinaria</title>
     <desc lang="es">Zigzag necesita llevar un parche en el ojo y un collar para que no se rasque y se cure. Vida pide ayuda a Melaza, un caracol dispuesto a ayu...</desc>
-    <url>http://www.rtve.es/play/clan/directo/</url>
+    <url>https://www.rtve.es/v/16415305</url>
     <icon src="https://img.rtve.es/v/16415305?w=400" />
   </programme>
   <programme start="20260712111600 +0200" stop="20260712112300 +0200" channel="Clan.Internacional.es">
@@ -3248,7 +3232,7 @@ aparición de Mario que lo ha cambiado todo.</desc>
   <programme start="20260712112200 +0200" stop="20260712113400 +0200" channel="Clan.es">
     <title lang="es">Vida La Veterinaria</title>
     <desc lang="es">Zigzag se lastima el pie.</desc>
-    <url>https://www.rtve.es/v/16415310</url>
+    <url>http://www.rtve.es/play/clan/directo/</url>
     <icon src="https://img.rtve.es/v/16415310?w=400" />
   </programme>
   <programme start="20260712112300 +0200" stop="20260712113000 +0200" channel="Clan.Internacional.es">
@@ -6534,11 +6518,21 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <desc lang="es">Con sus gafalejos, Sha ve un auto japonés, y al describirlo, los Wawies sueñan con tener uno. Acá construye su propio auto, el Wawacar, y ahora todos los Wawies lo quieren. Les gusta ir rápido.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
   </programme>
+  <programme start="20260714113000 +0200" stop="20260714113800 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : La ola perfecta</title>
+    <desc lang="es">Wawaland está pasando por Australia y hay un viento perfecto para surfear, así que Bow quiere surfear junto a los arrecifes y aprovechar las olas, pero Opo no le deja porque, junto con las olas, ha llegado nueva fauna.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
+  </programme>
   <programme start="20260714113000 +0200" stop="20260714123000 +0200" channel="Star.es">
     <title lang="es">El Condensador De Fluzo</title>
     <desc lang="es">Programa de divulgación histórica</desc>
     <url>https://www.rtve.es/v/6797698</url>
     <icon src="https://img2.rtve.es/v/6797698?w=100" />
+  </programme>
+  <programme start="20260714113800 +0200" stop="20260714114400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Llamada peluche</title>
+    <desc lang="es">Cuando los niños se van a la escuela y mamá y papá al trabajo, los peluches cobran vida, exploran la casa y se meten en problemas. Cuando las cosas se ponen difíciles y necesitan ayuda, llaman a sus amigos, los niños, en busca de consejos.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
   </programme>
   <programme start="20260714123000 +0200" stop="20260714133000 +0200" channel="Star.es">
     <title lang="es">El Hombre De Tu Vida</title>
