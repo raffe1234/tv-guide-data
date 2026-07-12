@@ -2192,23 +2192,11 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <url>https://www.rtve.es/v/17124759</url>
     <icon src="https://img2.rtve.es/v/17124759?w=100" />
   </programme>
-  <programme start="20260711220500 +0200" stop="20260711235000 +0200" channel="La.1.es">
-    <title lang="es">Plan De C1ne El Secreto De Adaline</title>
-    <desc lang="es">Adaline Bowman, nacida a comienzos del siglo XX, adquiere a los 29 años la eterna juventud tras un accidente.</desc>
-    <url>https://www.rtve.es/v/17149870</url>
-    <icon src="https://img.rtve.es/v/17149870?w=400" />
-  </programme>
   <programme start="20260711220500 +0200" stop="20260711223500 +0200" channel="Star.es">
     <title lang="es">Beatus Ille</title>
     <desc lang="es">En Alfarnate celebran el "Sakura", un día ambientado en el hanami. La fiesta de origen japonés que conmemora el inicio de la primavera.</desc>
     <url>https://www.rtve.es/v/16295177</url>
     <icon src="https://img2.rtve.es/v/16295177?w=100" />
-  </programme>
-  <programme start="20260711221500 +0200" stop="20260711234000 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Programa Gran Estadio Mundial 2026</title>
-    <desc lang="es">FUTBOL PROGRAMA GRAN ESTADIO MUNDIAL 2026</desc>
-    <url>https://www.rtve.es/pr/1030521</url>
-    <icon src="https://img.rtve.es/p/1030521/imgportada?w=400" />
   </programme>
   <programme start="20260711223500 +0200" stop="20260712000500 +0200" channel="Star.es">
     <title lang="es">Cine. Acantilado</title>
@@ -2226,11 +2214,6 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <desc lang="es">PROGRAMA DEDICADO A ENTREVISTAS DE CINE</desc>
     <url>https://www.rtve.es/v/17153232</url>
     <icon src="https://img.rtve.es/v/17153232?w=400" />
-  </programme>
-  <programme start="20260711233800 +0200" stop="20260711234400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Llamada peluche : Miedo a la oscuridad</title>
-    <desc lang="es">Benson no está a gusto en su cama porque cuando se apaga la luz, ve monstruos y cuando se duerme, tiene sueños feos.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
   </programme>
   <programme start="20260711234000 +0200" stop="20260712011000 +0200" channel="TVE.Internacional.es">
     <title lang="es">De Tapas Por España</title>
@@ -3232,7 +3215,7 @@ aparición de Mario que lo ha cambiado todo.</desc>
   <programme start="20260712112200 +0200" stop="20260712113400 +0200" channel="Clan.es">
     <title lang="es">Vida La Veterinaria</title>
     <desc lang="es">Zigzag se lastima el pie.</desc>
-    <url>http://www.rtve.es/play/clan/directo/</url>
+    <url>https://www.rtve.es/v/16415310</url>
     <icon src="https://img.rtve.es/v/16415310?w=400" />
   </programme>
   <programme start="20260712112300 +0200" stop="20260712113000 +0200" channel="Clan.Internacional.es">
@@ -3260,7 +3243,7 @@ aparición de Mario que lo ha cambiado todo.</desc>
   <programme start="20260712113400 +0200" stop="20260712114600 +0200" channel="Clan.es">
     <title lang="es">Vida La Veterinaria</title>
     <desc lang="es">Cuando Kipp no entiende por qué se marea, Vida tendrá que resolver el misterio haciéndole un chequeo.</desc>
-    <url>https://www.rtve.es/v/16416956</url>
+    <url>http://www.rtve.es/play/clan/directo/</url>
     <icon src="https://img.rtve.es/v/16416956?w=400" />
   </programme>
   <programme start="20260712113500 +0200" stop="20260712130500 +0200" channel="La.1.es">
@@ -6533,6 +6516,11 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <title lang="es">Llamada peluche</title>
     <desc lang="es">Cuando los niños se van a la escuela y mamá y papá al trabajo, los peluches cobran vida, exploran la casa y se meten en problemas. Cuando las cosas se ponen difíciles y necesitan ayuda, llaman a sus amigos, los niños, en busca de consejos.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
+  </programme>
+  <programme start="20260714114400 +0200" stop="20260714115700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Súper Dino : Motociclistas de la ciudad Koong Koong</title>
+    <desc lang="es">Cryol y su banda llegan a la ciudad de Koong Koong conduciendo de forma ruidosa y temeraria, sembrando el caos por todas sus calles. El Equipo Rex tiene que vencer a la banda de Cryol en una carrera para sacarlos de la ciudad de Koong Koong.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/53/25535840_25590f1be37cc903d9fa2d969521dc1c.jpg" />
   </programme>
   <programme start="20260714123000 +0200" stop="20260714133000 +0200" channel="Star.es">
     <title lang="es">El Hombre De Tu Vida</title>
