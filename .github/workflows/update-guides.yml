@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -35,9 +36,29 @@ jobs:
         id: build
         run: |
           warning_file="$RUNNER_TEMP/tv-guide-warnings.txt"
+          future_coverage_file="$RUNNER_TEMP/tv-guide-future-coverage-warnings.txt"
+          schedule_gap_file="$RUNNER_TEMP/tv-guide-schedule-gap-warnings.txt"
+
           python scripts/build.py --warning-file "$warning_file"
+
+          grep -F "hours of future coverage; warning threshold is" "$warning_file" \
+            > "$future_coverage_file" || true
+          grep -F "future schedule gap of" "$warning_file" \
+            > "$schedule_gap_file" || true
+
+          if [[ -s "$future_coverage_file" ]]; then
+            echo "has_future_coverage_warnings=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_future_coverage_warnings=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [[ -s "$schedule_gap_file" ]]; then
+            echo "has_schedule_gap_warnings=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_schedule_gap_warnings=false" >> "$GITHUB_OUTPUT"
+          fi
+
           if [[ -s "$warning_file" ]]; then
-            echo "has_warnings=true" >> "$GITHUB_OUTPUT"
             while IFS= read -r warning; do
               echo "::warning title=TV guide coverage::$warning"
             done < "$warning_file"
@@ -46,8 +67,6 @@ jobs:
               echo
               sed 's/^/- /' "$warning_file"
             } >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "has_warnings=false" >> "$GITHUB_OUTPUT"
           fi
       - name: Commit changed guide files
         run: |
@@ -61,8 +80,61 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-      - name: Report published coverage warnings
-        if: steps.build.outputs.has_warnings == 'true'
+      - name: Trigger future coverage warning workflow
+        if: steps.build.outputs.has_future_coverage_warnings == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          WARNING_FILE: ${{ runner.temp }}/tv-guide-future-coverage-warnings.txt
         run: |
-          echo "::error title=TV guide published with coverage warnings::The guide files were written and the publication step completed, but one or more coverage warnings require attention."
-          exit 1
+          python - <<'PY' > "$RUNNER_TEMP/future-coverage-dispatch.json"
+          import json
+          import os
+          from pathlib import Path
+
+          payload = {
+              "ref": os.environ["GITHUB_REF_NAME"],
+              "inputs": {
+                  "warning_message": Path(os.environ["WARNING_FILE"])
+                  .read_text(encoding="utf-8")
+                  .strip(),
+                  "source_run_url": os.environ["SOURCE_RUN_URL"],
+              },
+          }
+          print(json.dumps(payload))
+          PY
+
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "repos/$GITHUB_REPOSITORY/actions/workflows/future-coverage-warning.yml/dispatches" \
+            --input "$RUNNER_TEMP/future-coverage-dispatch.json"
+      - name: Trigger schedule gap warning workflow
+        if: steps.build.outputs.has_schedule_gap_warnings == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          WARNING_FILE: ${{ runner.temp }}/tv-guide-schedule-gap-warnings.txt
+        run: |
+          python - <<'PY' > "$RUNNER_TEMP/schedule-gap-dispatch.json"
+          import json
+          import os
+          from pathlib import Path
+
+          payload = {
+              "ref": os.environ["GITHUB_REF_NAME"],
+              "inputs": {
+                  "warning_message": Path(os.environ["WARNING_FILE"])
+                  .read_text(encoding="utf-8")
+                  .strip(),
+                  "source_run_url": os.environ["SOURCE_RUN_URL"],
+              },
+          }
+          print(json.dumps(payload))
+          PY
+
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "repos/$GITHUB_REPOSITORY/actions/workflows/schedule-gap-warning.yml/dispatches" \
+            --input "$RUNNER_TEMP/schedule-gap-dispatch.json"

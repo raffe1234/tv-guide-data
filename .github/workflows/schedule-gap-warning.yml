@@ -1,0 +1,39 @@
+name: No channel may have a future schedule gap longer than 6 hours
+
+run-name: No channel may have a future schedule gap longer than 6 hours
+
+on:
+  workflow_dispatch:
+    inputs:
+      warning_message:
+        description: Schedule gap warning details
+        required: true
+        type: string
+      source_run_url:
+        description: URL of the guide publication workflow run
+        required: true
+        type: string
+
+permissions: {}
+
+jobs:
+  schedule-gap-warning:
+    name: No channel may have a future schedule gap longer than 6 hours
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report excessive future schedule gap
+        env:
+          SOURCE_RUN_URL: ${{ inputs.source_run_url }}
+          WARNING_MESSAGE: ${{ inputs.warning_message }}
+        run: |
+          echo "::error title=Excessive future TV guide gap::$WARNING_MESSAGE"
+          {
+            echo "## Future schedule gap requirement failed"
+            echo
+            echo "$WARNING_MESSAGE"
+            echo
+            echo "The guide was published before this warning workflow was started."
+            echo
+            echo "[Open the publication workflow run]($SOURCE_RUN_URL)"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1

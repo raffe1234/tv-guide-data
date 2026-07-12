@@ -163,14 +163,15 @@ After a successful scheduled build, changed XML and XML.GZ files are committed t
 
 ### Coverage warning notifications
 
-When a configured channel has too little future coverage or a gap above the warning threshold, the
-workflow writes and publishes the guide before reporting the warning as a failed workflow run. This
-preserves the usable channel data while allowing GitHub's normal failed-workflow notifications to
-alert repository subscribers. The warning details are also shown as annotations and in the job
-summary.
+When a configured channel has too little future coverage, `Update TV guides` writes and publishes
+the guide and then dispatches the separate
+`All channels must have at least 24 hours of future coverage` workflow. A future schedule gap above
+the configured threshold dispatches the separate
+`No channel may have a future schedule gap longer than 6 hours` workflow.
 
-A red workflow status can therefore mean either that publication failed or that publication completed
-with coverage warnings. Review the failed step and job summary to distinguish the two cases.
+The publication workflow stays successful, while the relevant warning workflow intentionally fails so
+GitHub's normal failed-workflow notification has a warning-specific subject. Warning details and a
+link to the successful publication run are included in the failed workflow summary.
 
 ## Adding or changing a provider
 
