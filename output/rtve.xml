@@ -2215,11 +2215,6 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <desc lang="es">Una joven ha desaparecido en Canarias tras el suicidio colectivo de los miembros de una secta.</desc>
     <icon src="https://img2.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
-  <programme start="20260711224700 +0200" stop="20260711230900 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Egyxos : El sello de Sekhmet</title>
-    <desc lang="es">Alguien se coló en la pirámide de Kefrén y robó la "Llave de Ra". Exetón está detrás del robo, pues la necesita para su plan.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/66/17662779_A67CAB72DE70A684.jpg" />
-  </programme>
   <programme start="20260711224900 +0200" stop="20260711234000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Denominación De Origen</title>
     <desc lang="es">Revive la final de la Eurocopa 2024 con los jugadores de España, y comparte el sufrimiento y el esfuerzo que les llevó a tocar la gloria.</desc>
@@ -2231,16 +2226,6 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
     <url>https://www.rtve.es/v/17152945</url>
     <icon src="https://img.rtve.es/v/17152945?w=400" />
-  </programme>
-  <programme start="20260711230900 +0200" stop="20260711231600 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : ¿De qué tienes miedo?</title>
-    <desc lang="es">Sha ve algo que le ha asustado mucho, pero no quiere contarlo. Los Wawies, para animarlo, organizan un partido de fútbol.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
-  </programme>
-  <programme start="20260711231600 +0200" stop="20260711232300 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : El regalo</title>
-    <desc lang="es">Sha observa las fiestas de cumpleaños en Perú y decide hacer una con baile, comida y diversión.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
   </programme>
   <programme start="20260711232300 +0200" stop="20260711233000 +0200" channel="Clan.Internacional.es">
     <title lang="es">Los Wawies : Wawaland es una selva</title>
@@ -3229,7 +3214,7 @@ aparición de Mario que lo ha cambiado todo.</desc>
   <programme start="20260712104800 +0200" stop="20260712111000 +0200" channel="Clan.es">
     <title lang="es">La Casa De Muñecas De Gabby</title>
     <desc lang="es">Al buzón miau miau llega una entrega especial, una caja con adornos de autobús escolar. En su interior hay una mochilita gatuna que tiene un...</desc>
-    <url>http://www.rtve.es/play/clan/directo/</url>
+    <url>https://www.rtve.es/pr/166150</url>
     <icon src="https://img.rtve.es/p/166150/imgportada?w=400" />
   </programme>
   <programme start="20260712105500 +0200" stop="20260712115500 +0200" channel="Teledeporte.es">
@@ -3252,7 +3237,7 @@ aparición de Mario que lo ha cambiado todo.</desc>
   <programme start="20260712111000 +0200" stop="20260712112200 +0200" channel="Clan.es">
     <title lang="es">Vida La Veterinaria</title>
     <desc lang="es">Zigzag necesita llevar un parche en el ojo y un collar para que no se rasque y se cure. Vida pide ayuda a Melaza, un caracol dispuesto a ayu...</desc>
-    <url>https://www.rtve.es/v/16415305</url>
+    <url>http://www.rtve.es/play/clan/directo/</url>
     <icon src="https://img.rtve.es/v/16415305?w=400" />
   </programme>
   <programme start="20260712111600 +0200" stop="20260712112300 +0200" channel="Clan.Internacional.es">
@@ -6533,6 +6518,21 @@ aparición de Mario que lo ha cambiado todo.</desc>
     <desc lang="es">ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
     <url>https://www.rtve.es/pr/120150</url>
     <icon src="https://img.rtve.es/p/120150/imgportada?w=400" />
+  </programme>
+  <programme start="20260714110900 +0200" stop="20260714111600 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : La fuente de los deseos</title>
+    <desc lang="es">Tras ver la Fontana de Trevi, los Wawies construyen una fuente de deseos y piden cosas como volar, volverse invisibles o ser más fuertes para facilitar sus tareas. Sin embargo, al probar sus deseos, se meten en problemas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
+  </programme>
+  <programme start="20260714111600 +0200" stop="20260714112300 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : ¡SuperSha al rescate!</title>
+    <desc lang="es">Wawaland es un mundo diminuto como ningún otro. Flota por el planeta, sobre cualquier ciudad del mundo, ¡con sus Wawies listos para explorar y divertirse!</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
+  </programme>
+  <programme start="20260714112300 +0200" stop="20260714113000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : El wawacar</title>
+    <desc lang="es">Con sus gafalejos, Sha ve un auto japonés, y al describirlo, los Wawies sueñan con tener uno. Acá construye su propio auto, el Wawacar, y ahora todos los Wawies lo quieren. Les gusta ir rápido.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
   </programme>
   <programme start="20260714113000 +0200" stop="20260714123000 +0200" channel="Star.es">
     <title lang="es">El Condensador De Fluzo</title>
