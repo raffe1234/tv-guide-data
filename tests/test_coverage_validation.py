@@ -3,8 +3,6 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import pytest
-
 from tv_guide_data.core.config import load_guide_config
 from tv_guide_data.core.models import GuideConfig, Programme
 from tv_guide_data.core.xmltv import validate
@@ -39,21 +37,24 @@ def test_future_coverage_validation_accepts_continuous_schedule() -> None:
         _programme(now + timedelta(hours=24), now + timedelta(hours=50), "Day two"),
     ]
 
-    validate(guide, programmes, now=now)
+    assert validate(guide, programmes, now=now) == []
 
 
-def test_future_coverage_validation_rejects_short_schedule() -> None:
+def test_future_coverage_validation_warns_about_short_schedule() -> None:
     guide = _guide()
     now = datetime(2026, 7, 11, 12, 0, tzinfo=ZoneInfo("Europe/Madrid"))
     programmes = [
         _programme(now, now + timedelta(hours=24), "Only one day"),
     ]
 
-    with pytest.raises(RuntimeError, match="24.0 hours of future coverage"):
-        validate(guide, programmes, now=now)
+    warnings = validate(guide, programmes, now=now)
+
+    assert warnings == [
+        "Channel La.1.es has 24.0 hours of future coverage; warning threshold is 48.0."
+    ]
 
 
-def test_future_coverage_validation_rejects_large_gap() -> None:
+def test_future_coverage_validation_warns_about_large_gap() -> None:
     guide = _guide()
     now = datetime(2026, 7, 11, 12, 0, tzinfo=ZoneInfo("Europe/Madrid"))
     programmes = [
@@ -61,5 +62,8 @@ def test_future_coverage_validation_rejects_large_gap() -> None:
         _programme(now + timedelta(hours=12), now + timedelta(hours=60), "Second block"),
     ]
 
-    with pytest.raises(RuntimeError, match="future schedule gap of 8.0 hours"):
-        validate(guide, programmes, now=now)
+    warnings = validate(guide, programmes, now=now)
+
+    assert warnings == [
+        "Channel La.1.es has a future schedule gap of 8.0 hours; warning threshold is 6.0."
+    ]

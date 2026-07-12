@@ -51,7 +51,7 @@ The build process:
 6. Writes `output/rtve.xml`.
 7. Writes `output/rtve.xml.gz`.
 
-A failing required channel or an invalid combined guide stops the build before publication.
+A failing required channel or structurally invalid guide stops the build before publication. Short future coverage and large schedule gaps are published with warnings instead of blocking the other channels.
 
 ## Provider architecture
 
@@ -138,12 +138,12 @@ The project validates the combined guide before writing output. Checks include:
 - stop times occur after start times;
 - duplicate programmes are removed or rejected;
 - overlapping programmes are detected;
-- configured coverage and maximum-gap requirements are enforced;
+- configured future-coverage and maximum-gap thresholds produce warnings;
 - source channel mappings match the configured XMLTV IDs.
 
-Validation limits are configured in `config/guides/rtve.json`.
+Validation thresholds are configured in `config/guides/rtve.json`. Coverage warnings do not block publication, but missing required channels and structurally invalid programmes still do.
 
-Do not weaken validation merely to make a failing build pass. First determine whether the source is incomplete, the parser is broken, or the broadcaster has published a shorter schedule.
+Do not ignore repeated warnings. First determine whether the source is incomplete, the parser is broken, or the broadcaster has published a shorter schedule.
 
 ## Time zones
 
@@ -159,6 +159,29 @@ The repository contains two main workflows:
 - **Update TV guides** runs automatically at `02:17` and `14:17` UTC every day and can also be started manually.
 
 After a successful scheduled build, changed XML and XML.GZ files are committed to `main` by `github-actions[bot]`.
+
+
+### Coverage warning email
+
+When a configured channel has too little future coverage or a gap above the warning threshold, the
+workflow still publishes the guide and adds a warning annotation and job summary. It can also send an
+email without making publication depend on the mail service.
+
+Configure these GitHub Actions repository secrets:
+
+```text
+SMTP_HOST
+SMTP_PORT
+SMTP_SECURITY
+SMTP_USERNAME
+SMTP_PASSWORD
+SMTP_FROM
+GUIDE_ALERT_TO
+```
+
+Use `starttls` or `ssl` for `SMTP_SECURITY`. Store the recipient address in `GUIDE_ALERT_TO` instead
+of committing it to the public repository. If the SMTP settings are missing or email delivery fails,
+the workflow records a warning and continues.
 
 ## Adding or changing a provider
 

@@ -15,11 +15,13 @@ def _timestamp(value: datetime) -> str:
     return value.strftime("%Y%m%d%H%M%S %z")
 
 
-def _validate_future_coverage(
+def _collect_future_coverage_warnings(
     config: GuideConfig,
     programmes: list[Programme],
     reference: datetime,
-) -> None:
+) -> list[str]:
+    warnings: list[str] = []
+
     for channel_id in config.coverage_channels:
         channel_programmes = sorted(
             (
@@ -35,9 +37,9 @@ def _validate_future_coverage(
             if programme.start > cursor:
                 gap_hours = (programme.start - cursor).total_seconds() / 3600
                 if gap_hours > config.maximum_gap_hours:
-                    raise RuntimeError(
+                    warnings.append(
                         f"Channel {channel_id} has a future schedule gap of "
-                        f"{gap_hours:.1f} hours; maximum is "
+                        f"{gap_hours:.1f} hours; warning threshold is "
                         f"{config.maximum_gap_hours:.1f}."
                     )
             if programme.stop > cursor:
@@ -45,10 +47,12 @@ def _validate_future_coverage(
 
         future_hours = max(0.0, (cursor - reference).total_seconds() / 3600)
         if future_hours < config.minimum_future_hours:
-            raise RuntimeError(
+            warnings.append(
                 f"Channel {channel_id} has {future_hours:.1f} hours of future "
-                f"coverage; minimum is {config.minimum_future_hours:.1f}."
+                f"coverage; warning threshold is {config.minimum_future_hours:.1f}."
             )
+
+    return warnings
 
 
 def validate(
@@ -56,7 +60,7 @@ def validate(
     programmes: list[Programme],
     *,
     now: datetime | None = None,
-) -> None:
+) -> list[str]:
     if len(programmes) < config.minimum_programmes:
         raise RuntimeError(
             f"Only {len(programmes)} programmes were found; minimum is {config.minimum_programmes}."
@@ -82,11 +86,13 @@ def validate(
                 f"{config.minimum_programmes_per_channel}."
             )
 
-    if config.coverage_channels:
-        reference = now or datetime.now(ZoneInfo(config.timezone))
-        if reference.tzinfo is None:
-            raise ValueError("Coverage validation reference time must be timezone-aware")
-        _validate_future_coverage(config, programmes, reference)
+    if not config.coverage_channels:
+        return []
+
+    reference = now or datetime.now(ZoneInfo(config.timezone))
+    if reference.tzinfo is None:
+        raise ValueError("Coverage validation reference time must be timezone-aware")
+    return _collect_future_coverage_warnings(config, programmes, reference)
 
 
 def render(config: GuideConfig, programmes: list[Programme]) -> bytes:

@@ -32,7 +32,25 @@ jobs:
           mypy
           pytest
       - name: Build and validate all guides
-        run: python scripts/build.py
+        id: build
+        run: |
+          warning_file="$RUNNER_TEMP/tv-guide-warnings.txt"
+          python scripts/build.py --warning-file "$warning_file"
+          echo "warning_file=$warning_file" >> "$GITHUB_OUTPUT"
+
+          if [[ -s "$warning_file" ]]; then
+            echo "has_warnings=true" >> "$GITHUB_OUTPUT"
+            while IFS= read -r warning; do
+              echo "::warning title=TV guide coverage::$warning"
+            done < "$warning_file"
+            {
+              echo "## TV guide coverage warnings"
+              echo
+              sed 's/^/- /' "$warning_file"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "has_warnings=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Commit changed guide files
         run: |
           git config user.name "github-actions[bot]"
@@ -45,3 +63,16 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+      - name: Send coverage warning email
+        if: always() && steps.build.outputs.has_warnings == 'true'
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          GUIDE_ALERT_TO: ${{ secrets.GUIDE_ALERT_TO }}
+          WARNING_FILE: ${{ steps.build.outputs.warning_file }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python scripts/send_warning_email.py
