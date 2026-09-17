@@ -1989,8 +1989,8 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260915194000 +0200" stop="20260915202500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Malas Lenguas</title>
     <desc lang="es">Magacine de actualidad social y política y verificación de noticias falsas.</desc>
-    <url>https://www.rtve.es/pr/1001094</url>
-    <icon src="https://img.rtve.es/p/1001094?w=100" />
+    <url>https://www.rtve.es/v/17226427</url>
+    <icon src="https://img.rtve.es/v/17226427?w=100" />
   </programme>
   <programme start="20260915195500 +0200" stop="20260915210000 +0200" channel="Star.es">
     <title lang="es">Fugitiva</title>
@@ -2347,12 +2347,6 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/17228146</url>
     <icon src="https://img.rtve.es/v/17228146?w=100" />
   </programme>
-  <programme start="20260916202500 +0200" stop="20260916215500 +0200" channel="Teledeporte.es">
-    <title lang="es">Balonmano Liga Guerreras J3 Porriño - Lanzarote</title>
-    <desc lang="es">Balonmano Liga Guerreras 2026-27.</desc>
-    <url>https://www.rtve.es/v/17228236</url>
-    <icon src="https://img.rtve.es/v/17228236?w=400" />
-  </programme>
   <programme start="20260916205500 +0200" stop="20260916213500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Telediario 2</title>
     <desc lang="es">PROGRAMA DE NOTICIAS DIARIAS EN DIRECTO</desc>
@@ -2365,45 +2359,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/6582061</url>
     <icon src="https://img.rtve.es/v/6582061?w=100" />
   </programme>
-  <programme start="20260916212500 +0200" stop="20260916220000 +0200" channel="La.2.es">
-    <title lang="es">Cifras Y Letras</title>
-    <desc lang="es">Concurso cifras y letras.</desc>
-    <url>https://www.rtve.es/v/16894862</url>
-    <icon src="https://img.rtve.es/v/16894862?w=400" />
-  </programme>
-  <programme start="20260916213200 +0200" stop="20260916214500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Yoko</title>
-    <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
-  </programme>
   <programme start="20260916213500 +0200" stop="20260916214500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Teledeporte 2</title>
     <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
     <url>https://www.rtve.es/v/17228205</url>
     <icon src="https://img.rtve.es/v/17228205?w=100" />
-  </programme>
-  <programme start="20260916214000 +0200" stop="20260916214500 +0200" channel="La.1.es">
-    <title lang="es">Teledeporte 2</title>
-    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
-    <url>https://www.rtve.es/v/17228205</url>
-    <icon src="https://img.rtve.es/v/17228205?w=400" />
-  </programme>
-  <programme start="20260916214400 +0200" stop="20260916220000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
-    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260916214500 +0200" stop="20260916215600 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Lunnis</title>
-    <desc lang="es">Un grupo de extraterrestres debe resolver todo tipo de problemas y dificultades en su planeta Luna-Lunera.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/28/27281009_c0d16faada49272934bf569f30654efa.jpg" />
-  </programme>
-  <programme start="20260916214500 +0200" stop="20260916230000 +0200" channel="La.1.es">
-    <title lang="es">La Revuelta</title>
-    <desc lang="es">Acces de lunes a jueves en el prime time de la 1 de TVE.</desc>
-    <url>https://www.rtve.es/v/17227845</url>
-    <icon src="https://img.rtve.es/v/17227845?w=400" />
   </programme>
   <programme start="20260916214500 +0200" stop="20260916221500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Cifras Y Letras</title>
@@ -2411,45 +2371,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/17224883</url>
     <icon src="https://img.rtve.es/v/17224883?w=100" />
   </programme>
-  <programme start="20260916215500 +0200" stop="20260916220700 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Laliga Ea Sports J6 Rayo - Espanyol</title>
-    <desc lang="es">Varios Teledeporte 2026</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
-  </programme>
-  <programme start="20260916215600 +0200" stop="20260916220900 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Rocky Kwaterner</title>
-    <desc lang="es">En el corazón de la Antártida, una expedición descubre a un joven Cromañón atrapado en el hielo. Repatriado a la Academia de Ciencias, el hibernado es extraído del hielo y milagrosamente vuelve a la vida. Es bautizado como Rocky Kwaterner.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/73/19731279_2CDA5C2588F6FA62.jpg" />
-  </programme>
-  <programme start="20260916220000 +0200" stop="20260917003000 +0200" channel="Canal.24.h.es">
-    <title lang="es">La Noche En 24h</title>
-    <desc lang="es">INFORMATIVO DIARIO CON TERTULIA</desc>
-    <url>https://www.rtve.es/v/17228275</url>
-    <icon src="https://img.rtve.es/v/17228275?w=400" />
-  </programme>
-  <programme start="20260916220000 +0200" stop="20260916223000 +0200" channel="La.2.es">
-    <title lang="es">Cifras Y Letras</title>
-    <desc lang="es">Concurso cifras y letras.</desc>
-    <url>https://www.rtve.es/v/17228249</url>
-    <icon src="https://img.rtve.es/v/17228249?w=400" />
-  </programme>
   <programme start="20260916220000 +0200" stop="20260916230000 +0200" channel="Star.es">
     <title lang="es">Hope Estamos A Tiempo</title>
     <desc lang="es">El modelo económico vigente tiene que cambiar para solucionar la crisis ecológica. Este episodio persigue poderosas historias de transformación.</desc>
     <url>https://www.rtve.es/v/16557728</url>
     <icon src="https://img.rtve.es/v/16557728?w=100" />
-  </programme>
-  <programme start="20260916220700 +0200" stop="20260916221900 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Laliga Ea Sports J6 Alaves - Valencia</title>
-    <desc lang="es">Varios Teledeporte 2026</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
-  </programme>
-  <programme start="20260916220900 +0200" stop="20260916222000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Squish</title>
-    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
   </programme>
   <programme start="20260916221500 +0200" stop="20260916224500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Cifras Y Letras</title>
@@ -2457,48 +2383,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/16343357</url>
     <icon src="https://img.rtve.es/v/16343357?w=100" />
   </programme>
-  <programme start="20260916221900 +0200" stop="20260916223000 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Laliga Ea Sports J6 Elche - Real Madrid</title>
-    <desc lang="es">Varios Teledeporte 2026</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
-  </programme>
-  <programme start="20260916222000 +0200" stop="20260916223200 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Squish</title>
-    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
-  </programme>
-  <programme start="20260916223000 +0200" stop="20260916231000 +0200" channel="La.2.es">
-    <title lang="es">Cifras Y Letras</title>
-    <desc lang="es">Concurso cifras y letras.</desc>
-    <url>https://www.rtve.es/v/17228257</url>
-    <icon src="https://img.rtve.es/v/17228257?w=400" />
-  </programme>
-  <programme start="20260916223000 +0200" stop="20260916233000 +0200" channel="Teledeporte.es">
-    <title lang="es">Estudio Estadio 2026-2027 (2026)</title>
-    <desc lang="es">ESTUDIO ESTADIO Temporada 2026-2027</desc>
-  </programme>
-  <programme start="20260916223200 +0200" stop="20260916225400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Egyxos : El pozo de oscuridad</title>
-    <desc lang="es">Un famoso equipo de baloncesto jugará en la ciudad y Leo consigue un par de entradas para invitar a Kay. Sus planes se arruinan cuando los jugadores son secuestrados.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24006084_fee1f8f4cf04dad3fa5f2047320386d0.jpg" />
-  </programme>
   <programme start="20260916224500 +0200" stop="20260916233500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Valle Salvaje</title>
     <desc lang="es">Atanasio cuenta a Mercedes y Victoria que la Santa Hermandad cree que Dámaso está muerto.</desc>
     <url>https://www.rtve.es/v/17224740</url>
     <icon src="https://img.rtve.es/v/17224740?w=100" />
-  </programme>
-  <programme start="20260916225400 +0200" stop="20260916231600 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Egyxos : El gran río</title>
-    <desc lang="es">Alguien está intentando destruir la presa que Kefer está levantando en Egyxos, saboteándola constantemente, pero contrariamente a lo que piensan, no es Exaton, sino que se trata de unos extraños seres conocidos como los titanes del desierto.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/77/17773472_897AC899D7DC3259.jpg" />
-  </programme>
-  <programme start="20260916230000 +0200" stop="20260917003000 +0200" channel="La.1.es">
-    <title lang="es">El Tunel</title>
-    <desc lang="es">Con 24 concursantes en juego, ocho nuevos duelos reducen la competición a 16 aspirantes. La estrategia y la presión marcan una noche decisiva.</desc>
-    <url>https://www.rtve.es/v/17225069</url>
-    <icon src="https://img.rtve.es/v/17225069?w=400" />
   </programme>
   <programme start="20260916230000 +0200" stop="20260916230600 +0200" channel="Star.es">
     <title lang="es">Esto Es España  Bilbao</title>
@@ -2508,47 +2397,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <title lang="es">Esto Es Espana Segobriga</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
-  <programme start="20260916231000 +0200" stop="20260916231500 +0200" channel="La.2.es">
-    <title lang="es">El Tunel (Simultcast La 1)</title>
-    <desc lang="es">Con 24 concursantes en juego, ocho nuevos duelos reducen la competición a 16 aspirantes. La estrategia y la presión marcan una noche decisiva.</desc>
-    <url>https://www.rtve.es/v/17225069</url>
-    <icon src="https://img.rtve.es/v/17225069?w=400" />
-  </programme>
   <programme start="20260916231000 +0200" stop="20260917001000 +0200" channel="Star.es">
     <title lang="es">Seis Hermanas</title>
     <desc lang="es">Las hermanas Silva son el alma de las principales fiestas de la alta sociedad madrileña de la época, en el Madrid de 1920.</desc>
     <url>https://www.rtve.es/v/3555738</url>
     <icon src="https://img.rtve.es/v/3555738?w=100" />
-  </programme>
-  <programme start="20260916231500 +0200" stop="20260917005000 +0200" channel="La.2.es">
-    <title lang="es">Documaster La Torre Eiffel, El Sueño De Un Visionario</title>
-    <desc lang="es">Para la Exposición Universal de París de 1889, el ingeniero francés Gustave Eiffel intenta lo imposible: construir la estructura más alta del mundo.</desc>
-    <url>https://www.rtve.es/v/17225307</url>
-    <icon src="https://img.rtve.es/v/17225307?w=400" />
-  </programme>
-  <programme start="20260916231600 +0200" stop="20260916232300 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : El lago de plástico</title>
-    <desc lang="es">Sha observa con tristeza la isla de plástico en el Océano Pacífico. De pronto, un grito de Opo desde el lago alerta a los Wawies.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
-  </programme>
-  <programme start="20260916232300 +0200" stop="20260916233100 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : El oasis</title>
-    <desc lang="es">Sha observa a Wawaland cruzar el desierto del Sáhara, donde encuentra un bosque lleno de vitalidad y naturaleza.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
-  </programme>
-  <programme start="20260916233000 +0200" stop="20260917003000 +0200" channel="Teledeporte.es">
-    <title lang="es">Estudio Estadio 2026-2027 (2026)</title>
-    <desc lang="es">ESTUDIO ESTADIO Temporada 2026-2027</desc>
-  </programme>
-  <programme start="20260916233100 +0200" stop="20260916233500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Socks : Vitaminas para comerse el mundo</title>
-    <desc lang="es">Woody está sin ganas de hacer nada. El veterinario recomienda a Claire que le dé unas vitaminas, y estas le hacen tanto efecto al canino, que termina por comerse el mundo.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26773700_c052dcb7026ad2633df6d191d1b3979c.jpg" />
-  </programme>
-  <programme start="20260916233500 +0200" stop="20260916234000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Socks : La reliquia</title>
-    <desc lang="es">Tom deja su reloj de cucú, una reliquia de la familia, al cuidado de Woody y Nico. Se llevan un gran disgusto cuando el cucú se detiene, porque creen que lo han roto. Tom les explica que simplemente se arregla dándole cuerda.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26773988_bf90c7431be717d21d1accb3597d17c5.jpg" />
   </programme>
   <programme start="20260916233500 +0200" stop="20260917003500 +0200" channel="TVE.Internacional.es">
     <title lang="es">La Promesa</title>
@@ -2556,54 +2409,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/17221211</url>
     <icon src="https://img.rtve.es/v/17221211?w=100" />
   </programme>
-  <programme start="20260916234000 +0200" stop="20260916234600 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Llamada peluche</title>
-    <desc lang="es">Cuando los niños se van a la escuela y mamá y papá al trabajo, los peluches cobran vida, exploran la casa y se meten en problemas. Cuando las cosas se ponen difíciles y necesitan ayuda, llaman a sus amigos, los niños, en busca de consejos.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
-  </programme>
-  <programme start="20260916234600 +0200" stop="20260917000000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Súper Dino : Caos con dinoclones</title>
-    <desc lang="es">Max crea una máquina para clonar dinosaurios. Consigue atrapar a Bao con su fruta favorita, las manzanas, y lo clona con la máquina. Sin embargo, es pisoteado por las docenas de clones de Bao que salen corriendo de la máquina y se desmaya.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749602_eaa9fa7fae6a205e9e3b5dc6de7706b8.jpg" />
-  </programme>
-  <programme start="20260917000000 +0200" stop="20260917001400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Súper Dino : Aventura de patinaje artístico</title>
-    <desc lang="es">El invierno ha llegado a la ciudad de Kung Kung. Mientras patina en un embalse congelado, Bora va a un área apartada para evitar a sus amigos y cae al embalse sin ver la señal de prohibición.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749553_1621150b601c5c2401b6228c29034b6c.jpg" />
-  </programme>
   <programme start="20260917001000 +0200" stop="20260917011000 +0200" channel="Star.es">
     <title lang="es">Salón De Té La Moderna</title>
     <desc lang="es">La vida del Madrid de 1930 a través de las historias de las empleadas del salón de té "La moderna".</desc>
     <url>https://www.rtve.es/v/16138520</url>
     <icon src="https://img.rtve.es/v/16138520?w=100" />
-  </programme>
-  <programme start="20260917001400 +0200" stop="20260917002500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Gormiti : La primera guía</title>
-    <desc lang="es">Trek necesita activar una guía para llamar al Caballero Meka de la Roca, pero la guía puede convertir el suelo en arenas movedizas.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/14/28145846_a08daadabaaf8d94f75fb66ee2acf254.jpg" />
-  </programme>
-  <programme start="20260917002500 +0200" stop="20260917003700 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : El picnic Real</title>
-    <desc lang="es">En opinión de Stella, que te vean jugar con tus padres en el parque es de perdedores, y cuando los populares de la escuela la ven, está segura de que su reputación jamás se recuperará.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/09/27091235_9376ecba28e18581fd4b1bc72edf2421.jpg" />
-  </programme>
-  <programme start="20260917003000 +0200" stop="20260917010000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
-    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260917003000 +0200" stop="20260917015500 +0200" channel="La.1.es">
-    <title lang="es">El Tunel</title>
-    <desc lang="es">Treinta y dos concursantes inician la lucha por 150 000 euros. 8 duelos y las primeras eliminaciones marcan un estreno lleno de estrategia y emoción.</desc>
-    <url>https://www.rtve.es/v/17214658</url>
-    <icon src="https://img.rtve.es/v/17214658?w=400" />
-  </programme>
-  <programme start="20260917003000 +0200" stop="20260917004200 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Laliga Ea Sports J6 Elche - Real Madrid</title>
-    <desc lang="es">Varios Teledeporte 2026</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260917003500 +0200" stop="20260917012500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Sukha</title>
@@ -2611,94 +2421,17 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/17228131</url>
     <icon src="https://img.rtve.es/v/17228131?w=100" />
   </programme>
-  <programme start="20260917003700 +0200" stop="20260917004800 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : El mayordomo Real</title>
-    <desc lang="es">Mr. Pee se niega a echar una mano en la fiesta de la señora Oh, y para gran fastidio de Mr. Pee, Stella y su familia deciden encargarse ellos mismos del servicio.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/09/27090650_8af76beb79f0c781b9c14b7a5752141c.jpg" />
-  </programme>
-  <programme start="20260917004200 +0200" stop="20260917005400 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Laliga Ea Sports J6 Alaves - Valencia</title>
-    <desc lang="es">Varios Teledeporte 2026</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
-  </programme>
-  <programme start="20260917004800 +0200" stop="20260917010000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : La discusión Real</title>
-    <desc lang="es">Durante una discusión entre Mia y Freya, Stella tiene que usar toda su diplomacia para que se reconcilien. Stella busca cuál es el motivo de la pelea.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/09/27090889_01ff445f042d8376195988775b3176f7.jpg" />
-  </programme>
-  <programme start="20260917005000 +0200" stop="20260917014500 +0200" channel="La.2.es">
-    <title lang="es">Documentos Tv</title>
-    <desc lang="es">En enero de 2023, 200 millonarios de todo el mundo firmaron una petición en la que exigían pagar su parte justa a la sociedad.</desc>
-    <url>https://www.rtve.es/v/17226207</url>
-    <icon src="https://img.rtve.es/v/17226207?w=400" />
-  </programme>
-  <programme start="20260917005400 +0200" stop="20260917011000 +0200" channel="Teledeporte.es">
-    <title lang="es">Futbol Laliga Ea Sports J6 Rayo - Espanyol</title>
-    <desc lang="es">Varios Teledeporte 2026</desc>
-    <url>https://www.rtve.es/pr/59195</url>
-    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
-  </programme>
-  <programme start="20260917010000 +0200" stop="20260917013000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
-    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260917010000 +0200" stop="20260917012500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Academia de Gladiadores : La conspiración del unicornio</title>
-    <desc lang="es">Cadius trae a la Academia un obsequio del emperador Gluteus: un hermoso unicornio. Tras sufrir su mal carácter, deciden que Hocus se encargue de él y lo entrene para los Juegos.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749423_b563a2f638bf151170412f4cf74f55e9.jpg" />
-  </programme>
   <programme start="20260917011000 +0200" stop="20260917020000 +0200" channel="Star.es">
     <title lang="es">Acacias, 38</title>
     <desc lang="es">Serie diaria en la que se narraran la vida  de los personajes que habitan una comunidad de vecinos, a principios del siglo XX en Madrid</desc>
     <url>https://www.rtve.es/v/4142080</url>
     <icon src="https://img.rtve.es/v/4142080?w=100" />
   </programme>
-  <programme start="20260917011000 +0200" stop="20260917030000 +0200" channel="Teledeporte.es">
-    <title lang="es">Baloncesto Silla Ruedas Cto Mundo 1/4 Final Fem</title>
-    <desc lang="es">MUNDIAL BALONCESTO EN SILLA DE RUEDAS, OTTAWA (CANADÁ) 9-19 SEPTIEMBRE</desc>
-  </programme>
-  <programme start="20260917012500 +0200" stop="20260917015000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Nicolás</title>
-    <desc lang="es">Serie educativa para los más chicos de la familia.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/94/23942774_b6b2b6f61b7e39d4345ba7adeab1f14e.jpg" />
-  </programme>
   <programme start="20260917012500 +0200" stop="20260917020000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Aqui La Tierra</title>
     <desc lang="es">Magacine de naturaleza e información meteorológica</desc>
     <url>https://www.rtve.es/v/17228146</url>
     <icon src="https://img.rtve.es/v/17228146?w=100" />
-  </programme>
-  <programme start="20260917013000 +0200" stop="20260917020000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
-    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260917014500 +0200" stop="20260917023000 +0200" channel="La.2.es">
-    <title lang="es">Documental Paul Va A Hollywood</title>
-    <desc lang="es">Paul Hollywood combina comida, cine y bicicletas rápidas mientras se embarca en un viaje por carretera de 3000 millas desde Nueva York a Los Ángeles.</desc>
-    <url>https://www.rtve.es/v/16139481</url>
-    <icon src="https://img.rtve.es/v/16139481?w=400" />
-  </programme>
-  <programme start="20260917015000 +0200" stop="20260917020400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Zipi y Zape : Pdotezto Zeñodía</title>
-    <desc lang="es">A Evelina le encanta protestar y fastidiar así que no desaprovecha la oportunidad de acusar a Zipi y Zape en el juicio.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/59/18596140_69819EA67303BF81.jpg" />
-  </programme>
-  <programme start="20260917015500 +0200" stop="20260917043000 +0200" channel="La.1.es">
-    <title lang="es">La Noche En 24h</title>
-    <desc lang="es">INFORMATIVO DIARIO CON TERTULIA</desc>
-    <url>https://www.rtve.es/v/17228275</url>
-    <icon src="https://img.rtve.es/v/17228275?w=400" />
-  </programme>
-  <programme start="20260917020000 +0200" stop="20260917023000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Td Internacional 24 Horas</title>
-    <desc lang="es">TELEDIARIO DE EMISIÓN INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/1726</url>
-    <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
   </programme>
   <programme start="20260917020000 +0200" stop="20260917030000 +0200" channel="Star.es">
     <title lang="es">La Promesa</title>
@@ -2712,54 +2445,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/pr/1726</url>
     <icon src="https://img.rtve.es/p/1726?w=100" />
   </programme>
-  <programme start="20260917020400 +0200" stop="20260917021900 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Zipi y Zape : La Superpandi</title>
-    <desc lang="es">Los gemelos y todos sus amigos se convierten en la Superpandi cuando adquieren superpoderes. Zipi se convierte en Superratón, pero de computadora, Zape en Mega Mazas, jugador de futbolito, e Invi en Gosi, el chico chuche.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/41/17417041_B8E5A1E47CF008C2.jpg" />
-  </programme>
-  <programme start="20260917021900 +0200" stop="20260917023200 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Invention Story</title>
-    <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
-  </programme>
-  <programme start="20260917023000 +0200" stop="20260917030000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Td Internacional 24 Horas</title>
-    <desc lang="es">TELEDIARIO DE EMISIÓN INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/1726</url>
-    <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
-  </programme>
-  <programme start="20260917023000 +0200" stop="20260917040500 +0200" channel="La.2.es">
-    <title lang="es">Festivales De Verano</title>
-    <desc lang="es">Actuación de Camille Thurman &amp; The Darrell Green Quartet en la 28º Edición del Festival Internacional de Jazz de San Javier 2026</desc>
-    <url>https://www.rtve.es/v/17228354</url>
-    <icon src="https://img.rtve.es/v/17228354?w=400" />
-  </programme>
   <programme start="20260917023000 +0200" stop="20260917035000 +0200" channel="TVE.Internacional.es">
     <title lang="es">La Revuelta</title>
     <desc lang="es">Acces de lunes a jueves en el prime time de la 1 de TVE.</desc>
     <url>https://www.rtve.es/v/17227844</url>
     <icon src="https://img.rtve.es/v/17227844?w=100" />
-  </programme>
-  <programme start="20260917023200 +0200" stop="20260917024600 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Invention Story</title>
-    <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
-  </programme>
-  <programme start="20260917024600 +0200" stop="20260917025700 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Milo</title>
-    <desc lang="es">Milo es un gato de 5 años a quien le encanta disfrazarse para explorar el mundo de las profesiones, y junto a sus mejores amigos Lofty y Lark, descubren que cada profesión puede ser una aventura apasionante.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802504_619ae95716314b0f0c14aa284102c1f6.jpg" />
-  </programme>
-  <programme start="20260917025700 +0200" stop="20260917030800 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Milo</title>
-    <desc lang="es">Milo es un gato de 5 años a quien le encanta disfrazarse para explorar el mundo de las profesiones, y junto a sus mejores amigos Lofty y Lark, descubren que cada profesión puede ser una aventura apasionante.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802504_619ae95716314b0f0c14aa284102c1f6.jpg" />
-  </programme>
-  <programme start="20260917030000 +0200" stop="20260917033000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Td Internacional 24 Horas</title>
-    <desc lang="es">TELEDIARIO DE EMISIÓN INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/1726</url>
-    <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
   </programme>
   <programme start="20260917030000 +0200" stop="20260917042000 +0200" channel="Star.es">
     <title lang="es">Victor Ros</title>
@@ -2767,68 +2457,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/5290998</url>
     <icon src="https://img.rtve.es/v/5290998?w=100" />
   </programme>
-  <programme start="20260917030000 +0200" stop="20260917043000 +0200" channel="Teledeporte.es">
-    <title lang="es">Baloncesto En Silla De Ruedas Campeonato Del Mundo Masculino 5º - 8º Puesto España - Ee.Uu. Desde Ottawa (Canadá</title>
-    <desc lang="es">MUNDIAL BALONCESTO EN SILLA DE RUEDAS, OTTAWA (CANADÁ) 9-19 SEPTIEMBRE</desc>
-  </programme>
-  <programme start="20260917030800 +0200" stop="20260917032000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Milo</title>
-    <desc lang="es">Milo es un gato de 5 años a quien le encanta disfrazarse para explorar el mundo de las profesiones, y junto a sus mejores amigos Lofty y Lark, descubren que cada profesión puede ser una aventura apasionante.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802504_619ae95716314b0f0c14aa284102c1f6.jpg" />
-  </programme>
-  <programme start="20260917032000 +0200" stop="20260917033200 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Yoko</title>
-    <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
-  </programme>
-  <programme start="20260917033000 +0200" stop="20260917040000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Metropolis</title>
-    <desc lang="es">Metrópolis dedica un programa monográfico al fotógrafo, pensador y activista Erwin Olaf con motivo de su exposición retrospectiva FREEDOM.</desc>
-    <url>https://www.rtve.es/v/17006391</url>
-    <icon src="https://img.rtve.es/v/17006391?w=400" />
-  </programme>
-  <programme start="20260917033200 +0200" stop="20260917034400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Yoko</title>
-    <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
-  </programme>
-  <programme start="20260917034400 +0200" stop="20260917035500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Lunnis</title>
-    <desc lang="es">Un grupo de extraterrestres debe resolver todo tipo de problemas y dificultades en su planeta Luna-Lunera.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/28/27281009_c0d16faada49272934bf569f30654efa.jpg" />
-  </programme>
   <programme start="20260917035000 +0200" stop="20260917052000 +0200" channel="TVE.Internacional.es">
     <title lang="es">El Tunel</title>
     <desc lang="es">Con 24 concursantes en juego, ocho nuevos duelos reducen la competición a 16 aspirantes. La estrategia y la presión marcan una noche decisiva.</desc>
     <url>https://www.rtve.es/v/17225069</url>
     <icon src="https://img.rtve.es/v/17225069?w=100" />
-  </programme>
-  <programme start="20260917035500 +0200" stop="20260917040800 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Rocky Kwaterner</title>
-    <desc lang="es">En el corazón de la Antártida, una expedición descubre a un joven Cromañón atrapado en el hielo. Repatriado a la Academia de Ciencias, el hibernado es extraído del hielo y milagrosamente vuelve a la vida. Es bautizado como Rocky Kwaterner.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/73/19731279_2CDA5C2588F6FA62.jpg" />
-  </programme>
-  <programme start="20260917040000 +0200" stop="20260917043000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Td Internacional 24 Horas</title>
-    <desc lang="es">TELEDIARIO DE EMISIÓN INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/1726</url>
-    <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
-  </programme>
-  <programme start="20260917040500 +0200" stop="20260917045500 +0200" channel="La.2.es">
-    <title lang="es">Las Rutas De...</title>
-    <desc lang="es">Gonzalo D'Ambrosio hace un viaje gastronómico por diferentes lugares de España</desc>
-    <url>https://www.rtve.es/v/6451239</url>
-    <icon src="https://img.rtve.es/v/6451239?w=400" />
-  </programme>
-  <programme start="20260917040800 +0200" stop="20260917041900 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Squish</title>
-    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
-  </programme>
-  <programme start="20260917041900 +0200" stop="20260917043100 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Squish</title>
-    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
   </programme>
   <programme start="20260917042000 +0200" stop="20260917051500 +0200" channel="Star.es">
     <title lang="es">En Primicia</title>
@@ -2836,60 +2469,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/16789956</url>
     <icon src="https://img.rtve.es/v/16789956?w=100" />
   </programme>
-  <programme start="20260917043000 +0200" stop="20260917050000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Conversatorios En Casa De América</title>
-    <desc lang="es">Programa semanal de entrevistas a personajes relacionados con el mundo iberoamericano</desc>
-    <url>https://www.rtve.es/pr/65251</url>
-    <icon src="https://img.rtve.es/p/65251/imgportada?w=400" />
-  </programme>
-  <programme start="20260917043000 +0200" stop="20260917060000 +0200" channel="La.1.es">
-    <title lang="es">Noticias 24 H</title>
-    <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
-    <url>https://www.rtve.es/pr/46052</url>
-    <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260917043000 +0200" stop="20260917050500 +0200" channel="Teledeporte.es">
-    <title lang="es">Balonmano Reportajes Fed Española 2026</title>
-    <desc lang="es">Balonmano.</desc>
-  </programme>
-  <programme start="20260917043100 +0200" stop="20260917045400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Egyxos : El prisionero del desierto</title>
-    <desc lang="es">Exaton quiere secuestrar a la novia de Leo, pero las momias que debían cumplir esta misión son un poco tontas y atrapan a la chica equivocada.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/66/17669900_79E98A85D8CCF4C3.jpg" />
-  </programme>
-  <programme start="20260917045400 +0200" stop="20260917051700 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Egyxos : El destructor</title>
-    <desc lang="es">Alguien ha ido a la tierra para destruir al último faraón, pero en Egyxos no saben quién es. Se trata de Shu, el primer guerrero de Ra en el antiguo Egyxos de la tierra.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/66/17662779_A67CAB72DE70A684.jpg" />
-  </programme>
-  <programme start="20260917045500 +0200" stop="20260917052500 +0200" channel="La.2.es">
-    <title lang="es">Documental Salvajes</title>
-    <desc lang="es">Nos adentramos en el mundo de los Potokas, una majestuosa raza de caballos salvajes originaria del continente europeo.</desc>
-    <url>https://www.rtve.es/v/16843855</url>
-    <icon src="https://img.rtve.es/v/16843855?w=400" />
-  </programme>
-  <programme start="20260917050000 +0200" stop="20260917053000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Td Internacional 24 Horas</title>
-    <desc lang="es">TELEDIARIO DE EMISIÓN INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/1726</url>
-    <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
-  </programme>
-  <programme start="20260917050500 +0200" stop="20260917060000 +0200" channel="Teledeporte.es">
-    <title lang="es">Conexión Vintage 2025</title>
-    <desc lang="es">PROGRAMA CONEXIÓN VINTAGE</desc>
-    <url>https://www.rtve.es/v/16779091</url>
-    <icon src="https://img.rtve.es/v/16779091?w=400" />
-  </programme>
   <programme start="20260917051500 +0200" stop="20260917061000 +0200" channel="Star.es">
     <title lang="es">Salón De Té La Moderna</title>
     <desc lang="es">La vida del Madrid de 1930 a través de las historias de las empleadas del salón de té "La moderna".</desc>
     <url>https://www.rtve.es/v/16138520</url>
     <icon src="https://img.rtve.es/v/16138520?w=100" />
-  </programme>
-  <programme start="20260917051700 +0200" stop="20260917052400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : El wawie que mejor surfea</title>
-    <desc lang="es">Sha observa a los humanos surfear en Hawái y aprende un truco que comparte con los Wawies, quienes quedan sorprendidos y lo felicitan. Bow, celoso, intenta superarlo con giros y acrobacias.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
   </programme>
   <programme start="20260917052000 +0200" stop="20260917061500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Captcha - No Soy Un Robot</title>
@@ -2897,86 +2481,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/16982522</url>
     <icon src="https://img.rtve.es/v/16982522?w=100" />
   </programme>
-  <programme start="20260917052400 +0200" stop="20260917053100 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Los Wawies : El concurso</title>
-    <desc lang="es">Sha observa un pastel hecho por humanos en México, y a Opo y Aca se les ocurre crear la wawatarta: la tarta perfecta. Sin embargo, Opo y Aca no se llevan bien cocinando juntos.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
-  </programme>
-  <programme start="20260917052500 +0200" stop="20260917054500 +0200" channel="La.2.es">
-    <title lang="es">¡qué Animal!</title>
-    <desc lang="es">Programa de divulgacion cientifica que repasará las curiosidades de la naturaleza y fauna de la península y las islas a través de sus hábitats.</desc>
-    <url>https://www.rtve.es/v/6739418</url>
-    <icon src="https://img.rtve.es/v/6739418?w=400" />
-  </programme>
-  <programme start="20260917053000 +0200" stop="20260917060000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Td Internacional 24 Horas</title>
-    <desc lang="es">TELEDIARIO DE EMISIÓN INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/1726</url>
-    <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
-  </programme>
-  <programme start="20260917053100 +0200" stop="20260917053500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Socks : Quiero ser bombero</title>
-    <desc lang="es">Nico quiere dejar de estudiar para poder ser bombero. Su madre quiere quitarle las ganas, por lo que, junto con Woody, le hará pasar por unas duras pruebas de entrenamiento. Al final a Claire le sale el tiro por la culata.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26774072_070d22de4999559a83537886f1c97f94.jpg" />
-  </programme>
-  <programme start="20260917053500 +0200" stop="20260917054000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Socks : El niño que llevas dentro</title>
-    <desc lang="es">Nico y Woody están muy entretenidos jugando a un videojuego de baile. Cada vez que Tom pasa por su lado le invitan a jugar, pero este considera que ese juego es un poco ridículo para él. Tras mucha insistencia, consiguen que Tom participe.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26774005_c257149559faa1d5cd5aa5791393f582.jpg" />
-  </programme>
-  <programme start="20260917054000 +0200" stop="20260917054700 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Llamada peluche</title>
-    <desc lang="es">Cuando los niños se van a la escuela y mamá y papá al trabajo, los peluches cobran vida, exploran la casa y se meten en problemas. Cuando las cosas se ponen difíciles y necesitan ayuda, llaman a sus amigos, los niños, en busca de consejos.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
-  </programme>
-  <programme start="20260917054500 +0200" stop="20260917060000 +0200" channel="La.2.es">
-    <title lang="es">El Bosque Protector</title>
-    <desc lang="es">El Bosque Protector nos habla de las actuaciones del hombre sobre el bosque con el fin de mejorar el hábitat</desc>
-    <url>https://www.rtve.es/v/6081143</url>
-    <icon src="https://img.rtve.es/v/6081143?w=400" />
-  </programme>
-  <programme start="20260917054700 +0200" stop="20260917060000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Súper Dino : El dinosaurio que gritó fuego</title>
-    <desc lang="es">A Velo le encanta contar mentiras como broma. Velo está comiendo con su madre en un restaurante, y le dice a la policía que vio a un ladrón, pero de repente el restaurante donde está su madre se incendia.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749805_f0cd017b0529ea0f3b11fc9b78519db1.jpg" />
-  </programme>
-  <programme start="20260917060000 +0200" stop="20260917075000 +0200" channel="Canal.24.h.es">
-    <title lang="es">Telediario Matinal</title>
-    <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA EN DIRECTO</desc>
-    <url>https://www.rtve.es/v/17228297</url>
-    <icon src="https://img.rtve.es/v/17228297?w=400" />
-  </programme>
-  <programme start="20260917060000 +0200" stop="20260917061400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Súper Dino : El nuevo amigo de Tyra</title>
-    <desc lang="es">Hoy es el cumpleaños de Tyra, y está molesta porque sus amigos no parecen recordar su cumpleaños. De repente, aparece T-Max, que es un dino robot creado por Max. Sin embargo, está mal diseñado y se daña mientras Tyra juega con él.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749377_8094f38798b5756e3351ae0a8b17d3d6.jpg" />
-  </programme>
   <programme start="20260917060000 +0200" stop="20260917060700 +0200" channel="Clan.es">
     <title lang="es">The Wawies</title>
     <desc lang="es">Tras una nevada, Aca lidera una rebelión para romper las normas y jugar. Pronto el caos invade Wawaland y Aca deberá encontrar una solución.</desc>
     <url>https://www.rtve.es/v/16383336</url>
     <icon src="https://img.rtve.es/v/16383336?w=400" />
-  </programme>
-  <programme start="20260917060000 +0200" stop="20260917075000 +0200" channel="La.1.es">
-    <title lang="es">Telediario Matinal</title>
-    <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA EN DIRECTO</desc>
-    <url>https://www.rtve.es/v/17228297</url>
-    <icon src="https://img.rtve.es/v/17228297?w=400" />
-  </programme>
-  <programme start="20260917060000 +0200" stop="20260917060500 +0200" channel="La.2.es">
-    <title lang="es">El Bosque Protector</title>
-    <desc lang="es">El Bosque Protector nos habla de las actuaciones del hombre sobre el bosque con el fin de mejorar el hábitat</desc>
-    <url>https://www.rtve.es/v/6081143</url>
-    <icon src="https://img.rtve.es/v/6081143?w=400" />
-  </programme>
-  <programme start="20260917060000 +0200" stop="20260917065500 +0200" channel="Teledeporte.es">
-    <title lang="es">Conexion Vintage Ciclismo Abraham Olano</title>
-  </programme>
-  <programme start="20260917060500 +0200" stop="20260917063000 +0200" channel="La.2.es">
-    <title lang="es">El Bosque Protector</title>
-    <desc lang="es">Actuaciones del hombre sobre el bosque a lo largo de la historia con el fin de mejorar el hábitat con un sentido de respeto ecológico.</desc>
-    <url>https://www.rtve.es/v/3741615</url>
-    <icon src="https://img.rtve.es/v/3741615?w=400" />
   </programme>
   <programme start="20260917060700 +0200" stop="20260917061400 +0200" channel="Clan.es">
     <title lang="es">The Wawies</title>
@@ -2989,11 +2498,6 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <desc lang="es">Las hermanas Silva son el alma de las principales fiestas de la alta sociedad madrileña de la época, en el Madrid de 1920.</desc>
     <url>https://www.rtve.es/v/3550040</url>
     <icon src="https://img.rtve.es/v/3550040?w=100" />
-  </programme>
-  <programme start="20260917061400 +0200" stop="20260917062500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Gormiti : El amanecer de los Meka</title>
-    <desc lang="es">Gracias a los Artefactos Meka, los Darkan han conseguido el poder de la energía Omega. Es la hora de llamar a los Ultra Gormiti.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/14/28145957_e980fecc3c4bd09506377a659f32e5a6.jpg" />
   </programme>
   <programme start="20260917061400 +0200" stop="20260917062100 +0200" channel="Clan.es">
     <title lang="es">The Wawies</title>
@@ -3019,27 +2523,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/16384746</url>
     <icon src="https://img.rtve.es/v/16384746?w=400" />
   </programme>
-  <programme start="20260917062500 +0200" stop="20260917063600 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : Las clases reales</title>
-    <desc lang="es">Stella se está adaptando a la escuela, pero la Reina Madre exige que tome clases para la realeza. Stella parece destinada a destacar siempre.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/09/27090945_625f68256d6d65f6e1e31040ffceedc7.jpg" />
-  </programme>
   <programme start="20260917062800 +0200" stop="20260917063600 +0200" channel="Clan.es">
     <title lang="es">Momonsters</title>
     <desc lang="es">Aleska, una niña de 8 años que vive en Polonia, le cuenta a los Momonsters lo que más le gusta en el mundo: jugar al yoyó</desc>
     <url>https://www.rtve.es/v/5553125</url>
     <icon src="https://img.rtve.es/v/5553125?w=400" />
-  </programme>
-  <programme start="20260917063000 +0200" stop="20260917064500 +0200" channel="La.2.es">
-    <title lang="es">That'S English</title>
-    <desc lang="es">Intermedio B2.</desc>
-    <url>https://www.rtve.es/v/16291491</url>
-    <icon src="https://img.rtve.es/v/16291491?w=400" />
-  </programme>
-  <programme start="20260917063600 +0200" stop="20260917064800 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : El castigo Real</title>
-    <desc lang="es">Un malentendido en la asamblea escolar acaba con Stella castigada por primera vez. Mientras conspira con Snowy para ocultar el castigo a sus padres, Stella se plantea lo que significa la lealtad y los peligros de ser una delatora.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/09/27090624_bf33ade28d08b21c1140327ad1e41954.jpg" />
   </programme>
   <programme start="20260917063600 +0200" stop="20260917064300 +0200" channel="Clan.es">
     <title lang="es">Momonsters</title>
@@ -3053,43 +2541,17 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/v/5553864</url>
     <icon src="https://img.rtve.es/v/5553864?w=400" />
   </programme>
-  <programme start="20260917064500 +0200" stop="20260917065500 +0200" channel="La.2.es">
-    <title lang="es">That'S English</title>
-    <desc lang="es">Intermedio B2.</desc>
-    <url>https://www.rtve.es/v/16291501</url>
-    <icon src="https://img.rtve.es/v/16291501?w=400" />
-  </programme>
-  <programme start="20260917064800 +0200" stop="20260917070000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : La corona Real</title>
-    <desc lang="es">Al darse cuenta de que su padre nunca se quita la corona, Stella lo convence para que se la quite solo una vez para que ella se sienta "normal" entre sus amigos, pero el look descoronado del rey Bob causa mucha alarma y suspicacia.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/09/27091277_fc7e7fdfdfd9af0f05abffdb5b5833ce.jpg" />
-  </programme>
   <programme start="20260917065000 +0200" stop="20260917065700 +0200" channel="Clan.es">
     <title lang="es">Momonsters</title>
     <desc lang="es">Roberto, un niño de 4 años de España, le cuenta a los Momonsters lo que más le gusta del mundo: hacer castillos de arena.</desc>
     <url>https://www.rtve.es/v/5553832</url>
     <icon src="https://img.rtve.es/v/5553832?w=400" />
   </programme>
-  <programme start="20260917065500 +0200" stop="20260917072500 +0200" channel="La.2.es">
-    <title lang="es">Documental Fauna Letal</title>
-    <desc lang="es">Steve y su equipo se dirigen a Alaska en busca de aventuras más mortales.</desc>
-    <url>https://www.rtve.es/v/16906065</url>
-    <icon src="https://img.rtve.es/v/16906065?w=400" />
-  </programme>
-  <programme start="20260917065500 +0200" stop="20260917080500 +0200" channel="Teledeporte.es">
-    <title lang="es">Gimnasia Aeróbica Cto Del Mundo 2026</title>
-    <desc lang="es">Gimnasia aeróbica Campeonato del Mundo 2026</desc>
-  </programme>
   <programme start="20260917065700 +0200" stop="20260917070400 +0200" channel="Clan.es">
     <title lang="es">Bluey</title>
     <desc lang="es">Bluey está aprendiendo a montar en bici, pero se cae todo el rato y al final deja de intentarlo.</desc>
     <url>https://www.rtve.es/v/16868189</url>
     <icon src="https://img.rtve.es/v/16868189?w=400" />
-  </programme>
-  <programme start="20260917070000 +0200" stop="20260917072500 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Academia de Gladiadores : Tierra a la vista</title>
-    <desc lang="es">Cornucopia consigue ser un estado independiente separado del Imperio. Mientras todos duermen, Cadius con la ayuda de enormes barcos, saca la isla al mar y la deja aparcada junto a una tierra extraña para nuestros amigos.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749582_99417ff4d6798355fb9e23ae1e766d59.jpg" />
   </programme>
   <programme start="20260917070400 +0200" stop="20260917071100 +0200" channel="Clan.es">
     <title lang="es">Bluey</title>
@@ -3127,22 +2589,11 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <url>https://www.rtve.es/pr/1028792</url>
     <icon src="https://img.rtve.es/p/1028792/imgportada?w=400" />
   </programme>
-  <programme start="20260917072500 +0200" stop="20260917075100 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Nicolás</title>
-    <desc lang="es">Serie educativa para los más chicos de la familia.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/94/23942774_b6b2b6f61b7e39d4345ba7adeab1f14e.jpg" />
-  </programme>
   <programme start="20260917072500 +0200" stop="20260917074900 +0200" channel="Clan.es">
     <title lang="es">Doctora Juguetes</title>
     <desc lang="es">Doc tiene una muñeca, Bella Bailarina, que es una "prima donna" del ballet, pero al hacer un gran salto se romperá una pierna.</desc>
-    <url>https://www.rtve.es/v/17041950</url>
-    <icon src="https://img.rtve.es/v/17041950?w=400" />
-  </programme>
-  <programme start="20260917072500 +0200" stop="20260917081500 +0200" channel="La.2.es">
-    <title lang="es">Sabores Del Mundo</title>
-    <desc lang="es">Sus costas bañadas por aguas cristalinas atraen a millones de visitantes cada año. Bienvenidos a Croacia, el país de las 1.185 Islas.</desc>
-    <url>https://www.rtve.es/v/16564785</url>
-    <icon src="https://img.rtve.es/v/16564785?w=400" />
+    <url>https://www.rtve.es/v/17041958</url>
+    <icon src="https://img.rtve.es/v/17041958?w=400" />
   </programme>
   <programme start="20260917072900 +0200" stop="20260917075300 +0200" channel="Star.es">
     <title lang="es">Flash Moda Monograficos</title>
@@ -3159,25 +2610,20 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917075000 +0200" stop="20260917103500 +0200" channel="Canal.24.h.es">
     <title lang="es">La Hora De La 1</title>
     <desc lang="es">"La hora de la 1" es un programa magacine, en el que se aborda la actualidad política y social.</desc>
-    <url>https://www.rtve.es/pr/131790</url>
-    <icon src="https://img.rtve.es/p/131790/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17228653</url>
+    <icon src="https://img.rtve.es/v/17228653?w=400" />
   </programme>
   <programme start="20260917075000 +0200" stop="20260917103500 +0200" channel="La.1.es">
     <title lang="es">La Hora De La 1</title>
     <desc lang="es">"La hora de la 1" es un programa magacine, en el que se aborda la actualidad política y social.</desc>
-    <url>https://www.rtve.es/pr/131790</url>
-    <icon src="https://img.rtve.es/p/131790/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17228653</url>
+    <icon src="https://img.rtve.es/v/17228653?w=400" />
   </programme>
   <programme start="20260917075000 +0200" stop="20260917103500 +0200" channel="TVE.Internacional.es">
     <title lang="es">La Hora De La 1</title>
     <desc lang="es">"La hora de la 1" es un programa magacine, en el que se aborda la actualidad política y social.</desc>
-    <url>https://www.rtve.es/pr/131790</url>
-    <icon src="https://img.rtve.es/p/131790?w=100" />
-  </programme>
-  <programme start="20260917075100 +0200" stop="20260917080400 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Zipi y Zape : ¡Al sótano y sin cenar!</title>
-    <desc lang="es">Los gemelos cometieron su peor travesura: quemar los bigotes de Don Minervo. Sin embargo, en esta ocasión son inocentes, por lo que deberán desenmascarar al verdadero culpable y, también, hacer de niñera de un aprendiz de monstruo.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/91/27913431_07f060382e15c82ed44244f156367d0b.jpg" />
+    <url>https://www.rtve.es/v/17228653</url>
+    <icon src="https://img.rtve.es/v/17228653?w=100" />
   </programme>
   <programme start="20260917075300 +0200" stop="20260917081500 +0200" channel="Star.es">
     <title lang="es">Flash Moda Monograficos</title>
@@ -3199,7 +2645,7 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917081200 +0200" stop="20260917083500 +0200" channel="Clan.es">
     <title lang="es">Spidey Y Su Superequipo</title>
     <desc lang="es">ROBOTS CONTRA OCK - EL ROBO DE LA BATERÍA</desc>
-    <url>https://www.rtve.es/play/clan/directo/</url>
+    <url>https://www.rtve.es/v/17009189</url>
     <icon src="https://img.rtve.es/v/17009189?w=400" />
   </programme>
   <programme start="20260917081500 +0200" stop="20260917090000 +0200" channel="La.2.es">
@@ -3342,6 +2788,8 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917094000 +0200" stop="20260917095500 +0200" channel="Teledeporte.es">
     <title lang="es">Triatlon Programa Somos Triatlon</title>
     <desc lang="es">Triatlón. Acontecimientos Federación Española 2026.</desc>
+    <url>https://www.rtve.es/v/17228572</url>
+    <icon src="https://img.rtve.es/v/17228572?w=400" />
   </programme>
   <programme start="20260917094200 +0200" stop="20260917095400 +0200" channel="Clan.es">
     <title lang="es">Petronix</title>
@@ -3363,8 +2811,8 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917095500 +0200" stop="20260917105500 +0200" channel="La.2.es">
     <title lang="es">La Aventura Del Saber</title>
     <desc lang="es">Analizamos los terremotos registrados en 2026 y los incendios forestales del pasado verano. También, hablamos de la ONG Cirugía en Turkana.</desc>
-    <url>https://www.rtve.es/pr/1637</url>
-    <icon src="https://img.rtve.es/p/1637/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17228662</url>
+    <icon src="https://img.rtve.es/v/17228662?w=400" />
   </programme>
   <programme start="20260917095500 +0200" stop="20260917101500 +0200" channel="Teledeporte.es">
     <title lang="es">Automovilismo Programa Racing For Spain</title>
@@ -3436,8 +2884,8 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917103500 +0200" stop="20260917110000 +0200" channel="Canal.24.h.es">
     <title lang="es">Diario 24</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/120150</url>
-    <icon src="https://img.rtve.es/p/120150/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229039</url>
+    <icon src="https://img.rtve.es/v/17229039?w=400" />
   </programme>
   <programme start="20260917103500 +0200" stop="20260917135500 +0200" channel="La.1.es">
     <title lang="es">Mañaneros 360</title>
@@ -3460,8 +2908,8 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917104600 +0200" stop="20260917105800 +0200" channel="Clan.es">
     <title lang="es">Pj Masks</title>
     <desc lang="es">Romeo convence a la inocente Orticia de que la fiesta de Halloween consiste en dar sustos a la gente para hacer amigos. Y cuanto más malvado...</desc>
-    <url>https://www.rtve.es/pr/136531</url>
-    <icon src="https://img.rtve.es/p/136531/imgportada?w=400" />
+    <url>https://www.rtve.es/v/15924560</url>
+    <icon src="https://img.rtve.es/v/15924560?w=400" />
   </programme>
   <programme start="20260917105400 +0200" stop="20260917111700 +0200" channel="Clan.Internacional.es">
     <title lang="es">Egyxos : El gran río</title>
@@ -3477,20 +2925,20 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
   <programme start="20260917105800 +0200" stop="20260917111000 +0200" channel="Clan.es">
     <title lang="es">Pj Masks</title>
     <desc lang="es">Con los poderes robados a Orticia, Romeo se dedica a sembrar el caos en la ciudad y fastidiar a los granujas.</desc>
-    <url>https://www.rtve.es/pr/136531</url>
-    <icon src="https://img.rtve.es/p/136531/imgportada?w=400" />
+    <url>https://www.rtve.es/v/15924576</url>
+    <icon src="https://img.rtve.es/v/15924576?w=400" />
   </programme>
   <programme start="20260917110000 +0200" stop="20260917140000 +0200" channel="Canal.24.h.es">
     <title lang="es">Diario 24</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
-    <url>https://www.rtve.es/pr/120150</url>
-    <icon src="https://img.rtve.es/p/120150/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229039</url>
+    <icon src="https://img.rtve.es/v/17229039?w=400" />
   </programme>
   <programme start="20260917111000 +0200" stop="20260917112200 +0200" channel="Clan.es">
     <title lang="es">Pj Masks</title>
     <desc lang="es">Romeo ha conseguido con sus artilugios quitarle los poderes a Newton. Él se siente muy desanimado.</desc>
-    <url>https://www.rtve.es/pr/136531</url>
-    <icon src="https://img.rtve.es/p/136531/imgportada?w=400" />
+    <url>https://www.rtve.es/v/15927654</url>
+    <icon src="https://img.rtve.es/v/15927654?w=400" />
   </programme>
   <programme start="20260917111700 +0200" stop="20260917112400 +0200" channel="Clan.Internacional.es">
     <title lang="es">Los Wawies : El lago de plástico</title>
@@ -3501,8 +2949,8 @@ Habiéndose desecho al fin de la amenaza policial, Mario y los suyos preparan un
     <title lang="es">Pj Masks</title>
     <desc lang="es">Robot Pirata está aprovechando toda la chatarra que tira 
 Romeo para hacer mejoras en su barco pirata.</desc>
-    <url>https://www.rtve.es/pr/136531</url>
-    <icon src="https://img.rtve.es/p/136531/imgportada?w=400" />
+    <url>https://www.rtve.es/v/15927662</url>
+    <icon src="https://img.rtve.es/v/15927662?w=400" />
   </programme>
   <programme start="20260917112400 +0200" stop="20260917113100 +0200" channel="Clan.Internacional.es">
     <title lang="es">Los Wawies : El oasis</title>
@@ -3765,20 +3213,20 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917145500 +0200" stop="20260917153200 +0200" channel="Canal.24.h.es">
     <title lang="es">Telediario 1</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA, EN DIRECTO</desc>
-    <url>https://www.rtve.es/pr/45030</url>
-    <icon src="https://img.rtve.es/p/45030/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229380</url>
+    <icon src="https://img.rtve.es/v/17229380?w=400" />
   </programme>
   <programme start="20260917145500 +0200" stop="20260917153000 +0200" channel="La.1.es">
     <title lang="es">Telediario 1</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA, EN DIRECTO</desc>
-    <url>https://www.rtve.es/pr/45030</url>
-    <icon src="https://img.rtve.es/p/45030/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229380</url>
+    <icon src="https://img.rtve.es/v/17229380?w=400" />
   </programme>
   <programme start="20260917145500 +0200" stop="20260917153000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Telediario 1</title>
     <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA, EN DIRECTO</desc>
-    <url>https://www.rtve.es/pr/45030</url>
-    <icon src="https://img.rtve.es/p/45030?w=100" />
+    <url>https://www.rtve.es/v/17229380</url>
+    <icon src="https://img.rtve.es/v/17229380?w=100" />
   </programme>
   <programme start="20260917145700 +0200" stop="20260917150800 +0200" channel="Clan.Internacional.es">
     <title lang="es">Milo</title>
@@ -3826,8 +3274,8 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917153000 +0200" stop="20260917162000 +0200" channel="La.2.es">
     <title lang="es">Saber Y Ganar</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
-    <url>https://www.rtve.es/pr/1710</url>
-    <icon src="https://img.rtve.es/p/1710/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229489</url>
+    <icon src="https://img.rtve.es/v/17229489?w=400" />
   </programme>
   <programme start="20260917153000 +0200" stop="20260917153500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Teledeporte 1</title>
@@ -3889,8 +3337,8 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917154600 +0200" stop="20260917160700 +0200" channel="Clan.es">
     <title lang="es">Los Green En La Gran Ciudad</title>
     <desc lang="es">EL REFLEJO DE LOS GREEN - LAS ENTRADAS DE CRICKET</desc>
-    <url>https://www.rtve.es/v/16999699</url>
-    <icon src="https://img.rtve.es/v/16999699?w=400" />
+    <url>https://www.rtve.es/v/16999703</url>
+    <icon src="https://img.rtve.es/v/16999703?w=400" />
   </programme>
   <programme start="20260917154600 +0200" stop="20260917155000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Aqui La Tierra Lola Y Duque</title>
@@ -3899,14 +3347,14 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917155000 +0200" stop="20260917174500 +0200" channel="La.1.es">
     <title lang="es">Directo Al Grano</title>
     <desc lang="es">Magacine de actualidad social y política con secciones de humor y de verificación de noticias falsas.</desc>
-    <url>https://www.rtve.es/pr/1001478</url>
-    <icon src="https://img.rtve.es/p/1001478/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229644</url>
+    <icon src="https://img.rtve.es/v/17229644?w=400" />
   </programme>
   <programme start="20260917155000 +0200" stop="20260917175000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Directo Al Grano</title>
     <desc lang="es">Magacine de actualidad social y política con secciones de humor y de verificación de noticias falsas.</desc>
-    <url>https://www.rtve.es/pr/1001478</url>
-    <icon src="https://img.rtve.es/p/1001478?w=100" />
+    <url>https://www.rtve.es/v/17229644</url>
+    <icon src="https://img.rtve.es/v/17229644?w=100" />
   </programme>
   <programme start="20260917155600 +0200" stop="20260917160900 +0200" channel="Clan.Internacional.es">
     <title lang="es">Rocky Kwaterner</title>
@@ -3984,8 +3432,8 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917170000 +0200" stop="20260917200000 +0200" channel="Canal.24.h.es">
     <title lang="es">La Tarde En 24h</title>
     <desc lang="es">INFORMATIVO EN DIRECTO DE NOTICIAS ENTREVISTAS Y REPORTAJES CON DEDICACIÓN ESPECIAL A LA ECONOMÍA, INTERNACIONAL, CULTURA Y DEPORTE</desc>
-    <url>https://www.rtve.es/pr/30870</url>
-    <icon src="https://img.rtve.es/p/30870/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229734</url>
+    <icon src="https://img.rtve.es/v/17229734?w=400" />
   </programme>
   <programme start="20260917170500 +0200" stop="20260917180500 +0200" channel="Star.es">
     <title lang="es">Salón De Té La Moderna</title>
@@ -4061,8 +3509,8 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917174500 +0200" stop="20260917183500 +0200" channel="La.1.es">
     <title lang="es">Valle Salvaje</title>
     <desc lang="es">La Temporada 4 de Valle Salvaje se centra en la nueva vida de Rafael como padre viudo y en los intentos de José Luis por recuperar su ducado.</desc>
-    <url>https://www.rtve.es/pr/1000665</url>
-    <icon src="https://img.rtve.es/p/1000665/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17225290</url>
+    <icon src="https://img.rtve.es/v/17225290?w=400" />
   </programme>
   <programme start="20260917174500 +0200" stop="20260917194500 +0200" channel="La.2.es">
     <title lang="es">Malas Lenguas</title>
@@ -4147,8 +3595,8 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917183500 +0200" stop="20260917193500 +0200" channel="La.1.es">
     <title lang="es">La Promesa</title>
     <desc lang="es">En el valle de los Pedroches, el palacio de La Promesa, propiedad del Marquesado de Luján, enfrenta su peor momento.</desc>
-    <url>https://www.rtve.es/pr/169690</url>
-    <icon src="https://img.rtve.es/p/169690/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17225323</url>
+    <icon src="https://img.rtve.es/v/17225323?w=400" />
   </programme>
   <programme start="20260917183600 +0200" stop="20260917184800 +0200" channel="Clan.Internacional.es">
     <title lang="es">Mis vecinos reales : El mayordomo Real</title>
@@ -4163,8 +3611,8 @@ Romeo para hacer mejoras en su barco pirata.</desc>
   <programme start="20260917185000 +0200" stop="20260917194000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Saber Y Ganar</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
-    <url>https://www.rtve.es/pr/1710</url>
-    <icon src="https://img.rtve.es/p/1710?w=100" />
+    <url>https://www.rtve.es/v/17229489</url>
+    <icon src="https://img.rtve.es/v/17229489?w=100" />
   </programme>
   <programme start="20260917185500 +0200" stop="20260917195500 +0200" channel="Star.es">
     <title lang="es">La Promesa</title>
@@ -4187,8 +3635,8 @@ Bob Esponja se va de gira 1 y 2.</desc>
   <programme start="20260917190500 +0200" stop="20260917191500 +0200" channel="Teledeporte.es">
     <title lang="es">La Tarde En 24h</title>
     <desc lang="es">INFORMATIVO EN DIRECTO DE NOTICIAS ENTREVISTAS Y REPORTAJES CON DEDICACIÓN ESPECIAL A LA ECONOMÍA, INTERNACIONAL, CULTURA Y DEPORTE</desc>
-    <url>https://www.rtve.es/pr/30870</url>
-    <icon src="https://img.rtve.es/p/30870/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229657</url>
+    <icon src="https://img.rtve.es/v/17229657?w=400" />
   </programme>
   <programme start="20260917191500 +0200" stop="20260917192500 +0200" channel="Teledeporte.es">
     <title lang="es">Futbol Presentacion Seleccion</title>
@@ -4262,7 +3710,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
   <programme start="20260917200400 +0200" stop="20260917202400 +0200" channel="Clan.es">
     <title lang="es">Pokemon Horizontes</title>
     <desc lang="es">En su persecución tras Rubina e Indi, Unai y Sableye acaban llegando a una base secreta de los Exploradores. Mientras, Rod intenta seguirle ...</desc>
-    <url>https://www.rtve.es/pr/1030913</url>
+    <url>https://www.rtve.es/play/clan/directo/</url>
     <icon src="https://img.rtve.es/p/1030913/imgportada?w=400" />
   </programme>
   <programme start="20260917201900 +0200" stop="20260917203200 +0200" channel="Clan.Internacional.es">
@@ -4371,8 +3819,8 @@ Bob Esponja se va de gira 1 y 2.</desc>
   <programme start="20260917212000 +0200" stop="20260917213000 +0200" channel="Teledeporte.es">
     <title lang="es">La Tarde En 24h</title>
     <desc lang="es">INFORMATIVO EN DIRECTO DE NOTICIAS ENTREVISTAS Y REPORTAJES CON DEDICACIÓN ESPECIAL A LA ECONOMÍA, INTERNACIONAL, CULTURA Y DEPORTE</desc>
-    <url>https://www.rtve.es/pr/30870</url>
-    <icon src="https://img.rtve.es/p/30870/imgportada?w=400" />
+    <url>https://www.rtve.es/v/17229657</url>
+    <icon src="https://img.rtve.es/v/17229657?w=400" />
   </programme>
   <programme start="20260917212500 +0200" stop="20260917220000 +0200" channel="La.2.es">
     <title lang="es">Cifras Y Letras</title>
@@ -4550,8 +3998,8 @@ Bob Esponja se va de gira 1 y 2.</desc>
   <programme start="20260917224500 +0200" stop="20260917233500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Valle Salvaje</title>
     <desc lang="es">Luisa sufre en silencio por lo que escuchó, a escondidas, al marqués y le oculta a Alejo su dolor al creer que besó a Manuela.</desc>
-    <url>https://www.rtve.es/pr/1000665</url>
-    <icon src="https://img.rtve.es/p/1000665?w=100" />
+    <url>https://www.rtve.es/v/17225290</url>
+    <icon src="https://img.rtve.es/v/17225290?w=100" />
   </programme>
   <programme start="20260917225400 +0200" stop="20260917231700 +0200" channel="Clan.Internacional.es">
     <title lang="es">Egyxos : Los saqueadores del Mar de Arena</title>
@@ -5021,7 +4469,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1726</url>
     <icon src="https://img.rtve.es/p/1726/imgportada?w=400" />
   </programme>
-  <programme start="20260918053000 +0200" stop="20260918073000 +0200" channel="TVE.Internacional.es">
+  <programme start="20260918053000 +0200" stop="20260918072000 +0200" channel="TVE.Internacional.es">
     <title lang="es">El Perro Andaluz By Manu Sanchez</title>
     <desc lang="es">Jesús Vázquez y Rosa María Calaf conversan con Manu Sánchez sobre libertad, convivencia, periodismo y actualidad en ¿El perro andaluz¿.</desc>
     <url>https://www.rtve.es/v/17220005</url>
@@ -5064,6 +4512,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/7006576</url>
     <icon src="https://img.rtve.es/v/7006576?w=400" />
   </programme>
+  <programme start="20260918055000 +0200" stop="20260918060000 +0200" channel="Teledeporte.es">
+    <title lang="es">Automovilismo Programa Racing For Spain</title>
+    <desc lang="es">Automovilismo. Acontecimientos Federación Española 2026.</desc>
+    <url>https://www.rtve.es/pr/116150</url>
+    <icon src="https://img.rtve.es/p/116150/imgportada?w=400" />
+  </programme>
   <programme start="20260918055500 +0200" stop="20260918060000 +0200" channel="Clan.es">
     <title lang="es">Trotties. Magic World Adventures</title>
     <desc lang="es">Un travieso genio ha encerrado a Sophie tras una de las puertas mágicas de Jerusalén. Emma deberá cruzar por el resto de puertas para libera...</desc>
@@ -5092,6 +4546,15 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">La Universidad de Granada ofrece un itinerario en lengua de signos española en su Grado de Traducción e Interpretación.</desc>
     <url>https://www.rtve.es/pr/16530</url>
     <icon src="https://img.rtve.es/p/16530/imgportada?w=400" />
+  </programme>
+  <programme start="20260918060000 +0200" stop="20260918061000 +0200" channel="Teledeporte.es">
+    <title lang="es">Automovilismo</title>
+  </programme>
+  <programme start="20260918061000 +0200" stop="20260918083500 +0200" channel="Teledeporte.es">
+    <title lang="es">Triathlon World Series Elite Femenino Karlovy Vary</title>
+    <desc lang="es">TRIATHLON WORLD SERIES FINAL PONTEVEDRA 2026</desc>
+    <url>https://www.rtve.es/v/17225018</url>
+    <icon src="https://img.rtve.es/v/17225018?w=400" />
   </programme>
   <programme start="20260918061400 +0200" stop="20260918062500 +0200" channel="Clan.Internacional.es">
     <title lang="es">Gormiti : La primera guía</title>
@@ -5147,6 +4610,14 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Programa monogáfico sobre creadores de moda</desc>
     <url>https://www.rtve.es/v/4227758</url>
     <icon src="https://img.rtve.es/v/4227758?w=100" />
+  </programme>
+  <programme start="20260918072000 +0200" stop="20260918072300 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Esto Es Espana Cova Tellada</title>
+    <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
+  </programme>
+  <programme start="20260918072300 +0200" stop="20260918073000 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Esto Es Espana Rio Urederria</title>
+    <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
   <programme start="20260918072500 +0200" stop="20260918075100 +0200" channel="Clan.Internacional.es">
     <title lang="es">Nicolás</title>
@@ -5221,6 +4692,10 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
   </programme>
+  <programme start="20260918083500 +0200" stop="20260918100000 +0200" channel="Teledeporte.es">
+    <title lang="es">Baloncesto Silla Ruedas Cto Mundo 5º - 8º Fem</title>
+    <desc lang="es">MUNDIAL BALONCESTO EN SILLA DE RUEDAS, OTTAWA (CANADÁ) 9-19 SEPTIEMBRE</desc>
+  </programme>
   <programme start="20260918084600 +0200" stop="20260918085700 +0200" channel="Clan.Internacional.es">
     <title lang="es">Milo</title>
     <desc lang="es">Milo es un gato de 5 años a quien le encanta disfrazarse para explorar el mundo de las profesiones, y junto a sus mejores amigos Lofty y Lark, descubren que cada profesión puede ser una aventura apasionante.</desc>
@@ -5277,7 +4752,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
   </programme>
   <programme start="20260918095500 +0200" stop="20260918105500 +0200" channel="La.2.es">
     <title lang="es">Universo Uned</title>
-    <desc lang="es">Programa cultural y educativo de la Universidad Nacional de Educación a Distancia</desc>
+    <desc lang="es">Mientras siga sonando el timbre. Salvador Victoria. La pureza de la pintura. La casa de Nicolaas Rockox y Adriana Pérez en el Amberes del s, XVII.</desc>
     <url>https://www.rtve.es/pr/1740</url>
     <icon src="https://img.rtve.es/p/1740/imgportada?w=400" />
   </programme>
@@ -5286,10 +4761,26 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">En el corazón de la Antártida, una expedición descubre a un joven Cromañón atrapado en el hielo. Repatriado a la Academia de Ciencias, el hibernado es extraído del hielo y milagrosamente vuelve a la vida. Es bautizado como Rocky Kwaterner.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/73/19731279_2CDA5C2588F6FA62.jpg" />
   </programme>
+  <programme start="20260918100000 +0200" stop="20260918100500 +0200" channel="Teledeporte.es">
+    <title lang="es">Telediario Matinal</title>
+    <desc lang="es">ESPACIO DE INFORMACIÓN DIARIA EN DIRECTO</desc>
+    <url>https://www.rtve.es/pr/135931</url>
+    <icon src="https://img.rtve.es/p/135931/imgportada?w=400" />
+  </programme>
+  <programme start="20260918100500 +0200" stop="20260918101500 +0200" channel="Teledeporte.es">
+    <title lang="es">Deporte Paralimpico Programa Deporte Para Todos</title>
+    <desc lang="es">Programa "Paralímpicos" 2026</desc>
+  </programme>
   <programme start="20260918100900 +0200" stop="20260918102000 +0200" channel="Clan.Internacional.es">
     <title lang="es">Squish</title>
     <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
+  </programme>
+  <programme start="20260918101500 +0200" stop="20260918103500 +0200" channel="Teledeporte.es">
+    <title lang="es">Surf Programa Surfing.Es</title>
+    <desc lang="es">Surf. Acontecimientos Federación Española 2026. Reportajes.</desc>
+    <url>https://www.rtve.es/pr/117170</url>
+    <icon src="https://img.rtve.es/p/117170/imgportada?w=400" />
   </programme>
   <programme start="20260918102000 +0200" stop="20260918103200 +0200" channel="Clan.Internacional.es">
     <title lang="es">Squish</title>
@@ -5325,6 +4816,18 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/175650</url>
     <icon src="https://img.rtve.es/p/175650?w=100" />
   </programme>
+  <programme start="20260918103500 +0200" stop="20260918105000 +0200" channel="Teledeporte.es">
+    <title lang="es">Raids Baja Aragon</title>
+    <desc lang="es">Automovilismo. Acontecimientos Federación Española 2026.</desc>
+    <url>https://www.rtve.es/pr/116150</url>
+    <icon src="https://img.rtve.es/p/116150/imgportada?w=400" />
+  </programme>
+  <programme start="20260918105000 +0200" stop="20260918110200 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Elche - Real Madrid</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918105300 +0200" stop="20260918111700 +0200" channel="Clan.Internacional.es">
     <title lang="es">Egyxos : Los saqueadores del Mar de Arena</title>
     <desc lang="es">Kefer y sus compañeros se embarcaron en una difícil misión: encontrar a Isis y a Bes, quienes habían sido arrastrados junto con su nave por una terrible tormenta en el Océano de Arena.</desc>
@@ -5341,6 +4844,18 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">ESPACIO DE INFORMACIÓN NACIONAL E INTERNACIONAL</desc>
     <url>https://www.rtve.es/pr/120150</url>
     <icon src="https://img.rtve.es/p/120150/imgportada?w=400" />
+  </programme>
+  <programme start="20260918110200 +0200" stop="20260918111400 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Alaves - Valencia</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
+  <programme start="20260918111400 +0200" stop="20260918112600 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Rayo - Espanyol</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918111700 +0200" stop="20260918112400 +0200" channel="Clan.Internacional.es">
     <title lang="es">Los Wawies : ¿De qué tienes miedo?</title>
@@ -5364,6 +4879,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/16831961</url>
     <icon src="https://img.rtve.es/v/16831961?w=100" />
   </programme>
+  <programme start="20260918112600 +0200" stop="20260918113800 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 At. Madrid - Osasuna</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918113100 +0200" stop="20260918113500 +0200" channel="Clan.Internacional.es">
     <title lang="es">Socks : El misterio de la oruga</title>
     <desc lang="es">Nico y Woody no dan crédito a lo que ven cuando su bonita oruga es engullida por una cosa horrible. Lo pasan bastante mal intentando averiguar cómo salvar a su amiguita, hasta que descubren que detrás de todo eso hay algo maravilloso.</desc>
@@ -5373,6 +4894,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <title lang="es">Socks : Abracadabra</title>
     <desc lang="es">Nico está jugando a ser mago. Se toma medio en broma los trucos que su padre le enseñó, hasta que las palabras "abracadabra" hacen que su amigo Woody desaparezca.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26774134_c7f9b33a22b530101d4c038e06b09020.jpg" />
+  </programme>
+  <programme start="20260918113800 +0200" stop="20260918115000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Deportivo - Sevilla</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918114000 +0200" stop="20260918114700 +0200" channel="Clan.Internacional.es">
     <title lang="es">Llamada peluche</title>
@@ -5384,15 +4911,33 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Max diseña un plan para congelar todo el dinosaurio y traerlo de vuelta. Mientras tanto, el día que el equipo de Rex inspecciona las instalaciones de la sede, Ben y Harry discuten sobre las diferencias de opinión.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749671_2d9f1513ba490a7c6a90839f914fcf1e.jpg" />
   </programme>
+  <programme start="20260918115000 +0200" stop="20260918120200 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Fc Barcelona - Racing</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918120000 +0200" stop="20260918121400 +0200" channel="Clan.Internacional.es">
     <title lang="es">Súper Dino : El viaje de Para a la luna</title>
     <desc lang="es">Para sueña con convertirse en astronauta e intenta ir a la luna con la ayuda de Vicky, pero fracasan. Los miembros del equipo de Rex juntan sus cabezas y piensan en cómo enviar a Para a la luna.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749565_b036fa5eeabd94c8a61ffab9358b387e.jpg" />
   </programme>
+  <programme start="20260918120200 +0200" stop="20260918121400 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Betis - Getafe</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918121400 +0200" stop="20260918122500 +0200" channel="Clan.Internacional.es">
     <title lang="es">Gormiti : Colgado en las alturas</title>
     <desc lang="es">Trek y Eron intentan activar la guía siguiente por ellos mismos, pero está en la cima de una montaña, y los Gormiti de la roca no pueden escalar.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/14/28145912_a33319bf91a7b213028714b2bee78278.jpg" />
+  </programme>
+  <programme start="20260918121400 +0200" stop="20260918123000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Malaga - Villarreal</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918122000 +0200" stop="20260918125000 +0200" channel="La.2.es">
     <title lang="es">El Escarabajo Verde</title>
@@ -5411,6 +4956,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/5290998</url>
     <icon src="https://img.rtve.es/v/5290998?w=100" />
   </programme>
+  <programme start="20260918123000 +0200" stop="20260918125500 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Rueda De Prensa Luis De La Fuente</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918123600 +0200" stop="20260918124800 +0200" channel="Clan.Internacional.es">
     <title lang="es">Mis vecinos reales : La recreación Real</title>
     <desc lang="es">El rey Bob está encantado de interpretar a su antepasado, el rey Roberto XIII en la representación de la Batalla de la Zarzamora, pero su insistencia en que la guerra en el siglo 18 era "una cosa de chicos" enfurece a Stella.</desc>
@@ -5427,10 +4978,26 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/6074180</url>
     <icon src="https://img.rtve.es/v/6074180?w=400" />
   </programme>
+  <programme start="20260918125500 +0200" stop="20260918130700 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Betis - Getafe</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918130000 +0200" stop="20260918132500 +0200" channel="Clan.Internacional.es">
     <title lang="es">Academia de Gladiadores : Se acabó el juego</title>
     <desc lang="es">Gluteus decide prohibir los Juegos de Gladiadores del Imperio por envidia de no tener los mejores en su región. Para que cumplan la nueva ley, envía un inspector a Cornucopia.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749779_9f5868e313d6fff12c919f5cae07edd0.jpg" />
+  </programme>
+  <programme start="20260918130700 +0200" stop="20260918132000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Malaga - Villarreal</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
+  <programme start="20260918132000 +0200" stop="20260918142000 +0200" channel="Teledeporte.es">
+    <title lang="es">Estudio Estadio 2026-2027 (2026)</title>
+    <desc lang="es">ESTUDIO ESTADIO Temporada 2026-2027</desc>
   </programme>
   <programme start="20260918132500 +0200" stop="20260918135100 +0200" channel="Clan.Internacional.es">
     <title lang="es">Nicolás</title>
@@ -5491,6 +5058,10 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/175650</url>
     <icon src="https://img.rtve.es/p/175650?w=100" />
   </programme>
+  <programme start="20260918142000 +0200" stop="20260918150000 +0200" channel="Teledeporte.es">
+    <title lang="es">Estadio 2</title>
+    <desc lang="es">Programa "Estadio 2"</desc>
+  </programme>
   <programme start="20260918143000 +0200" stop="20260918153000 +0200" channel="La.2.es">
     <title lang="es">El Cazador Stars</title>
     <desc lang="es">El Cazador, un formato en el que cuatro concursantes famosos unen sus conocimientos para ganar al cazador, un auténtico profesional de los concursos</desc>
@@ -5530,6 +5101,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Tras escuchar las aventuras del comandante Cottontail, Milo, Lofty y Lark son transportados a la selva, donde buscarán un tesoro con la ayuda de Suds.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/04/22042921_bc3c54dfb1172a2d8b3caebcd7cde269.jpg" />
   </programme>
+  <programme start="20260918150000 +0200" stop="20260918151300 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Rayo - Espanyol</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918150700 +0200" stop="20260918151900 +0200" channel="Clan.Internacional.es">
     <title lang="es">Milo : Milo, el reportero</title>
     <desc lang="es">La reportera Harriet emociona a Milo, Lofty y Lark con sus historias de persecución. Milo se ofrece a ayudar a Harriet a encontrar un titular de primera plana, así que toda la pandilla empieza a buscar una noticia que valga la pena contar.</desc>
@@ -5541,10 +5118,22 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/4144685</url>
     <icon src="https://img.rtve.es/v/4144685?w=100" />
   </programme>
+  <programme start="20260918151300 +0200" stop="20260918152600 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Alaves - Valencia</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918151900 +0200" stop="20260918153100 +0200" channel="Clan.Internacional.es">
     <title lang="es">Yoko</title>
     <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
+  </programme>
+  <programme start="20260918152600 +0200" stop="20260918153900 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Elche - Real Madrid</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918153000 +0200" stop="20260918153500 +0200" channel="La.1.es">
     <title lang="es">Teledeporte 1</title>
@@ -5593,11 +5182,17 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/821</url>
     <icon src="https://img.rtve.es/p/821/imgportada?w=400" />
   </programme>
+  <programme start="20260918153900 +0200" stop="20260918155200 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 At. Madrid - Osasuna</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918154000 +0200" stop="20260918155000 +0200" channel="La.1.es">
     <title lang="es">Informativo Territorial 2</title>
   </programme>
   <programme start="20260918154000 +0200" stop="20260918154300 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Ajuste Aqui La Tierra El Real De La Jara 1</title>
+    <title lang="es">Aqui La Tierra El Real De La Jara 1</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
   <programme start="20260918154100 +0200" stop="20260918160000 +0200" channel="Canal.24.h.es">
@@ -5607,7 +5202,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
   <programme start="20260918154300 +0200" stop="20260918154600 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Ajuste Aqui La Tierra Niza Y Mercado Local</title>
+    <title lang="es">Aqui La Tierra Niza Y Mercado Local</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
   <programme start="20260918154400 +0200" stop="20260918155600 +0200" channel="Clan.Internacional.es">
@@ -5616,7 +5211,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/28/27281009_c0d16faada49272934bf569f30654efa.jpg" />
   </programme>
   <programme start="20260918154600 +0200" stop="20260918155000 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Ajuste Aqui La Tierra Almejas Del Mundo</title>
+    <title lang="es">Aqui La Tierra Almejas Del Mundo</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
   <programme start="20260918155000 +0200" stop="20260918174500 +0200" channel="La.1.es">
@@ -5625,11 +5220,17 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1001478</url>
     <icon src="https://img.rtve.es/p/1001478/imgportada?w=400" />
   </programme>
-  <programme start="20260918155000 +0200" stop="20260918174500 +0200" channel="TVE.Internacional.es">
+  <programme start="20260918155000 +0200" stop="20260918175000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Directo Al Grano</title>
     <desc lang="es">Magacine de actualidad social y política con secciones de humor y de verificación de noticias falsas.</desc>
     <url>https://www.rtve.es/pr/1001478</url>
     <icon src="https://img.rtve.es/p/1001478?w=100" />
+  </programme>
+  <programme start="20260918155200 +0200" stop="20260918160500 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Deportivo - Sevilla</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918155600 +0200" stop="20260918160900 +0200" channel="Clan.Internacional.es">
     <title lang="es">Rocky Kwaterner</title>
@@ -5648,10 +5249,22 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/16789956</url>
     <icon src="https://img.rtve.es/v/16789956?w=100" />
   </programme>
+  <programme start="20260918160500 +0200" stop="20260918161800 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Fc Barcelona - Racing</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918160900 +0200" stop="20260918162000 +0200" channel="Clan.Internacional.es">
     <title lang="es">Squish</title>
     <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
+  </programme>
+  <programme start="20260918161800 +0200" stop="20260918163100 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Betis - Getafe</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918162000 +0200" stop="20260918163200 +0200" channel="Clan.Internacional.es">
     <title lang="es">Squish</title>
@@ -5670,10 +5283,20 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/143430</url>
     <icon src="https://img.rtve.es/p/143430/imgportada?w=400" />
   </programme>
+  <programme start="20260918163100 +0200" stop="20260918164500 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Malaga - Villarreal</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918163200 +0200" stop="20260918165300 +0200" channel="Clan.Internacional.es">
     <title lang="es">Egyxos : La batalla de los campeones</title>
     <desc lang="es">Exaton le propone a Kefer que el destino del reino se decida en un torneo. Dos equipos de Egyxos se enfrentarán para conquistar la supremacía.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24005864_1dcda3170c48d016e30800cc8ab1f20f.jpg" />
+  </programme>
+  <programme start="20260918164500 +0200" stop="20260918185500 +0200" channel="Teledeporte.es">
+    <title lang="es">Tenis Wta Internacional De Valencia 1/4 Final</title>
+    <desc lang="es">Tenis WTA Internacional de Valencia 2026</desc>
   </programme>
   <programme start="20260918165300 +0200" stop="20260918171600 +0200" channel="Clan.Internacional.es">
     <title lang="es">Egyxos : Los saqueadores del Mar de Arena</title>
@@ -5691,7 +5314,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
   <programme start="20260918170500 +0200" stop="20260918171000 +0200" channel="Star.es">
-    <title lang="es">Ajuste Esto Es Espana Cordoba</title>
+    <title lang="es">Esto Es Espana Cordoba</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
   </programme>
   <programme start="20260918171000 +0200" stop="20260918181000 +0200" channel="Star.es">
@@ -5743,16 +5366,16 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1001094</url>
     <icon src="https://img.rtve.es/p/1001094/imgportada?w=400" />
   </programme>
-  <programme start="20260918174500 +0200" stop="20260918184500 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Senderos Del Mundo</title>
-    <desc lang="es">Acompañamos a tres viajeros en sus aventuras por diferentes senderos del mundo</desc>
-    <url>https://www.rtve.es/v/6381681</url>
-    <icon src="https://img.rtve.es/v/6381681?w=100" />
-  </programme>
   <programme start="20260918174600 +0200" stop="20260918180000 +0200" channel="Clan.Internacional.es">
     <title lang="es">Súper Dino : El equipo Rex en peligro</title>
     <desc lang="es">Max diseña un plan para congelar todo el dinosaurio y traerlo de vuelta. Mientras tanto, el día que el equipo de Rex inspecciona las instalaciones de la sede, Ben y Harry discuten sobre las diferencias de opinión.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749671_2d9f1513ba490a7c6a90839f914fcf1e.jpg" />
+  </programme>
+  <programme start="20260918175000 +0200" stop="20260918185000 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Senderos Del Mundo</title>
+    <desc lang="es">Acompañamos a tres viajeros en sus aventuras por diferentes senderos del mundo</desc>
+    <url>https://www.rtve.es/v/6381681</url>
+    <icon src="https://img.rtve.es/v/6381681?w=100" />
   </programme>
   <programme start="20260918180000 +0200" stop="20260918181400 +0200" channel="Clan.Internacional.es">
     <title lang="es">Súper Dino : El viaje de Para a la luna</title>
@@ -5786,16 +5409,20 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">El rey Bob está encantado de interpretar a su antepasado, el rey Roberto XIII en la representación de la Batalla de la Zarzamora, pero su insistencia en que la guerra en el siglo 18 era "una cosa de chicos" enfurece a Stella.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/23/23237472_315425b3d5172919d51978111676521e.jpg" />
   </programme>
-  <programme start="20260918184500 +0200" stop="20260918193500 +0200" channel="TVE.Internacional.es">
+  <programme start="20260918184800 +0200" stop="20260918190000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Cita real</title>
+    <desc lang="es">Stella va a estudiar con Mika y quiere causarle buena impresión. Pero cuando sus padres le piden que haga de niñera a la misma hora, sus planes se ven arruinados.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/23/23237458_da48b1dc36ce8de44c20f7b25e2b01c4.jpg" />
+  </programme>
+  <programme start="20260918185000 +0200" stop="20260918194000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Saber Y Ganar</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
     <url>https://www.rtve.es/pr/1710</url>
     <icon src="https://img.rtve.es/p/1710?w=100" />
   </programme>
-  <programme start="20260918184800 +0200" stop="20260918190000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Mis vecinos reales : Cita real</title>
-    <desc lang="es">Stella va a estudiar con Mika y quiere causarle buena impresión. Pero cuando sus padres le piden que haga de niñera a la misma hora, sus planes se ven arruinados.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/23/23237458_da48b1dc36ce8de44c20f7b25e2b01c4.jpg" />
+  <programme start="20260918185500 +0200" stop="20260918204000 +0200" channel="Teledeporte.es">
+    <title lang="es">Balonmano Liga Asobal J2 Sevilla - Logroño La Rioj</title>
+    <desc lang="es">BALONMANO LIGA ASOBAL</desc>
   </programme>
   <programme start="20260918190000 +0200" stop="20260918192500 +0200" channel="Clan.Internacional.es">
     <title lang="es">Academia de Gladiadores : La escoria de Roma</title>
@@ -5819,21 +5446,21 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1001094</url>
     <icon src="https://img.rtve.es/p/1001094/imgportada?w=400" />
   </programme>
-  <programme start="20260918193500 +0200" stop="20260918194000 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Ajuste Esto Es Espana Centro De Bilbao</title>
+  <programme start="20260918194000 +0200" stop="20260918194500 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Esto Es Espana Centro De Bilbao</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
-  </programme>
-  <programme start="20260918194000 +0200" stop="20260918202500 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Malas Lenguas</title>
-    <desc lang="es">Magacine de actualidad social y política y verificación de noticias falsas.</desc>
-    <url>https://www.rtve.es/pr/1001094</url>
-    <icon src="https://img.rtve.es/p/1001094?w=100" />
   </programme>
   <programme start="20260918194500 +0200" stop="20260918203000 +0200" channel="La.2.es">
     <title lang="es">Sukha</title>
     <desc lang="es">Sukha</desc>
     <url>https://www.rtve.es/pr/1029443</url>
     <icon src="https://img.rtve.es/p/1029443/imgportada?w=400" />
+  </programme>
+  <programme start="20260918194500 +0200" stop="20260918202500 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Malas Lenguas</title>
+    <desc lang="es">Magacine de actualidad social y política y verificación de noticias falsas.</desc>
+    <url>https://www.rtve.es/pr/1001094</url>
+    <icon src="https://img.rtve.es/p/1001094?w=100" />
   </programme>
   <programme start="20260918195200 +0200" stop="20260918200500 +0200" channel="Clan.Internacional.es">
     <title lang="es">Zipi y Zape : Y yo con estos padres</title>
@@ -5891,10 +5518,22 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
   </programme>
+  <programme start="20260918204000 +0200" stop="20260918205000 +0200" channel="Teledeporte.es">
+    <title lang="es">La Tarde En 24h</title>
+    <desc lang="es">INFORMATIVO EN DIRECTO DE NOTICIAS ENTREVISTAS Y REPORTAJES CON DEDICACIÓN ESPECIAL A LA ECONOMÍA, INTERNACIONAL, CULTURA Y DEPORTE</desc>
+    <url>https://www.rtve.es/pr/30870</url>
+    <icon src="https://img.rtve.es/p/30870/imgportada?w=400" />
+  </programme>
   <programme start="20260918204700 +0200" stop="20260918205800 +0200" channel="Clan.Internacional.es">
     <title lang="es">Milo : Milo, el reportero</title>
     <desc lang="es">La reportera Harriet emociona a Milo, Lofty y Lark con sus historias de persecución. Milo se ofrece a ayudar a Harriet a encontrar un titular de primera plana, así que toda la pandilla empieza a buscar una noticia que valga la pena contar.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/23/22234451_0b0ca63d0e0cea97e96dc0f1a6bb8687.jpg" />
+  </programme>
+  <programme start="20260918205000 +0200" stop="20260918210200 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Rayo - Espanyol</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918205500 +0200" stop="20260918215000 +0200" channel="La.1.es">
     <title lang="es">Telediario 2</title>
@@ -5925,20 +5564,44 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/4498558</url>
     <icon src="https://img.rtve.es/v/4498558?w=100" />
   </programme>
+  <programme start="20260918210200 +0200" stop="20260918211400 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Alaves - Valencia</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918210900 +0200" stop="20260918212100 +0200" channel="Clan.Internacional.es">
     <title lang="es">Milo : Milo, el doctor</title>
     <desc lang="es">La doctora Diamond necesita que le limpien la bata, así que visita Scrubby's. Milo, Lofty y Lark son transportados al hospital, donde atienden a los pacientes de la doctora mientras ella descansa.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/19/22194022_75b264b495204a19b8695da1c42ae24b.jpg" />
+  </programme>
+  <programme start="20260918211400 +0200" stop="20260918212600 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Elche - Real Madrid</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918212100 +0200" stop="20260918213300 +0200" channel="Clan.Internacional.es">
     <title lang="es">Yoko</title>
     <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
   </programme>
+  <programme start="20260918212600 +0200" stop="20260918213800 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 At. Madrid - Osasuna</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918213300 +0200" stop="20260918214600 +0200" channel="Clan.Internacional.es">
     <title lang="es">Yoko</title>
     <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
+  </programme>
+  <programme start="20260918213800 +0200" stop="20260918215000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Deportivo - Sevilla</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
   </programme>
   <programme start="20260918214000 +0200" stop="20260918221000 +0200" channel="La.2.es">
     <title lang="es">Cifras Y Letras</title>
@@ -5975,6 +5638,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1030539</url>
     <icon src="https://img.rtve.es/p/1030539?w=100" />
   </programme>
+  <programme start="20260918215000 +0200" stop="20260918220200 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Betis - Getafe</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918215500 +0200" stop="20260918220000 +0200" channel="La.1.es">
     <title lang="es">La Suerte En Tus Manos</title>
     <desc lang="es">Programa dedicado a las actividades de SELAE</desc>
@@ -6004,6 +5673,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1001420</url>
     <icon src="https://img.rtve.es/p/1001420/imgportada?w=400" />
   </programme>
+  <programme start="20260918220200 +0200" stop="20260918221400 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Malaga - Villarreal</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918221000 +0200" stop="20260918222100 +0200" channel="Clan.Internacional.es">
     <title lang="es">Squish</title>
     <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
@@ -6015,12 +5690,18 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/148650</url>
     <icon src="https://img.rtve.es/p/148650/imgportada?w=400" />
   </programme>
+  <programme start="20260918221400 +0200" stop="20260918223000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Laliga Ea Sports J6 Fc Barcelona - Racing</title>
+    <desc lang="es">Varios Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/59195</url>
+    <icon src="https://img.rtve.es/p/59195/imgportada?w=400" />
+  </programme>
   <programme start="20260918222100 +0200" stop="20260918223300 +0200" channel="Clan.Internacional.es">
     <title lang="es">Squish</title>
     <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
   </programme>
-  <programme start="20260918222500 +0200" stop="20260918230000 +0200" channel="TVE.Internacional.es">
+  <programme start="20260918222500 +0200" stop="20260918225500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Cifras Y Letras</title>
     <desc lang="es">Es un concurso de preguntas y respuestas en el que se enfrentan dos concursantes en 3 rondas de pruebas</desc>
     <url>https://www.rtve.es/v/16348179</url>
@@ -6032,14 +5713,28 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/45250</url>
     <icon src="https://img.rtve.es/p/45250/imgportada?w=400" />
   </programme>
+  <programme start="20260918223000 +0200" stop="20260918223500 +0200" channel="Teledeporte.es">
+    <title lang="es">Deportes 2</title>
+    <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
+    <url>https://www.rtve.es/pr/1030539</url>
+    <icon src="https://img.rtve.es/p/1030539/imgportada?w=400" />
+  </programme>
   <programme start="20260918223300 +0200" stop="20260918225400 +0200" channel="Clan.Internacional.es">
     <title lang="es">Egyxos : Perdido en el tiempo</title>
     <desc lang="es">Leo encuentra un cuaderno con la historia de su abuelo, un arqueólogo famoso que desapareció sin dejar rastro años atrás. Una vez en Egyxos, es atacado por la sombra de un hombre solitario.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/77/17773476_6D00C23F9D6A31D5.jpg" />
   </programme>
+  <programme start="20260918223500 +0200" stop="20260918224500 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Liga Atletico Madrid-R.Madrid 81/82 Resumen</title>
+    <desc lang="es">Varios Teledeporte 2025</desc>
+  </programme>
   <programme start="20260918224000 +0200" stop="20260919001500 +0200" channel="La.2.es">
     <title lang="es">El Cine De La 2 Golpe De Suerte</title>
     <desc lang="es">Fanny y Jean parecen el matrimonio ideal, pero cuando Fanny se cruza accidentalmente con Alain, un antiguo compañero de clase, cae rendida a sus pies.</desc>
+  </programme>
+  <programme start="20260918224500 +0200" stop="20260918234500 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Liga Atletico Madrid-R.Madrid Resumen 91/92</title>
+    <desc lang="es">Varios Teledeporte 2025</desc>
   </programme>
   <programme start="20260918225000 +0200" stop="20260918231500 +0200" channel="Star.es">
     <title lang="es">Zoom Tendencias</title>
@@ -6058,17 +5753,17 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/1031126</url>
     <icon src="https://img.rtve.es/p/1031126/imgportada?w=400" />
   </programme>
+  <programme start="20260918225500 +0200" stop="20260918234500 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Valle Salvaje</title>
+    <desc lang="es">Manuela rompe el corazón de Luisa al confirmar que Alejo la besó y la criada echa a Alejo de su lado.</desc>
+    <url>https://www.rtve.es/pr/1000665</url>
+    <icon src="https://img.rtve.es/p/1000665?w=100" />
+  </programme>
   <programme start="20260918230000 +0200" stop="20260918233000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
-  </programme>
-  <programme start="20260918230000 +0200" stop="20260918235000 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Valle Salvaje</title>
-    <desc lang="es">Manuela rompe el corazón de Luisa al confirmar que Alejo la besó y la criada echa a Alejo de su lado.</desc>
-    <url>https://www.rtve.es/pr/1000665</url>
-    <icon src="https://img.rtve.es/p/1000665?w=100" />
   </programme>
   <programme start="20260918231500 +0200" stop="20260919001500 +0200" channel="Star.es">
     <title lang="es">Seis Hermanas</title>
@@ -6105,16 +5800,20 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Gusi pincha la pelota de Vufi por accidente y se hace mucho lío para evitar contárselo. Ahora debe idear un plan para de verdad solucionar su problema.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
   </programme>
-  <programme start="20260918234700 +0200" stop="20260919000000 +0200" channel="Clan.Internacional.es">
-    <title lang="es">Súper Dino : El meteorito de Deano</title>
-    <desc lang="es">Un meteorito cae en la isla Kung Kung y Dino está emocionado de ver el meteorito que solo ha visto en los libros. Sin embargo, ocurre un terremoto en el túnel Kung Kung y Dino, que quiere ver el meteorito, va a inspeccionar el túnel.</desc>
-    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749531_071aaac8a649ce037e2ba1d320ad9283.jpg" />
-  </programme>
-  <programme start="20260918235000 +0200" stop="20260919004000 +0200" channel="TVE.Internacional.es">
+  <programme start="20260918234500 +0200" stop="20260919004500 +0200" channel="TVE.Internacional.es">
     <title lang="es">La Promesa</title>
     <desc lang="es">Leocadia insiste en que Máximo sea padrino, cree honestamente que él está intentando hacer las cosas bien. Ángela empieza a dudar.</desc>
     <url>https://www.rtve.es/v/17224772</url>
     <icon src="https://img.rtve.es/v/17224772?w=100" />
+  </programme>
+  <programme start="20260918234500 +0200" stop="20260919004500 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Liga Atletico Madrid-R.Madrid Resumen 94/95</title>
+    <desc lang="es">Varios Teledeporte 2025</desc>
+  </programme>
+  <programme start="20260918234700 +0200" stop="20260919000000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Súper Dino : El meteorito de Deano</title>
+    <desc lang="es">Un meteorito cae en la isla Kung Kung y Dino está emocionado de ver el meteorito que solo ha visto en los libros. Sin embargo, ocurre un terremoto en el túnel Kung Kung y Dino, que quiere ver el meteorito, va a inspeccionar el túnel.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749531_071aaac8a649ce037e2ba1d320ad9283.jpg" />
   </programme>
   <programme start="20260918235500 +0200" stop="20260919005000 +0200" channel="La.1.es">
     <title lang="es">España El Siglo Xx En Color</title>
@@ -6166,11 +5865,17 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Stella deja plantadas a sus mejores amigas y su amistad se ve puesta a prueba. Stella se arrepiente un montón y espera que sus amigas la perdonen.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23240894_059ba8254abdb5c6196aca3e7c1facee.jpg" />
   </programme>
-  <programme start="20260919004000 +0200" stop="20260919013000 +0200" channel="TVE.Internacional.es">
+  <programme start="20260919004500 +0200" stop="20260919013000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Sukha</title>
     <desc lang="es">Sukha</desc>
     <url>https://www.rtve.es/pr/1029443</url>
     <icon src="https://img.rtve.es/p/1029443?w=100" />
+  </programme>
+  <programme start="20260919004500 +0200" stop="20260919005700 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Especial Derbi At. Madrid - R. Madrid 25/26</title>
+    <desc lang="es">Reportajes Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/80230</url>
+    <icon src="https://img.rtve.es/p/80230/imgportada?w=400" />
   </programme>
   <programme start="20260919004800 +0200" stop="20260919010000 +0200" channel="Clan.Internacional.es">
     <title lang="es">Mis vecinos reales : Juegos reales</title>
@@ -6183,6 +5888,12 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/6762533</url>
     <icon src="https://img.rtve.es/v/6762533?w=400" />
   </programme>
+  <programme start="20260919005700 +0200" stop="20260919010000 +0200" channel="Teledeporte.es">
+    <title lang="es">Futbol Especial Derbi</title>
+    <desc lang="es">Reportajes Teledeporte 2026</desc>
+    <url>https://www.rtve.es/pr/80230</url>
+    <icon src="https://img.rtve.es/p/80230/imgportada?w=400" />
+  </programme>
   <programme start="20260919010000 +0200" stop="20260919013000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
@@ -6193,6 +5904,10 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <title lang="es">Academia de Gladiadores : Se acabó el juego</title>
     <desc lang="es">Gluteus decide prohibir los Juegos de Gladiadores del Imperio por envidia de no tener los mejores en su región. Para que cumplan la nueva ley, envía un inspector a Cornucopia.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749779_9f5868e313d6fff12c919f5cae07edd0.jpg" />
+  </programme>
+  <programme start="20260919010000 +0200" stop="20260919030500 +0200" channel="Teledeporte.es">
+    <title lang="es">Vintage Futbol Liga Sevilla - Fc Barcelona</title>
+    <desc lang="es">Varios Teledeporte 2025</desc>
   </programme>
   <programme start="20260919011500 +0200" stop="20260919021000 +0200" channel="Star.es">
     <title lang="es">Acacias, 38</title>
@@ -6312,6 +6027,10 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/6345542</url>
     <icon src="https://img.rtve.es/v/6345542?w=400" />
   </programme>
+  <programme start="20260919030500 +0200" stop="20260919050000 +0200" channel="Teledeporte.es">
+    <title lang="es">Tenis Wta Internacional De Valencia 1/4 Final</title>
+    <desc lang="es">Tenis WTA Internacional de Valencia 2026</desc>
+  </programme>
   <programme start="20260919030800 +0200" stop="20260919031900 +0200" channel="Clan.Internacional.es">
     <title lang="es">Milo : Milo, el reportero</title>
     <desc lang="es">La reportera Harriet emociona a Milo, Lofty y Lark con sus historias de persecución. Milo se ofrece a ayudar a Harriet a encontrar un titular de primera plana, así que toda la pandilla empieza a buscar una noticia que valga la pena contar.</desc>
@@ -6339,7 +6058,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
   </programme>
-  <programme start="20260919034000 +0200" stop="20260919054000 +0200" channel="TVE.Internacional.es">
+  <programme start="20260919034000 +0200" stop="20260919053500 +0200" channel="TVE.Internacional.es">
     <title lang="es">La Hija</title>
     <desc lang="es">Una menor embarazada se escapa de un centro de menores con la ayuda de su educador y su mujer. A cambio, ella deberá entregarles su hija cuando nazca.</desc>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
@@ -6442,16 +6161,16 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Nico está jugando a ser mago. Se toma medio en broma los trucos que su padre le enseñó, hasta que las palabras "abracadabra" hacen que su amigo Woody desaparezca.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26774134_c7f9b33a22b530101d4c038e06b09020.jpg" />
   </programme>
+  <programme start="20260919053500 +0200" stop="20260919070500 +0200" channel="TVE.Internacional.es">
+    <title lang="es">El Perro Andaluz By Manu Sanchez</title>
+    <desc lang="es">Miguel Poveda se adentra con Manu Sánchez en el universo de Lorca y un texto del poeta recién recuperado. Iván Redondo toma el pulso a la actualidad.</desc>
+    <url>https://www.rtve.es/pr/1030536</url>
+    <icon src="https://img.rtve.es/p/1030536?w=100" />
+  </programme>
   <programme start="20260919054000 +0200" stop="20260919054600 +0200" channel="Clan.Internacional.es">
     <title lang="es">Llamada peluche</title>
     <desc lang="es">Cuando los niños se van a la escuela y mamá y papá al trabajo, los peluches cobran vida, exploran la casa y se meten en problemas. Cuando las cosas se ponen difíciles y necesitan ayuda, llaman a sus amigos, los niños, en busca de consejos.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
-  </programme>
-  <programme start="20260919054000 +0200" stop="20260919071000 +0200" channel="TVE.Internacional.es">
-    <title lang="es">El Perro Andaluz By Manu Sanchez</title>
-    <desc lang="es">Manu Sánchez se pone al frente de El perro andaluz, un gran formato donde se mezclan humor, conversación, música y actualidad.</desc>
-    <url>https://www.rtve.es/pr/1030536</url>
-    <icon src="https://img.rtve.es/p/1030536?w=100" />
   </programme>
   <programme start="20260919054600 +0200" stop="20260919060000 +0200" channel="Clan.Internacional.es">
     <title lang="es">Súper Dino : El equipo Rex en peligro</title>
@@ -6554,11 +6273,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/16565949</url>
     <icon src="https://img.rtve.es/v/16565949?w=400" />
   </programme>
-  <programme start="20260919071000 +0200" stop="20260919080000 +0200" channel="TVE.Internacional.es">
-    <title lang="es">Viaje Al Centro De La Tele</title>
-    <desc lang="es">VIAJE A TRAVÉS DEL ARCHIVO DE TVE, EN EL QUE PODEMOS VER LOS CAMBIOS OCURRIDOS EN LA SOCIEDAD ESPAÑOLA.</desc>
-    <url>https://www.rtve.es/pr/66590</url>
-    <icon src="https://img.rtve.es/p/66590?w=100" />
+  <programme start="20260919070500 +0200" stop="20260919080000 +0200" channel="TVE.Internacional.es">
+    <title lang="es">Sukha</title>
+    <desc lang="es">Sukha</desc>
+    <url>https://www.rtve.es/v/17226443</url>
+    <icon src="https://img.rtve.es/v/17226443?w=100" />
   </programme>
   <programme start="20260919072500 +0200" stop="20260919075200 +0200" channel="Clan.Internacional.es">
     <title lang="es">Nicolás</title>
@@ -6582,7 +6301,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Se acerca la reunión anual de padres del cole, y Zipi y Zape temen ser el hazmerreír de la clase cuando todos vean lo carcas que son sus padres.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/46/27461794_1089a7874e2ac933d7ffe0692c352f16.jpg" />
   </programme>
-  <programme start="20260919075500 +0200" stop="20260919092500 +0200" channel="La.2.es">
+  <programme start="20260919075500 +0200" stop="20260919091000 +0200" channel="La.2.es">
     <title lang="es">Los Conciertos De La 2</title>
     <desc lang="es">Conciertos sinfónicos y camerísticos</desc>
     <url>https://www.rtve.es/pr/1653</url>
@@ -6654,16 +6373,16 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">La doctora Diamond necesita que le limpien la bata, así que visita Scrubby's. Milo, Lofty y Lark son transportados al hospital, donde atienden a los pacientes de la doctora mientras ella descansa.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/19/22194022_75b264b495204a19b8695da1c42ae24b.jpg" />
   </programme>
+  <programme start="20260919091000 +0200" stop="20260919094000 +0200" channel="La.2.es">
+    <title lang="es">Los Conciertos De La 2</title>
+    <desc lang="es">Conciertos sinfónicos y camerísticos</desc>
+    <url>https://www.rtve.es/pr/1653</url>
+    <icon src="https://img.rtve.es/p/1653/imgportada?w=400" />
+  </programme>
   <programme start="20260919092100 +0200" stop="20260919093300 +0200" channel="Clan.Internacional.es">
     <title lang="es">Yoko</title>
     <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
-  </programme>
-  <programme start="20260919092500 +0200" stop="20260919094000 +0200" channel="La.2.es">
-    <title lang="es">Los Conciertos De La 2</title>
-    <desc lang="es">Desde el Teatro Monumental, concierto a cargo de la Orquesta RTVE bajo la dirección de Christoph König y con Mikhail Pochekin como violín solista.</desc>
-    <url>https://www.rtve.es/pr/1653</url>
-    <icon src="https://img.rtve.es/p/1653/imgportada?w=400" />
   </programme>
   <programme start="20260919093000 +0200" stop="20260919100000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -6676,7 +6395,7 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
     <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
   </programme>
-  <programme start="20260919094000 +0200" stop="20260919100500 +0200" channel="La.2.es">
+  <programme start="20260919094000 +0200" stop="20260919101000 +0200" channel="La.2.es">
     <title lang="es">En Lengua De Signos</title>
     <desc lang="es">Programa inclusivo y accesible a las personas sordas con contenidos de actualidad e historias de superación.</desc>
     <url>https://www.rtve.es/pr/16530</url>
@@ -6687,6 +6406,16 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Serie diaria en la que se narraran la vida  de los personajes que habitan una comunidad de vecinos, a principios del siglo XX en Madrid</desc>
     <url>https://www.rtve.es/v/4146287</url>
     <icon src="https://img.rtve.es/v/4146287?w=100" />
+  </programme>
+  <programme start="20260919094600 +0200" stop="20260919095700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Lunnis</title>
+    <desc lang="es">Un grupo de extraterrestres debe resolver todo tipo de problemas y dificultades en su planeta Luna-Lunera.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/28/27281009_c0d16faada49272934bf569f30654efa.jpg" />
+  </programme>
+  <programme start="20260919095700 +0200" stop="20260919101000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Rocky Kwaterner</title>
+    <desc lang="es">En el corazón de la Antártida, una expedición descubre a un joven Cromañón atrapado en el hielo. Repatriado a la Academia de Ciencias, el hibernado es extraído del hielo y milagrosamente vuelve a la vida. Es bautizado como Rocky Kwaterner.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/73/19731279_2CDA5C2588F6FA62.jpg" />
   </programme>
   <programme start="20260919100000 +0200" stop="20260919103000 +0200" channel="Canal.24.h.es">
     <title lang="es">Audiencia Abierta</title>
@@ -6700,11 +6429,21 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/58990</url>
     <icon src="https://img.rtve.es/p/58990/imgportada?w=400" />
   </programme>
-  <programme start="20260919100500 +0200" stop="20260919104500 +0200" channel="La.2.es">
+  <programme start="20260919101000 +0200" stop="20260919102100 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Squish</title>
+    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
+  </programme>
+  <programme start="20260919101000 +0200" stop="20260919105000 +0200" channel="La.2.es">
     <title lang="es">Agrosfera</title>
     <desc lang="es">Programa informativo sobre actualidad del campo, la ganadería y el mar.</desc>
     <url>https://www.rtve.es/pr/1535</url>
     <icon src="https://img.rtve.es/p/1535/imgportada?w=400" />
+  </programme>
+  <programme start="20260919102100 +0200" stop="20260919103300 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Squish</title>
+    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
   </programme>
   <programme start="20260919103000 +0200" stop="20260919110000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -6718,17 +6457,27 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919103300 +0200" stop="20260919105400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Egyxos : Perdido en el tiempo</title>
+    <desc lang="es">Leo encuentra un cuaderno con la historia de su abuelo, un arqueólogo famoso que desapareció sin dejar rastro años atrás. Una vez en Egyxos, es atacado por la sombra de un hombre solitario.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/77/17773476_6D00C23F9D6A31D5.jpg" />
+  </programme>
   <programme start="20260919103500 +0200" stop="20260919114000 +0200" channel="Star.es">
     <title lang="es">La Promesa</title>
     <desc lang="es">Lorenzo es humillado por sus amigos tras la jugarreta de Curro y Ángela.</desc>
     <url>https://www.rtve.es/v/16971571</url>
     <icon src="https://img.rtve.es/v/16971571?w=100" />
   </programme>
-  <programme start="20260919104500 +0200" stop="20260919111500 +0200" channel="La.2.es">
+  <programme start="20260919105000 +0200" stop="20260919112000 +0200" channel="La.2.es">
     <title lang="es">Yo Soy De Fp</title>
     <desc lang="es">Mantenimiento de helicópteros con Motor de Turbina en Aguas Nuevas.</desc>
     <url>https://www.rtve.es/pr/1000743</url>
     <icon src="https://img.rtve.es/p/1000743/imgportada?w=400" />
+  </programme>
+  <programme start="20260919105400 +0200" stop="20260919111700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Egyxos : Los gigantes de arena</title>
+    <desc lang="es">Exaton utiliza a su más poderoso aliado, el desierto, en el combate contra su hermano. Bajo el mando del Faraón oscuro, golpea duro contra la ciudad de Egyxos y genera una tormenta de arena de dimensiones nunca vistas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24005807_228007ca32af501ac6165a57a92a576d.jpg" />
   </programme>
   <programme start="20260919110000 +0200" stop="20260919113000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -6742,11 +6491,21 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/17208585</url>
     <icon src="https://img.rtve.es/v/17208585?w=400" />
   </programme>
-  <programme start="20260919111500 +0200" stop="20260919115000 +0200" channel="La.2.es">
+  <programme start="20260919111700 +0200" stop="20260919112400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : Wawaland es una selva</title>
+    <desc lang="es">Se ve las húmedas selvas del Amazonas, y Wawaland comienza a llenarse de animales exóticos y plantas exuberantes.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
+  </programme>
+  <programme start="20260919112000 +0200" stop="20260919115000 +0200" channel="La.2.es">
     <title lang="es">Caravana Educativa</title>
     <desc lang="es">Caravana Educativa llega al pueblo madrileño de Valdilecha y visita a Arancha Baña, quien trabaja el proyecto Think Equal de @fundacióngomaespuma</desc>
     <url>https://www.rtve.es/pr/1000742</url>
     <icon src="https://img.rtve.es/p/1000742/imgportada?w=400" />
+  </programme>
+  <programme start="20260919112400 +0200" stop="20260919113200 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : Inspira, expira</title>
+    <desc lang="es">Sha ve a un grupo de niños jugando al escondite y decide unirse al juego. Sin embargo, solo Opo presta atención a la explicación de las reglas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
   </programme>
   <programme start="20260919113000 +0200" stop="20260919120000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -6754,15 +6513,35 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919113200 +0200" stop="20260919113600 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Socks : La acampada</title>
+    <desc lang="es">Nico, Marie y Woody se van a acampar al jardín. El niño y el perro se toman a broma las recomendaciones que Marie les da y al final acaban reconociendo su error entre risas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26773558_03b21be5b70b994336d22056f5de280a.jpg" />
+  </programme>
+  <programme start="20260919113600 +0200" stop="20260919114100 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Socks : Tarta sorpresa</title>
+    <desc lang="es">Tom y Nico se desviven por sorprender a Woody por su cumpleaños y deciden hacerle un pastel de chocolate. Después de todos los preparativos, los sorprendidos resultarán ser ellos.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26773799_e2386b8a16de739dbe299e006926bd44.jpg" />
+  </programme>
   <programme start="20260919114000 +0200" stop="20260919114500 +0200" channel="Star.es">
     <title lang="es">Esto Es Espana Foz De Lumbier</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
+  </programme>
+  <programme start="20260919114100 +0200" stop="20260919114700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Llamada peluche : Contar la verdad</title>
+    <desc lang="es">Gusi pincha la pelota de Vufi por accidente y se hace mucho lío para evitar contárselo. Ahora debe idear un plan para de verdad solucionar su problema.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
   </programme>
   <programme start="20260919114500 +0200" stop="20260919123500 +0200" channel="Star.es">
     <title lang="es">Victimas Del Misterio</title>
     <desc lang="es">SERIE DEDICADA A SUCESOS REALES DE LA HISTORIA DE ESPAÑA. HISTORIA BASADAS EN LAS CRENCIAS, SUPERSTICIONES Y MISTERIOS.</desc>
     <url>https://www.rtve.es/v/4498558</url>
     <icon src="https://img.rtve.es/v/4498558?w=100" />
+  </programme>
+  <programme start="20260919114700 +0200" stop="20260919120000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Súper Dino : El meteorito de Deano</title>
+    <desc lang="es">Un meteorito cae en la isla Kung Kung y Dino está emocionado de ver el meteorito que solo ha visto en los libros. Sin embargo, ocurre un terremoto en el túnel Kung Kung y Dino, que quiere ver el meteorito, va a inspeccionar el túnel.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749531_071aaac8a649ce037e2ba1d320ad9283.jpg" />
   </programme>
   <programme start="20260919115000 +0200" stop="20260919122000 +0200" channel="La.2.es">
     <title lang="es">Jardines Con Historia</title>
@@ -6776,6 +6555,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919120000 +0200" stop="20260919121400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Súper Dino : Un dino bebé perdido</title>
+    <desc lang="es">Tina no se siente cómoda todos los días debido a Ring-Ling, el bebé dinosaurio alborotador. Un día, Ring-Ling desaparece después de perseguir a una mariposa y Tina cae en un pozo en el bosque mientras persigue a Ring-Ling.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749452_cba380439db308c113e793c5d655f1a9.jpg" />
+  </programme>
   <programme start="20260919120000 +0200" stop="20260919130500 +0200" channel="La.1.es">
     <title lang="es">Viaje Al Centro De La Tele</title>
     <desc lang="es">VIAJE A TRAVÉS DEL ARCHIVO DE TVE, EN EL QUE PODEMOS VER LOS CAMBIOS OCURRIDOS EN LA SOCIEDAD ESPAÑOLA.</desc>
@@ -6785,6 +6569,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
   <programme start="20260919120000 +0200" stop="20260919122000 +0200" channel="TVE.Internacional.es">
     <title lang="es">Esto Es España</title>
     <icon src="https://img.rtve.es/css/rtveplay.2021/i/iconos/iconguiamas.svg" />
+  </programme>
+  <programme start="20260919121400 +0200" stop="20260919122500 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Gormiti : Bajo tierra</title>
+    <desc lang="es">Ansioso por activar la tercera guía, Riff se precipita a las minas más profundas de Gorm junto a Trek y se quedan atrapados.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/14/28145967_50c5580fc30727bc563ed1bcc790f219.jpg" />
   </programme>
   <programme start="20260919122000 +0200" stop="20260919125000 +0200" channel="La.2.es">
     <title lang="es">Jardines Con Historia</title>
@@ -6798,6 +6587,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/56811</url>
     <icon src="https://img.rtve.es/p/56811?w=100" />
   </programme>
+  <programme start="20260919122500 +0200" stop="20260919123600 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Pompa y circunstancia</title>
+    <desc lang="es">Stella invita a casa a sus amigas por primera vez, y sus esfuerzos por hacer que todo parezca normal no hacen, sino exacerbar el asunto.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23240890_3055a7ed0a947023ff207f86a002c1cd.jpg" />
+  </programme>
   <programme start="20260919123000 +0200" stop="20260919130000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
@@ -6809,6 +6603,16 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Recorrido por las diferentes comunidades Autonómicas de España viendo  su sentido del humor.</desc>
     <url>https://www.rtve.es/v/6625351</url>
     <icon src="https://img.rtve.es/v/6625351?w=100" />
+  </programme>
+  <programme start="20260919123600 +0200" stop="20260919124700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Amigas reales</title>
+    <desc lang="es">Stella deja plantadas a sus mejores amigas y su amistad se ve puesta a prueba. Stella se arrepiente un montón y espera que sus amigas la perdonen.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23240894_059ba8254abdb5c6196aca3e7c1facee.jpg" />
+  </programme>
+  <programme start="20260919124700 +0200" stop="20260919130000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Juegos reales</title>
+    <desc lang="es">Stella convence a su familia para jugar a juegos sociales mientras Mr. Pee cuida del bebé. Esta noche de "diversión" tiene potencial para convertirse en una pesadilla.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23243811_a6e7a9687be990f6083abe06662b987f.jpg" />
   </programme>
   <programme start="20260919125000 +0200" stop="20260919132000 +0200" channel="La.2.es">
     <title lang="es">Pagina Dos</title>
@@ -6828,17 +6632,27 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919130000 +0200" stop="20260919132500 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Academia de Gladiadores : La escoria de Roma</title>
+    <desc lang="es">Gluteus ha decidido convertir la isla de Cornucopia en una colonia penal, por lo que la isla acaba llenándose de criminales frente a los gladiadores.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749787_84f38cd9dccb98e2a0f543ea6833fc04.jpg" />
+  </programme>
   <programme start="20260919130500 +0200" stop="20260919145500 +0200" channel="La.1.es">
     <title lang="es">D Corazon</title>
     <desc lang="es">Magazine en directo, en donde hacemos un repaso a toda la actualidad social de nuestro país.</desc>
     <url>https://www.rtve.es/pr/1568</url>
     <icon src="https://img.rtve.es/p/1568/imgportada?w=400" />
   </programme>
-  <programme start="20260919132000 +0200" stop="20260919141500 +0200" channel="La.2.es">
+  <programme start="20260919132000 +0200" stop="20260919141000 +0200" channel="La.2.es">
     <title lang="es">Tendido Cero</title>
     <desc lang="es">Programa de actualidad taurina y todos los aspectos relacionados con el mundo del toro.</desc>
     <url>https://www.rtve.es/pr/1728</url>
     <icon src="https://img.rtve.es/p/1728/imgportada?w=400" />
+  </programme>
+  <programme start="20260919132500 +0200" stop="20260919135100 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Nicolás</title>
+    <desc lang="es">Serie educativa para los más chicos de la familia.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/94/23942774_b6b2b6f61b7e39d4345ba7adeab1f14e.jpg" />
   </programme>
   <programme start="20260919133000 +0200" stop="20260919140000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -6858,17 +6672,32 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/31971</url>
     <icon src="https://img.rtve.es/p/31971?w=100" />
   </programme>
+  <programme start="20260919135100 +0200" stop="20260919140400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Zipi y Zape : Y yo con estos padres</title>
+    <desc lang="es">Se acerca la reunión anual de padres del cole, y Zipi y Zape temen ser el hazmerreír de la clase cuando todos vean lo carcas que son sus padres.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/46/27461794_1089a7874e2ac933d7ffe0692c352f16.jpg" />
+  </programme>
   <programme start="20260919140000 +0200" stop="20260919142500 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
-  <programme start="20260919141500 +0200" stop="20260919144000 +0200" channel="La.2.es">
+  <programme start="20260919140400 +0200" stop="20260919141900 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Zipi y Zape : Te lo juro por la cobertura de mi móvil</title>
+    <desc lang="es">Alguien ha atascado las tuberías de la escuela, así que los chicos tienen que ir a otro colegio mucho más refinado. Allí, Zipi y Zape deben enfrentarse no solo a lo ideales que son sus nuevos compañeros, sino también a sus costumbres tan diferentes.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/91/27913351_f53eecda032fddaaac19120956cb16e9.jpg" />
+  </programme>
+  <programme start="20260919141000 +0200" stop="20260919144000 +0200" channel="La.2.es">
     <title lang="es">Family Run Mi Familia En La Mochila - Ruta Africa</title>
     <desc lang="es">Antonio y Sonia con sus hijos Candela y Mateo viajan al sur de África en busca de nuevas aventuras</desc>
-    <url>https://www.rtve.es/v/5993738</url>
-    <icon src="https://img.rtve.es/v/5993738?w=400" />
+    <url>https://www.rtve.es/v/5995404</url>
+    <icon src="https://img.rtve.es/v/5995404?w=400" />
+  </programme>
+  <programme start="20260919141900 +0200" stop="20260919143200 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Invention Story</title>
+    <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
   </programme>
   <programme start="20260919142500 +0200" stop="20260919145500 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -6876,11 +6705,21 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919143200 +0200" stop="20260919144700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Invention Story</title>
+    <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
+  </programme>
   <programme start="20260919144000 +0200" stop="20260919153000 +0200" channel="La.2.es">
     <title lang="es">Saber Y Ganar Fin De Semana</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
     <url>https://www.rtve.es/v/16827277</url>
     <icon src="https://img.rtve.es/v/16827277?w=400" />
+  </programme>
+  <programme start="20260919144700 +0200" stop="20260919145800 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Milo : Milo, el reportero</title>
+    <desc lang="es">La reportera Harriet emociona a Milo, Lofty y Lark con sus historias de persecución. Milo se ofrece a ayudar a Harriet a encontrar un titular de primera plana, así que toda la pandilla empieza a buscar una noticia que valga la pena contar.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/23/22234451_0b0ca63d0e0cea97e96dc0f1a6bb8687.jpg" />
   </programme>
   <programme start="20260919145500 +0200" stop="20260919154100 +0200" channel="Canal.24.h.es">
     <title lang="es">Telediario 1</title>
@@ -6906,17 +6745,42 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/45030</url>
     <icon src="https://img.rtve.es/p/45030?w=100" />
   </programme>
+  <programme start="20260919145800 +0200" stop="20260919150900 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Milo : Milo, el bailarín</title>
+    <desc lang="es">Inspirados por los bailarines Eleanor y Mycroft, Milo, Lofty y Lark son transportados al escenario de un teatro. No obstante, cuando tienen que intervenir para actuar en el espectáculo, deben superar su miedo escénico.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802524_e8edf357a282377af116eff4c4116065.jpg" />
+  </programme>
+  <programme start="20260919150900 +0200" stop="20260919152000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Milo : Milo, el doctor</title>
+    <desc lang="es">La doctora Diamond necesita que le limpien la bata, así que visita Scrubby's. Milo, Lofty y Lark son transportados al hospital, donde atienden a los pacientes de la doctora mientras ella descansa.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/19/22194022_75b264b495204a19b8695da1c42ae24b.jpg" />
+  </programme>
+  <programme start="20260919152000 +0200" stop="20260919153200 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Yoko</title>
+    <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
+  </programme>
   <programme start="20260919153000 +0200" stop="20260919162000 +0200" channel="La.2.es">
     <title lang="es">Saber Y Ganar Fin De Semana</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
     <url>https://www.rtve.es/pr/1710</url>
     <icon src="https://img.rtve.es/p/1710/imgportada?w=400" />
   </programme>
+  <programme start="20260919153200 +0200" stop="20260919154500 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Yoko</title>
+    <desc lang="es">Un grupo de amigos se reúne y juega cada día en un parque para vivir fantásticas aventuras. Un ser mágico llamado Yoko ayuda a los pequeños a cumplir sus fantasías. Los niños viajan a muchos lugares increíbles.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23753935_be95a3e1d2d7c48a1117bcb21d17560e.jpg" />
+  </programme>
   <programme start="20260919154100 +0200" stop="20260919154900 +0200" channel="Canal.24.h.es">
     <title lang="es">Teledeporte 1</title>
     <desc lang="es">Actualidad deportiva diaria nacional e internacional.</desc>
     <url>https://www.rtve.es/pr/1030539</url>
     <icon src="https://img.rtve.es/p/1030539/imgportada?w=400" />
+  </programme>
+  <programme start="20260919154500 +0200" stop="20260919155500 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Lunnis</title>
+    <desc lang="es">Un grupo de extraterrestres debe resolver todo tipo de problemas y dificultades en su planeta Luna-Lunera.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/28/27281009_c0d16faada49272934bf569f30654efa.jpg" />
   </programme>
   <programme start="20260919154500 +0200" stop="20260919155000 +0200" channel="La.1.es">
     <title lang="es">Teledeporte 1</title>
@@ -6948,6 +6812,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/17222521</url>
     <icon src="https://img.rtve.es/v/17222521?w=100" />
   </programme>
+  <programme start="20260919155500 +0200" stop="20260919160800 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Rocky Kwaterner</title>
+    <desc lang="es">En el corazón de la Antártida, una expedición descubre a un joven Cromañón atrapado en el hielo. Repatriado a la Academia de Ciencias, el hibernado es extraído del hielo y milagrosamente vuelve a la vida. Es bautizado como Rocky Kwaterner.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/73/19731279_2CDA5C2588F6FA62.jpg" />
+  </programme>
   <programme start="20260919155500 +0200" stop="20260919172500 +0200" channel="La.1.es">
     <title lang="es">25 Años Enamorados De Bridget Jones: El Diario De Bridget Jones</title>
     <desc lang="es">Bridget es una treintañera soltera, con complejos y una desastrosa vida sentimental. Sus propósitos para el nuevo año: adelgazar y encontrar novio.</desc>
@@ -6958,11 +6827,21 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/16131208</url>
     <icon src="https://img.rtve.es/v/16131208?w=100" />
   </programme>
+  <programme start="20260919160800 +0200" stop="20260919161900 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Squish</title>
+    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
+  </programme>
   <programme start="20260919161900 +0200" stop="20260919164900 +0200" channel="Canal.24.h.es">
     <title lang="es">Objetivo Planeta</title>
     <desc lang="es">PROGRAMA DEDICADO INVESTIGACIÓN CLIMATOLÓGICA Y MÉDICA</desc>
     <url>https://www.rtve.es/pr/143430</url>
     <icon src="https://img.rtve.es/p/143430/imgportada?w=400" />
+  </programme>
+  <programme start="20260919161900 +0200" stop="20260919163100 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Squish</title>
+    <desc lang="es">Squish, de 12 años, se enfrenta a los mismos problemas que cualquier estudiante de secundaria de su edad, con la diferencia de que Squish es una ameba y vive en el mundo de los microbios y otros paramecios.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25151202_1076fa3db704726dc57c40330b03166f.jpg" />
   </programme>
   <programme start="20260919162000 +0200" stop="20260919171000 +0200" channel="La.2.es">
     <title lang="es">Grandes Documentales Austria Salvaje, La Fuerza Del Agua</title>
@@ -6975,6 +6854,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <desc lang="es">Reportaje que trata sobre las posibilidades de que las zoonosis acaben afectando al ser humano</desc>
     <url>https://www.rtve.es/v/17062066</url>
     <icon src="https://img.rtve.es/v/17062066?w=100" />
+  </programme>
+  <programme start="20260919163100 +0200" stop="20260919165200 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Egyxos : Perdido en el tiempo</title>
+    <desc lang="es">Leo encuentra un cuaderno con la historia de su abuelo, un arqueólogo famoso que desapareció sin dejar rastro años atrás. Una vez en Egyxos, es atacado por la sombra de un hombre solitario.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/77/17773476_6D00C23F9D6A31D5.jpg" />
   </programme>
   <programme start="20260919164900 +0200" stop="20260919165400 +0200" channel="Canal.24.h.es">
     <title lang="es">Ajuste De Programación</title>
@@ -6991,6 +6875,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/17083785</url>
     <icon src="https://img.rtve.es/v/17083785?w=100" />
   </programme>
+  <programme start="20260919165200 +0200" stop="20260919171500 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Egyxos : Los gigantes de arena</title>
+    <desc lang="es">Exaton utiliza a su más poderoso aliado, el desierto, en el combate contra su hermano. Bajo el mando del Faraón oscuro, golpea duro contra la ciudad de Egyxos y genera una tormenta de arena de dimensiones nunca vistas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24005807_228007ca32af501ac6165a57a92a576d.jpg" />
+  </programme>
   <programme start="20260919165400 +0200" stop="20260919170000 +0200" channel="Canal.24.h.es">
     <title lang="es">**Cierre Disney 'Disney: 100 Años De Magia'</title>
   </programme>
@@ -7006,15 +6895,45 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/15961181</url>
     <icon src="https://img.rtve.es/v/15961181?w=400" />
   </programme>
+  <programme start="20260919171500 +0200" stop="20260919172200 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : Wawaland es una selva</title>
+    <desc lang="es">Se ve las húmedas selvas del Amazonas, y Wawaland comienza a llenarse de animales exóticos y plantas exuberantes.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
+  </programme>
+  <programme start="20260919172200 +0200" stop="20260919172900 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Los Wawies : Inspira, expira</title>
+    <desc lang="es">Sha ve a un grupo de niños jugando al escondite y decide unirse al juego. Sin embargo, solo Opo presta atención a la explicación de las reglas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/91/23913047_7016a1b99c028e7aa1a164797e56fbb6.jpg" />
+  </programme>
   <programme start="20260919172500 +0200" stop="20260919190500 +0200" channel="La.1.es">
     <title lang="es">25 Años Enamorados De Bridget Jones: Bridget Jones. Sobrevivire</title>
     <desc lang="es">Año nuevo, diario nuevo.Bridget, símbolo de la soltera londinense, treinta y tantos años, llena de dudas, ha encontrado la felicidad amorosa.</desc>
+  </programme>
+  <programme start="20260919172900 +0200" stop="20260919173300 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Socks : La acampada</title>
+    <desc lang="es">Nico, Marie y Woody se van a acampar al jardín. El niño y el perro se toman a broma las recomendaciones que Marie les da y al final acaban reconociendo su error entre risas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26773558_03b21be5b70b994336d22056f5de280a.jpg" />
   </programme>
   <programme start="20260919173000 +0200" stop="20260919174500 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
+  </programme>
+  <programme start="20260919173300 +0200" stop="20260919173800 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Socks : Tarta sorpresa</title>
+    <desc lang="es">Tom y Nico se desviven por sorprender a Woody por su cumpleaños y deciden hacerle un pastel de chocolate. Después de todos los preparativos, los sorprendidos resultarán ser ellos.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/77/26773799_e2386b8a16de739dbe299e006926bd44.jpg" />
+  </programme>
+  <programme start="20260919173800 +0200" stop="20260919174400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Llamada peluche : Contar la verdad</title>
+    <desc lang="es">Gusi pincha la pelota de Vufi por accidente y se hace mucho lío para evitar contárselo. Ahora debe idear un plan para de verdad solucionar su problema.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/80/23802427_3a5439598151675a7834d3f3f30dc948.jpg" />
+  </programme>
+  <programme start="20260919174400 +0200" stop="20260919175700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Súper Dino : El meteorito de Deano</title>
+    <desc lang="es">Un meteorito cae en la isla Kung Kung y Dino está emocionado de ver el meteorito que solo ha visto en los libros. Sin embargo, ocurre un terremoto en el túnel Kung Kung y Dino, que quiere ver el meteorito, va a inspeccionar el túnel.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749531_071aaac8a649ce037e2ba1d320ad9283.jpg" />
   </programme>
   <programme start="20260919174500 +0200" stop="20260919180000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -7034,6 +6953,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/58990</url>
     <icon src="https://img.rtve.es/p/58990?w=100" />
   </programme>
+  <programme start="20260919175700 +0200" stop="20260919181100 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Súper Dino : Un dino bebé perdido</title>
+    <desc lang="es">Tina no se siente cómoda todos los días debido a Ring-Ling, el bebé dinosaurio alborotador. Un día, Ring-Ling desaparece después de perseguir a una mariposa y Tina cae en un pozo en el bosque mientras persigue a Ring-Ling.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749452_cba380439db308c113e793c5d655f1a9.jpg" />
+  </programme>
   <programme start="20260919180000 +0200" stop="20260919183000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
@@ -7046,17 +6970,37 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/v/16012867</url>
     <icon src="https://img.rtve.es/v/16012867?w=400" />
   </programme>
+  <programme start="20260919181100 +0200" stop="20260919182200 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Gormiti : Bajo tierra</title>
+    <desc lang="es">Ansioso por activar la tercera guía, Riff se precipita a las minas más profundas de Gorm junto a Trek y se quedan atrapados.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/14/28145967_50c5580fc30727bc563ed1bcc790f219.jpg" />
+  </programme>
   <programme start="20260919182000 +0200" stop="20260919201000 +0200" channel="TVE.Internacional.es">
     <title lang="es">D Corazon</title>
     <desc lang="es">Magazine en directo, en donde hacemos un repaso a toda la actualidad social de nuestro país.</desc>
     <url>https://www.rtve.es/pr/1568</url>
     <icon src="https://img.rtve.es/p/1568?w=100" />
   </programme>
+  <programme start="20260919182200 +0200" stop="20260919183300 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Pompa y circunstancia</title>
+    <desc lang="es">Stella invita a casa a sus amigas por primera vez, y sus esfuerzos por hacer que todo parezca normal no hacen, sino exacerbar el asunto.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23240890_3055a7ed0a947023ff207f86a002c1cd.jpg" />
+  </programme>
   <programme start="20260919183000 +0200" stop="20260919184500 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
+  </programme>
+  <programme start="20260919183300 +0200" stop="20260919184400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Amigas reales</title>
+    <desc lang="es">Stella deja plantadas a sus mejores amigas y su amistad se ve puesta a prueba. Stella se arrepiente un montón y espera que sus amigas la perdonen.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23240894_059ba8254abdb5c6196aca3e7c1facee.jpg" />
+  </programme>
+  <programme start="20260919184400 +0200" stop="20260919185600 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Mis vecinos reales : Juegos reales</title>
+    <desc lang="es">Stella convence a su familia para jugar a juegos sociales mientras Mr. Pee cuida del bebé. Esta noche de "diversión" tiene potencial para convertirse en una pesadilla.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/24/23243811_a6e7a9687be990f6083abe06662b987f.jpg" />
   </programme>
   <programme start="20260919184500 +0200" stop="20260919190000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
@@ -7076,6 +7020,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/62770</url>
     <icon src="https://img.rtve.es/p/62770/imgportada?w=400" />
   </programme>
+  <programme start="20260919185600 +0200" stop="20260919192000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Academia de Gladiadores : Ojo por ojo</title>
+    <desc lang="es">Harto de la corrupción de Roma, Julius Imperius tiene una disputa con los senadores y nombra nuevo emperador al perezoso e inepto Gluteus.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/74/24749482_af8982a6d645cd5ff9cf04d71428f97a.jpg" />
+  </programme>
   <programme start="20260919190000 +0200" stop="20260919193000 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
@@ -7085,6 +7034,11 @@ Bob Esponja se va de gira 1 y 2.</desc>
   <programme start="20260919190500 +0200" stop="20260919205500 +0200" channel="La.1.es">
     <title lang="es">25 Años Enamorados De Bridget Jones: Bridget Jones'S Baby</title>
     <desc lang="es">Con 43 años recién cumplidos, Bridget Jones decide darle un nuevo aire a su vida. Pero descubre que está embarazada y no sabe quién es el padre.</desc>
+  </programme>
+  <programme start="20260919192000 +0200" stop="20260919194600 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Nicolás</title>
+    <desc lang="es">Serie educativa para los más chicos de la familia.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/94/23942774_b6b2b6f61b7e39d4345ba7adeab1f14e.jpg" />
   </programme>
   <programme start="20260919192000 +0200" stop="20260919201500 +0200" channel="La.2.es">
     <title lang="es">Dias De Cine</title>
@@ -7110,17 +7064,32 @@ Bob Esponja se va de gira 1 y 2.</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919194600 +0200" stop="20260919200000 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Zipi y Zape : El proyecto de la cucaracha Bleeg</title>
+    <desc lang="es">Los chicos deciden adentrarse en el Bosque Tasusto para conseguir un 10 en Ciencias. Pretenden grabar el alma de la cucaracha Beeg, que convierte a los niños en donas y croquetas.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/36/28369739_103c45a335a6134b18334e9c51ab83a0.jpg" />
+  </programme>
   <programme start="20260919200000 +0200" stop="20260919202900 +0200" channel="Canal.24.h.es">
     <title lang="es">Noticias 24 H</title>
     <desc lang="es">INFORMACIÓN CONTINUA 24 HORAS 366 DIAS AL AÑO</desc>
     <url>https://www.rtve.es/pr/46052</url>
     <icon src="https://img.rtve.es/p/46052/imgportada?w=400" />
   </programme>
+  <programme start="20260919200000 +0200" stop="20260919201400 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Zipi y Zape : ¡Te pireeees!</title>
+    <desc lang="es">Los chicos deciden rebelarse contra sus padres y se marchan con su ídolo, el payaso Tepires. Sin embargo, cuando están con él se dan cuenta de que no todo es tan increíble como ellos pensaban. Además, su madre va a enfrentarse al payaso.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/97/27978483_5016e7e7f35f3dba3811fcc35a8fa1ee.jpg" />
+  </programme>
   <programme start="20260919201000 +0200" stop="20260919205500 +0200" channel="TVE.Internacional.es">
     <title lang="es">Saber Y Ganar Fin De Semana  (Nueva Temporada)</title>
     <desc lang="es">PROGRAMA CONCURSO PRESENTADO POR JORDI HURTADO</desc>
     <url>https://www.rtve.es/pr/1710</url>
     <icon src="https://img.rtve.es/p/1710?w=100" />
+  </programme>
+  <programme start="20260919201400 +0200" stop="20260919202700 +0200" channel="Clan.Internacional.es">
+    <title lang="es">Invention Story</title>
+    <desc lang="es">En un bosque mágico cerca de un pueblo llamado Zanahoria, un creativo y reflexivo zorro crea inventos originales que están relacionados con distintos ámbitos de la vida diaria.</desc>
+    <icon src="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/59/12591073_7B36BEF5E8587124.jpg" />
   </programme>
   <programme start="20260919201500 +0200" stop="20260919211500 +0200" channel="La.2.es">
     <title lang="es">Cómo Nos Reímos</title>
